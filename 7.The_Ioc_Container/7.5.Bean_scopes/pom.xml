@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.The_Ioc_Container</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>7.5.Bean_scopes</artifactId>
+    <name>7.5.Bean_scopes</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>7.5.1.The_singleton_scope</module>
+        <module>7.5.2.The_prototype_scope</module>
+    <module>7.5.4.Request_session_global_session_application_and_WebSocket_scopes</module>
+    <module>7.5.5.Custom_scopes</module>
+  </modules>
+</project>

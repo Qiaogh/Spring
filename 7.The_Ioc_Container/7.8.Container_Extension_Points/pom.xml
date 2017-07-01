@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.The_Ioc_Container</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>7.8.Container_Extension_Points</artifactId>
+    <name>7.8.Container_Extension_Points</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>7.8.1.Customizing_beans_using_a_BeanPostProcessor</module>
+    <module>7.8.2.Customizing_configuration_metadata_with_a_BeanFactoryPostProcessor</module>
+  </modules>
+</project>

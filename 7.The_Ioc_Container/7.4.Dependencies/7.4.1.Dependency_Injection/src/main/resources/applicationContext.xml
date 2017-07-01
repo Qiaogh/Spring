@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="constructorInjection" class="com.qiaogh.domain.Person">
+        <constructor-arg value="1" />
+        <constructor-arg value="Qiaogh" />
+        <constructor-arg value="26" />
+    </bean>
+
+    <bean id="setterInjection" class="com.qiaogh.domain.Person">
+        <property name="id" value="2" />
+        <property name="name" value="Qiy" />
+        <property name="age" value="30" />
+    </bean>
+
+    <alias name="constructorInjection" alias="father" />
+
+    <bean id="factoryInjection" class="com.qiaogh.util.ChildrenFactory" factory-method="newInstance">
+        <property name="id" value="3" />
+        <property name="name" value="Qiaohy" />
+        <property name="age" value="2" />
+        <constructor-arg ref="father" />
+    </bean>
+</beans>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="java.util.Date" value="com.qiaogh.beans.propertyeditors.DatePropertyEditor" />
+            </map>
+        </property>
+    </bean>
+
+    <bean id="person" class="com.qiaogh.domain.Person">
+        <property name="id" value="1" />
+        <property name="name" value="Qiaogh" />
+        <property name="age" value="26" />
+        <property name="height" value="178" />
+        <property name="birthday" value="1991-10-07" />
+    </bean>
+
+
+    <bean id="listClass" class="java.lang.Class" factory-method="forName">
+        <constructor-arg value="java.lang.Integer" />
+    </bean>
+
+
+    <bean id="calendar" class="java.util.Calendar" factory-method="getInstance" />
+
+    <bean id="date" factory-bean="calendar" factory-method="getTime" />
+</beans>

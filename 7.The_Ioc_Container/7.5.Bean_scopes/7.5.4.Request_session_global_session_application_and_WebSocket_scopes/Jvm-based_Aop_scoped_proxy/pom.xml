@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.5.4.Request_session_global_session_application_and_WebSocket_scopes</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>Jvm-based_Aop_scoped_proxy</artifactId>
+    <name>Jvm-based_Aop_scoped_proxy</name>
+    <url>http://maven.apache.org</url>
+    <packaging>war</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <version>3.0</version>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
