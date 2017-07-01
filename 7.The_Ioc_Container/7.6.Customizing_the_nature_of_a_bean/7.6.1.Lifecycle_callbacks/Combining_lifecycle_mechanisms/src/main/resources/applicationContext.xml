@@ -6,5 +6,5 @@
 
     <context:component-scan base-package="com.qiaogh" />
 
-    <bean id="person" class="com.qiaogh.domain.Person" />
+    <bean id="person" class="com.qiaogh.domain.Person" init-method="init" destroy-method="free" />
 </beans>
