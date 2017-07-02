@@ -1,21 +1,18 @@
 package com.qiaogh.domain;
 
-import java.io.Closeable;
-import java.io.IOException;
-
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.qiaogh.util.StatusConstant;
-
 @Component
-public class JavaConfigPerson implements Closeable, StatusConstant {
+public class PropertyPlaceholderConfigurerPerson {
 
-    @Value( "1" )
+    @Value( "${id}" )
     private String id;
-    @Value( "Qiaogh" )
+    @Value( "${name}" )
     private String name;
-    private String status;
+    @Value( "${age}" )
+    private Integer age;
+    
     public String getId() {
         return id;
     }
@@ -28,14 +25,10 @@ public class JavaConfigPerson implements Closeable, StatusConstant {
     public void setName( String name ) {
         this.name = name;
     }
-    public String getStatus() {
-        return status;
+    public Integer getAge() {
+        return age;
     }
-    public void setStatus( String status ) {
-        this.status = status;
-    }
-    @Override
-    public void close() throws IOException {
-        setStatus( CLOSE );
+    public void setAge( Integer age ) {
+        this.age = age;
     }
 }
