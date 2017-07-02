@@ -1,12 +1,16 @@
 package com.qiaogh.domain;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class PropertyOverrideConfigurerPerson {
 
+    @Value( "10" )
     private String id;
+    @Value( "QiaoQiao" )
     private String name;
+    @Value( "29" )
     private Integer age;
     
     public String getId() {
