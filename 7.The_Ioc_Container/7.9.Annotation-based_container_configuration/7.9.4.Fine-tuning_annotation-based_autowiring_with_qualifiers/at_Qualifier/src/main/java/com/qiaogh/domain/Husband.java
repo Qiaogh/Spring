@@ -1,5 +1,7 @@
 package com.qiaogh.domain;
 
+import javax.annotation.Resource;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -13,6 +15,7 @@ public class Husband {
     private Integer age;
     private Wife wife;
     private Son son;
+    private Daughter daughter;
     
     public String getId() {
         return id;
@@ -50,5 +53,16 @@ public class Husband {
     @Qualifier( "qiaoxl" )
     public void setSon( Son son ) {
         this.son = son;
+    }
+    public Daughter getDaughter() {
+        return daughter;
+    }
+    @Resource( name = "qiaoxh" )
+    public void setDaughter( Daughter daughter ) {
+        this.daughter = daughter;
+    }
+    @Override
+    public String toString() {
+        return "Husband [id=" + id + ", name=" + name + ", age=" + age + "]";
     }
 }

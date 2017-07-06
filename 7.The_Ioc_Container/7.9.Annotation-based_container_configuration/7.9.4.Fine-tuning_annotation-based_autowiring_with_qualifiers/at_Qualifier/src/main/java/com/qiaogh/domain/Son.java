@@ -41,4 +41,8 @@ public class Son {
     public void setFather( Husband father ) {
         this.father = father;
     }
+    @Override
+    public String toString() {
+        return "Husband [id=" + id + ", name=" + name + ", age=" + age + "]";
+    }
 }

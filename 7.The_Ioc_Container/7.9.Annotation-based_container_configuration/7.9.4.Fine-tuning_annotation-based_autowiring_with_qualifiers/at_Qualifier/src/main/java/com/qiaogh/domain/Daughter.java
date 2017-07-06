@@ -3,20 +3,21 @@ package com.qiaogh.domain;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
-public class Wife {
+public class Daughter {
 
     private String id;
     private String name;
     private Integer age;
-    private Husband husband;
+    private Husband parent;
     
-    public Wife( String name ) {
+    public Daughter( String name ) {
         this.name = name;
     }
+    
     public String getId() {
         return id;
     }
-    @Value( "2" )
+    @Value( "4" )
     public void setId( String id ) {
         this.id = id;
     }
@@ -29,16 +30,16 @@ public class Wife {
     public Integer getAge() {
         return age;
     }
-    @Value( "25" )
+    @Value( "8" )
     public void setAge( Integer age ) {
         this.age = age;
     }
-    public Husband getHusband() {
-        return husband;
+    public Husband getParent() {
+        return parent;
     }
     @Autowired
-    public void setHusband( Husband husband ) {
-        this.husband = husband;
+    public void setParent( Husband parent ) {
+        this.parent = parent;
     }
     @Override
     public String toString() {
