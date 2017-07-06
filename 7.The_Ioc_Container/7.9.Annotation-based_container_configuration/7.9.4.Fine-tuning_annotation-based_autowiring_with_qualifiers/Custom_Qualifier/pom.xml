@@ -3,18 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
-        <artifactId>7.9.Annotation-based_container_configuration</artifactId>
+        <artifactId>7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers</artifactId>
-    <name>7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers</name>
+    <artifactId>Custom_Qualifier</artifactId>
+    <name>Custom_Qualifier</name>
     <url>http://maven.apache.org</url>
-    <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <modules>
-        <module>at_Qualifier</module>
-        <module>Custom_Qualifier</module>
-    </modules>
 </project>
