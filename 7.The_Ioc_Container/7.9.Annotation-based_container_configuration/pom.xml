@@ -17,7 +17,8 @@
         <module>7.9.1.at.Required</module>
         <module>7.9.2.at_Autowired</module>
         <module>7.9.3.Fine-tuning_annotation-based_autowiring_with_at_Primary</module>
-    <module>7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers</module>
-    <module>7.9.6.CustomAutowireConfigurer</module>
-  </modules>
+        <module>7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers</module>
+        <module>7.9.6.CustomAutowireConfigurer</module>
+        <module>7.9.5.Using_generics_as_autowiring_qualifiers</module>
+    </modules>
 </project>
