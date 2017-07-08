@@ -20,5 +20,6 @@
         <module>7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers</module>
         <module>7.9.6.CustomAutowireConfigurer</module>
         <module>7.9.5.Using_generics_as_autowiring_qualifiers</module>
+        <module>7.9.7.at_Resource</module>
     </modules>
 </project>
