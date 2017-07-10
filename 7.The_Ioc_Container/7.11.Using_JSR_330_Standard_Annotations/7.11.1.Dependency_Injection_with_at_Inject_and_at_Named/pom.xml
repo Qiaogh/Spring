@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.11.Using_JSR_330_Standard_Annotations</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>7.11.1.Dependency_Injection_with_at_Inject_and_at_Named</artifactId>
+    <name>7.11.1.Dependency_Injection_with_at_Inject_and_at_Named</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>

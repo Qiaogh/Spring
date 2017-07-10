@@ -18,6 +18,7 @@
     <module>7.8.Container_Extension_Points</module>
     <module>7.9.Annotation-based_container_configuration</module>
     <module>7.10.Classpath_scanning_and_managed_components</module>
+    <module>7.11.Using_JSR_330_Standard_Annotations</module>
   </modules>
 
 </project>

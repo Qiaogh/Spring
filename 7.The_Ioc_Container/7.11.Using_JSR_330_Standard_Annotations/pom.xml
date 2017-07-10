@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.The_Ioc_Container</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>7.11.Using_JSR_330_Standard_Annotations</artifactId>
+    <name>7.11.Using_JSR_330_Standard_Annotations</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>7.11.1.Dependency_Injection_with_at_Inject_and_at_Named</module>
+        <module>7.11.2.at_Named_and_at_ManagedBean__standard_equivalents_to_the_at_Component_annotation</module>
+        <module>7.11.3.Limitations_of_JSR-330_standard_annotations</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
+    </dependencies>
+</project>
