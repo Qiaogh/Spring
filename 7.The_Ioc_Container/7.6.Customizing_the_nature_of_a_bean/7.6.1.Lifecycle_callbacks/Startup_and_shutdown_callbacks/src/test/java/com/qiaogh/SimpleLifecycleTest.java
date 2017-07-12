@@ -4,6 +4,9 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -11,7 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class SimpleLifecycleTest {
 
-    private ClassPathXmlApplicationContext cxt;
+    private ApplicationContext cxt;
 
     @Before
     public void before() {
@@ -27,7 +30,9 @@ public class SimpleLifecycleTest {
 
     @After
     public void after() {
-        cxt.destroy();
+        if ( cxt instanceof ConfigurableApplicationContext ) {
+            ( (AbstractApplicationContext) cxt ).destroy();
+        }
         Assert.assertNotNull( SimpleLifecycle.STOP_FLAG );
         Assert.assertEquals( SimpleLifecycle.STOP_STATUS, SimpleLifecycle.STOP_FLAG );
     }
