@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.12.Java-based_container_configuration</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext</artifactId>
+    <name>7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>Simple_construction</module>
+    <module>Building_the_container_programmatically_using_register</module>
+    <module>Enabling_component_scanning_with_scan</module>
+    <module>Support_for_web_applications_with_AnnotationConfigWebApplicationContext</module>
+  </modules>
+</project>
