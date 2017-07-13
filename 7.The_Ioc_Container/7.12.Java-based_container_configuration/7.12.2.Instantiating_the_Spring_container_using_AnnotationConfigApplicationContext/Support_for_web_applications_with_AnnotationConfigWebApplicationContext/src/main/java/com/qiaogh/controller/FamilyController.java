@@ -18,7 +18,7 @@ public class FamilyController implements ApplicationContextAware {
     public String man() {
         Man qiaogh = cxt.getBean( Man.class );
         System.out.println( qiaogh );
-        return "manJsp";
+        return "man";
     }
 
     public ApplicationContext getApplicationContext() {
