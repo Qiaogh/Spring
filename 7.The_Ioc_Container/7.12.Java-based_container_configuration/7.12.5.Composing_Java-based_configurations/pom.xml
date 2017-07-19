@@ -3,19 +3,19 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
-        <artifactId>7.The_Ioc_Container</artifactId>
+        <artifactId>7.12.Java-based_container_configuration</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>7.12.Java-based_container_configuration</artifactId>
-    <name>7.12.Java-based_container_configuration</name>
+    <artifactId>7.12.5.Composing_Java-based_configurations</artifactId>
+    <name>7.12.5.Composing_Java-based_configurations</name>
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext</module>
-    <module>7.12.4.Using_the_at_Configuration_annotation</module>
-    <module>7.12.5.Composing_Java-based_configurations</module>
+        <module>Using_the_at_Import_annotation</module>
+        <module>Conditionally_include_at_Configuration_classes_or_at_Bean_methods</module>
+    <module>Combining_Java_and_XML_configuration</module>
   </modules>
 </project>
