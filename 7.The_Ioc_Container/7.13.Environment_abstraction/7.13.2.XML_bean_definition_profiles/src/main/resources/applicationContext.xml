@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://www.springframework.org/schema/jdbc" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/jdbc
+        http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <beans profile="gh">
+        <bean id="qiaogh" class="com.qiaogh.domain.Man" autowire="byType">
+            <property name="id" value="1" />
+            <property name="name" value="Qiaogh" />
+            <property name="age" value="26" />
+        </bean>
+    </beans>
+    
+    <beans profile="gw">
+        <bean id="qiaogw" class="com.qiaogh.domain.Man" autowire="byType">
+            <property name="id" value="2" />
+            <property name="name" value="Qiaogw" />
+            <property name="age" value="24" />
+        </bean>
+    </beans>
+    
+    <beans profile="qiy">
+        <bean id="qiy" class="com.qiaogh.domain.Women" autowire="byType">
+            <property name="id" value="3" />
+            <property name="name" value="Qiy" />
+            <property name="age" value="24" />
+        </bean>
+    </beans>
+    
+    <beans profile="zn">
+        <bean id="zn" class="com.qiaogh.domain.Women" autowire="byType">
+            <property name="id" value="4" />
+            <property name="name" value="Zn" />
+            <property name="age" value="25" />
+        </bean>
+    </beans>
+</beans>
