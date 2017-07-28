@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanIsAbstractException;
-import org.springframework.context.ApplicationContext;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.qiaogh.domain.Child;
@@ -12,7 +12,7 @@ import com.qiaogh.domain.Parent;
 
 public class AppTest {
 
-    private ApplicationContext cxt;
+    private ConfigurableApplicationContext cxt;
     
     @Before
     public void before() {

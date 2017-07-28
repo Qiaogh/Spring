@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,7 +14,7 @@ import com.qiaogh.domain.PropertyOverrideConfigurerPerson;
  */
 public class PropertyOverrideConfigurerTest {
 
-    private ApplicationContext cxt;
+    private ConfigurableApplicationContext cxt;
 
     @Before
     public void before() {
@@ -33,8 +32,6 @@ public class PropertyOverrideConfigurerTest {
 
     @After
     public void after() {
-        if ( cxt instanceof ConfigurableApplicationContext ) {
-            ( (ConfigurableApplicationContext) cxt ).close();
-        }
+        cxt.close();
     }
 }

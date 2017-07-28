@@ -5,7 +5,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -19,7 +18,7 @@ import com.qiaogh.domain.Women;
  */
 public class AppTest {
 
-    private ApplicationContext cxt;
+    private ConfigurableApplicationContext cxt;
 
     @Before
     public void before() {
@@ -46,8 +45,6 @@ public class AppTest {
 
     @After
     public void after() {
-        if ( cxt instanceof ConfigurableApplicationContext ) {
-            ( (ConfigurableApplicationContext) cxt ).close();
-        }
+        cxt.close();
     }
 }

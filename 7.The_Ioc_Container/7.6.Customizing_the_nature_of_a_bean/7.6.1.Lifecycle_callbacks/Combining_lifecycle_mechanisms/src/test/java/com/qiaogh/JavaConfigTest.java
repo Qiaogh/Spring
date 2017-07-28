@@ -3,7 +3,6 @@ package com.qiaogh;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -13,7 +12,7 @@ import com.qiaogh.util.StatusConstant;
 
 public class JavaConfigTest implements StatusConstant {
 
-    private ApplicationContext cxt;
+    private ConfigurableApplicationContext cxt;
     private JavaConfigPerson javaConfigPerson;
 
     @Before

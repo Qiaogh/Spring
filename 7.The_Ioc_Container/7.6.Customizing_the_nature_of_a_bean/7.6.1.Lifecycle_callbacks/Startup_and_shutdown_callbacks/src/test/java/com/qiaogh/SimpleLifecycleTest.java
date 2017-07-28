@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -14,7 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class SimpleLifecycleTest {
 
-    private ApplicationContext cxt;
+    private ConfigurableApplicationContext cxt;
 
     @Before
     public void before() {

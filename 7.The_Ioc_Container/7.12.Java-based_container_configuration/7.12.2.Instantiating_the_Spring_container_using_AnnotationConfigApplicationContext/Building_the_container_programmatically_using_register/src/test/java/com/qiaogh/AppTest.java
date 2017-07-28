@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigRegistry;
@@ -18,7 +17,7 @@ import com.qiaogh.factory.WifeFactory;
  */
 public class AppTest {
 
-    private ApplicationContext cxt;
+    private ConfigurableApplicationContext cxt;
 
     @Before
     public void before() {
@@ -44,8 +43,6 @@ public class AppTest {
 
     @After
     public void after() {
-        if ( cxt instanceof ConfigurableApplicationContext ) {
-            ( (ConfigurableApplicationContext) cxt ).close();
-        }
+        cxt.close();
     }
 }
