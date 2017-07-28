@@ -8,6 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.env.Environment;
 
+import com.qiaogh.config.SimplePropertySource;
+
 /**
  * Unit test for simple App.
  */
@@ -18,10 +20,11 @@ public class AppTest {
     @Before
     public void before() {
         cxt = new ClassPathXmlApplicationContext( "applicationContext.xml" );
+        cxt.getEnvironment().getPropertySources().addLast( new SimplePropertySource( "simple.property.source" ) );
     }
 
     @Test
-    public void test() {
+    public void testSimple() {
         Environment env = cxt.getEnvironment();
         Assert.assertTrue( env.getProperty( "java.version", "null" ).equals( System.getProperty( "java.version" ) ) ); // Java 运行时环境版本
         Assert.assertTrue( env.getProperty( "java.vendor", "null" ).equals( System.getProperty( "java.vendor" ) ) ); // Java 运行时环境供应商
@@ -35,6 +38,13 @@ public class AppTest {
         Assert.assertTrue( env.getProperty( "os.version", "null" ).equals( System.getProperty( "os.version" ) ) ); // 操作系统般般
         Assert.assertTrue( env.getProperty( "user.home", "null" ).equals( System.getProperty( "user.home" ) ) ); // 用户的主目录
         Assert.assertTrue( env.getProperty( "user.dir", "null" ).equals( System.getProperty( "user.dir" ) ) ); // 用户的当前工作目录
+    }
+    
+    @Test
+    public void testCustom() {
+        Environment env = cxt.getEnvironment();
+        Assert.assertNotNull( env.getProperty( "name" ) );
+        Assert.assertEquals( "Qiaogh", env.getProperty( "name" ) );
     }
 
     @After
