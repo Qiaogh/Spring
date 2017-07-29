@@ -21,6 +21,7 @@
     <module>7.11.Using_JSR_330_Standard_Annotations</module>
     <module>7.12.Java-based_container_configuration</module>
     <module>7.13.Environment_abstraction</module>
+    <module>7.15.Additional_Capabilities_of_the_ApplicationContext</module>
   </modules>
 
 </project>
