@@ -3,18 +3,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
-        <artifactId>7.The_Ioc_Container</artifactId>
+        <artifactId>7.15.Additional_Capabilities_of_the_ApplicationContext</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>7.15.Additional_Capabilities_of_the_ApplicationContext</artifactId>
-    <name>7.15.Additional_Capabilities_of_the_ApplicationContext</name>
+    <artifactId>7.15.2.Standard_and_Custom_Events</artifactId>
+    <name>7.15.2.Standard_and_Custom_Events</name>
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>7.15.1.Internationalization_using_MessageSource</module>
-    <module>7.15.2.Standard_and_Custom_Events</module>
+        <module>StandardEvents</module>
+    <module>CustomEvents</module>
   </modules>
 </project>
