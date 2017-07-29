@@ -17,5 +17,6 @@
         <module>7.13.2.XML_bean_definition_profiles</module>
     <module>7.13.1.Bean_definition_profiles</module>
     <module>7.13.3.PropertySource_abstraction</module>
+    <module>7.13.4.at_PropertySource</module>
   </modules>
 </project>
