@@ -16,5 +16,8 @@
     <modules>
         <module>StandardEvents</module>
     <module>CustomEvents</module>
+    <module>Annotation-based_Event_Listeners</module>
+    <module>Generic_Ordering_Events</module>
+    <module>Asynchronous_Listeners</module>
   </modules>
 </project>
