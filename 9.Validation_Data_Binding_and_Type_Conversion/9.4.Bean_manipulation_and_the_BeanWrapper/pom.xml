@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>9.Validation_Data_Binding_and_Type_Conversion</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>9.4.Bean_manipulation_and_the_BeanWrapper</artifactId>
+    <name>9.4.Bean_manipulation_and_the_BeanWrapper</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>9.4.1.Setting_and_getting_basic_and_nested_properties</module>
+    </modules>
+</project>

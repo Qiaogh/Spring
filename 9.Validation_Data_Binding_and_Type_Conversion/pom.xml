@@ -16,5 +16,6 @@
     <modules>
         <module>9.2.Validation_using_Spring_s_Validator_interface</module>
     <module>9.3.Resolving_codes_to_error_messages</module>
+    <module>9.4.Bean_manipulation_and_the_BeanWrapper</module>
   </modules>
 </project>
