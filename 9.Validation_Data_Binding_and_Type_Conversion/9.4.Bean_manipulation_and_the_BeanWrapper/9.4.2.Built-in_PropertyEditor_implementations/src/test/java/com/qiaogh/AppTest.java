@@ -12,6 +12,8 @@ import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
 import org.springframework.util.StringUtils;
 
+import sun.beans.editors.ShortEditor;
+
 import com.qiaogh.domain.Person;
 import com.qiaogh.util.DateUtil;
 
@@ -32,10 +34,14 @@ public class AppTest {
         String contactsStr = "name=police\ntel=110";
         String moneyStr = "200,200.00";
         String blogStr = "http://www.baidu.com";
+        String highStr = "0200";
         
         BeanWrapper wrapper = new BeanWrapperImpl( new Person() );
         wrapper.registerCustomEditor( Date.class, new CustomDateEditor( DateUtil.DATE_FORMAT, false ) );
         wrapper.registerCustomEditor( String.class, new StringTrimmerEditor( ",", false ) );
+        
+        // 覆盖默认转换器
+        wrapper.registerCustomEditor( Short.class, new ShortEditor() );
         
         wrapper.setPropertyValue( "profile", profileStr );
         wrapper.setPropertyValue( "personClass", personClassStr );
@@ -46,6 +52,7 @@ public class AppTest {
         wrapper.setPropertyValue( "contacts", contactsStr );
         wrapper.setPropertyValue( "money", moneyStr );
         wrapper.setPropertyValue( "blog", blogStr );
+        wrapper.setPropertyValue( "high", highStr );
         
         Person person = (Person) wrapper.getWrappedInstance();
         Assert.assertNotNull( person.getProfile() );
@@ -56,6 +63,7 @@ public class AppTest {
         Assert.assertNotNull( person.getContacts() );
         Assert.assertNotNull( person.getMoney() );
         Assert.assertNotNull( person.getBlog() );
+        Assert.assertNotNull( person.getHigh() );
         Assert.assertEquals( profileStr.length(), person.getProfile().length );
         Assert.assertEquals( Person.class, person.getClass() );
         Assert.assertEquals( false, person.isLocked() );
@@ -67,5 +75,6 @@ public class AppTest {
         Assert.assertEquals( "110", person.getContacts().get( "tel" ) );
         Assert.assertEquals( StringUtils.deleteAny( moneyStr, "," ), person.getMoney() );
         Assert.assertEquals( blogStr, person.getBlog().toString() );
+        Assert.assertEquals( Short.decode( highStr ), person.getHigh() );
     }
 }

@@ -16,6 +16,7 @@ public class Person {
     private Properties contacts;
     private String money;
     private URL blog;
+    private Short high;
 
     public byte[] getProfile() {
         return profile;
@@ -87,5 +88,13 @@ public class Person {
 
     public void setBlog( URL blog ) {
         this.blog = blog;
+    }
+
+    public Short getHigh() {
+        return high;
+    }
+
+    public void setHigh( Short high ) {
+        this.high = high;
     }
 }
