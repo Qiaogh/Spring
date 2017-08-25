@@ -43,7 +43,7 @@ public class AppTest {
         String highStr = "0200";
         String colorStr = "255,255,0";
         String sexStr = "MALE";
-        String fontStr = "PLAIN";
+        String fontStr = "楷体";
         
         BeanWrapper wrapper = new BeanWrapperImpl( new Person() );
         wrapper.registerCustomEditor( Date.class, new CustomDateEditor( DateUtil.DATE_FORMAT, false ) );
