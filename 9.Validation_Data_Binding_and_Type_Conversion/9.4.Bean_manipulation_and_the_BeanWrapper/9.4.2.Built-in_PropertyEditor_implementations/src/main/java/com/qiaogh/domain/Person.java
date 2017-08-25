@@ -24,6 +24,7 @@ public class Person {
     private Color color;
     private Sex sex;
     private Font font;
+    private Son son;
 
     public byte[] getProfile() {
         return profile;
@@ -127,5 +128,13 @@ public class Person {
 
     public void setFont( Font font ) {
         this.font = font;
+    }
+
+    public Son getSon() {
+        return son;
+    }
+
+    public void setSon( Son son ) {
+        this.son = son;
     }
 }

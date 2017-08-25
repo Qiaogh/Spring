@@ -20,6 +20,8 @@ import sun.beans.editors.FontEditor;
 import sun.beans.editors.ShortEditor;
 
 import com.qiaogh.domain.Person;
+import com.qiaogh.domain.Son;
+import com.qiaogh.domain.SonEditor;
 import com.qiaogh.util.DateUtil;
 import com.qiaogh.util.Sex;
 
@@ -44,6 +46,7 @@ public class AppTest {
         String colorStr = "255,255,0";
         String sexStr = "MALE";
         String fontStr = "楷体";
+        String sonStr = "Qiao--";
         
         BeanWrapper wrapper = new BeanWrapperImpl( new Person() );
         wrapper.registerCustomEditor( Date.class, new CustomDateEditor( DateUtil.DATE_FORMAT, false ) );
@@ -54,6 +57,7 @@ public class AppTest {
         wrapper.registerCustomEditor( Color.class, new ColorEditor() );
         wrapper.registerCustomEditor( Sex.class, new EnumEditor( Sex.class ) );
         wrapper.registerCustomEditor( Font.class, new FontEditor() );
+        wrapper.registerCustomEditor( Son.class, new SonEditor() );
         
         wrapper.setPropertyValue( "profile", profileStr );
         wrapper.setPropertyValue( "personClass", personClassStr );
@@ -68,6 +72,7 @@ public class AppTest {
         wrapper.setPropertyValue( "color", colorStr );
         wrapper.setPropertyValue( "sex", sexStr );
         wrapper.setPropertyValue( "font", fontStr );
+        wrapper.setPropertyValue( "son", sonStr );
         
         Person person = (Person) wrapper.getWrappedInstance();
         Assert.assertNotNull( person.getProfile() );
@@ -82,6 +87,7 @@ public class AppTest {
         Assert.assertNotNull( person.getColor() );
         Assert.assertNotNull( person.getSex() );
         Assert.assertNotNull( person.getFont() );
+        Assert.assertNotNull( person.getSon() );
         Assert.assertEquals( profileStr.length(), person.getProfile().length );
         Assert.assertEquals( Person.class, person.getClass() );
         Assert.assertEquals( false, person.isLocked() );
@@ -97,5 +103,6 @@ public class AppTest {
         Assert.assertEquals( Color.YELLOW, person.getColor() );
         Assert.assertEquals( Sex.MALE, person.getSex() );
         Assert.assertEquals( Font.decode( fontStr ), person.getFont() );
+        Assert.assertEquals( sonStr, person.getSon().getName() );
     }
 }
