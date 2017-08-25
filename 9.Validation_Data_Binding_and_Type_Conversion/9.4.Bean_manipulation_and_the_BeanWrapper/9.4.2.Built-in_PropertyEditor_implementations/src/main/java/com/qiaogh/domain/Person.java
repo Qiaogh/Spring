@@ -1,9 +1,13 @@
 package com.qiaogh.domain;
 
+import java.awt.Color;
+import java.awt.Font;
 import java.net.URL;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Properties;
+
+import com.qiaogh.util.Sex;
 
 public class Person {
 
@@ -17,6 +21,9 @@ public class Person {
     private String money;
     private URL blog;
     private Short high;
+    private Color color;
+    private Sex sex;
+    private Font font;
 
     public byte[] getProfile() {
         return profile;
@@ -96,5 +103,29 @@ public class Person {
 
     public void setHigh( Short high ) {
         this.high = high;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor( Color color ) {
+        this.color = color;
+    }
+
+    public Sex getSex() {
+        return sex;
+    }
+
+    public void setSex( Sex sex ) {
+        this.sex = sex;
+    }
+
+    public Font getFont() {
+        return font;
+    }
+
+    public void setFont( Font font ) {
+        this.font = font;
     }
 }
