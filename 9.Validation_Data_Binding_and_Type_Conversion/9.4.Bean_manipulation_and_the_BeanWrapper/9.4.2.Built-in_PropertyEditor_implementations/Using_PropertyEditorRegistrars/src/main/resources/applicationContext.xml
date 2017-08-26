@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="qiaogh" class="com.qiaogh.domain.Person">
+        <property name="profile" value="11111111" />
+        <property name="personClass" value="com.qiaogh.domain.Person" />
+        <property name="locked" value="false" />
+        <property name="birthday" value="1988-10-07" />
+        <property name="age" value="26" />
+        <property name="country" value="zh_CN" />
+        <property name="contacts" value="name=police" />
+        <property name="money" value="200,200.00" />
+        <property name="blog" value="http://www.baidu.com" />
+        <property name="high" value="0200" />
+        <property name="color" value="255,255,0" />
+        <property name="sex" value="MALE" />
+        <property name="font" value="楷体" />
+        <property name="son" value="Qiao--" />
+    </bean>
+    
+    <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="propertyEditorRegistrars">
+            <array>
+                <bean class="com.qiaogh.editors.CustomPropertyEditorRegistrar" />
+            </array>
+        </property>
+    </bean>
+</beans>

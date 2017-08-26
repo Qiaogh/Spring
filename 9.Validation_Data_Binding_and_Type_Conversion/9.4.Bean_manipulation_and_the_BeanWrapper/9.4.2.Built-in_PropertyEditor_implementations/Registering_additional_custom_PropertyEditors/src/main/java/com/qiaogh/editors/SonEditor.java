@@ -1,6 +1,8 @@
-package com.qiaogh.domain;
+package com.qiaogh.editors;
 
 import java.beans.PropertyEditorSupport;
+
+import com.qiaogh.domain.Son;
 
 public class SonEditor extends PropertyEditorSupport {
 

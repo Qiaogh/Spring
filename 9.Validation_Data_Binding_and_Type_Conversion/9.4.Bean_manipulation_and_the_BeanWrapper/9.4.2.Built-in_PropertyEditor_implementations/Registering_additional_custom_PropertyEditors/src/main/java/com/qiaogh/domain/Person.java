@@ -7,8 +7,12 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.Properties;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
 import com.qiaogh.util.Sex;
 
+@Component( "qiaogh" )
 public class Person {
 
     private byte[] profile;
@@ -30,6 +34,7 @@ public class Person {
         return profile;
     }
 
+    @Value( "11111111" )
     public void setProfile( byte[] profile ) {
         this.profile = profile;
     }
@@ -38,6 +43,7 @@ public class Person {
         return personClass;
     }
 
+    @Value( "com.qiaogh.domain.Person" )
     public void setPersonClass( Class<Person> personClass ) {
         this.personClass = personClass;
     }
@@ -46,6 +52,7 @@ public class Person {
         return locked;
     }
 
+    @Value( "false" )
     public void setLocked( boolean locked ) {
         this.locked = locked;
     }
@@ -54,6 +61,7 @@ public class Person {
         return birthday;
     }
 
+    @Value( "1988-10-07" )
     public void setBirthday( Date birthday ) {
         this.birthday = birthday;
     }
@@ -62,6 +70,7 @@ public class Person {
         return age;
     }
 
+    @Value( "26" )
     public void setAge( Integer age ) {
         this.age = age;
     }
@@ -70,6 +79,7 @@ public class Person {
         return country;
     }
 
+    @Value( "zh_CN" )
     public void setCountry( Locale country ) {
         this.country = country;
     }
@@ -78,6 +88,7 @@ public class Person {
         return contacts;
     }
 
+    @Value( "name=police\ntel=110" )
     public void setContacts( Properties contacts ) {
         this.contacts = contacts;
     }
@@ -86,6 +97,7 @@ public class Person {
         return money;
     }
 
+    @Value( "200,200.00" )
     public void setMoney( String money ) {
         this.money = money;
     }
@@ -94,6 +106,7 @@ public class Person {
         return blog;
     }
 
+    @Value( "http://www.baidu.com" )
     public void setBlog( URL blog ) {
         this.blog = blog;
     }
@@ -102,6 +115,7 @@ public class Person {
         return high;
     }
 
+    @Value( "0200" )
     public void setHigh( Short high ) {
         this.high = high;
     }
@@ -110,6 +124,7 @@ public class Person {
         return color;
     }
 
+    @Value( "255,255,0" )
     public void setColor( Color color ) {
         this.color = color;
     }
@@ -118,6 +133,7 @@ public class Person {
         return sex;
     }
 
+    @Value( "MALE" )
     public void setSex( Sex sex ) {
         this.sex = sex;
     }
@@ -126,6 +142,7 @@ public class Person {
         return font;
     }
 
+    @Value( "楷体" )
     public void setFont( Font font ) {
         this.font = font;
     }
@@ -134,6 +151,7 @@ public class Person {
         return son;
     }
 
+    @Value( "Qiao--" )
     public void setSon( Son son ) {
         this.son = son;
     }
