@@ -3,20 +3,20 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
-        <artifactId>spring</artifactId>
+        <artifactId>9.Validation_Data_Binding_and_Type_Conversion</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>9.Validation_Data_Binding_and_Type_Conversion</artifactId>
-    <name>9.Validation_Data_Binding_and_Type_Conversion</name>
+    <artifactId>9.5.Spring_Type_Conversion</artifactId>
+    <name>9.5.Spring_Type_Conversion</name>
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>9.2.Validation_using_Spring_s_Validator_interface</module>
-    <module>9.3.Resolving_codes_to_error_messages</module>
-    <module>9.4.Bean_manipulation_and_the_BeanWrapper</module>
-    <module>9.5.Spring_Type_Conversion</module>
+        <module>9.5.1_Converter_SPI</module>
+        <module>9.5.2.ConverterFactory</module>
+    <module>9.5.5.Configuring_a_ConversionService</module>
+    <module>9.5.6.Using_a_ConversionService_programmatically</module>
   </modules>
 </project>
