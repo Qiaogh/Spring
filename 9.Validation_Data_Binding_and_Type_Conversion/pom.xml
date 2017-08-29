@@ -18,5 +18,6 @@
     <module>9.3.Resolving_codes_to_error_messages</module>
     <module>9.4.Bean_manipulation_and_the_BeanWrapper</module>
     <module>9.5.Spring_Type_Conversion</module>
+    <module>9.6.Spring_Field_Formatting</module>
   </modules>
 </project>
