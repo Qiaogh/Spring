@@ -6,14 +6,10 @@
         <artifactId>9.Validation_Data_Binding_and_Type_Conversion</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>9.6.Spring_Field_Formatting</artifactId>
-    <name>9.6.Spring_Field_Formatting</name>
+    <artifactId>9.7.Configuring_a_global_date_and_time_format</artifactId>
+    <name>9.7.Configuring_a_global_date_and_time_format</name>
     <url>http://maven.apache.org</url>
-    <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <modules>
-        <module>9.6.1.Formatter_SPI</module>
-    </modules>
 </project>

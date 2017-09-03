@@ -19,5 +19,6 @@
     <module>9.4.Bean_manipulation_and_the_BeanWrapper</module>
     <module>9.5.Spring_Type_Conversion</module>
     <module>9.6.Spring_Field_Formatting</module>
+    <module>9.7.Configuring_a_global_date_and_time_format</module>
   </modules>
 </project>
