@@ -3,17 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
-        <artifactId>10.Spring_Expression_Language_SpEL</artifactId>
+        <artifactId>10.3.Expression_Evaluation_using_Spring_s_Expression_Interface</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>10.3.Expression_Evaluation_using_Spring_s_Expression_Interface</artifactId>
-    <name>10.3.Expression_Evaluation_using_Spring_s_Expression_Interface</name>
+    <artifactId>10.3.1.The_EvaluationContext_interface</artifactId>
+    <name>10.3.1.The_EvaluationContext_interface</name>
     <url>http://maven.apache.org</url>
-    <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <modules>
-    	<module>10.3.1.The_EvaluationContext_interface</module>
-    </modules>
 </project>
