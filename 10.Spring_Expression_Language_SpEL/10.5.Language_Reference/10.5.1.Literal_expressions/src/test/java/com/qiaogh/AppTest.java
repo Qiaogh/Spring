@@ -37,6 +37,14 @@ public class AppTest {
     }
     
     @Test
+    public void testLiteralHexInteger() {
+        ExpressionParser expressionParser = new SpelExpressionParser();
+        Expression expression = expressionParser.parseExpression( "0xA" );
+        int value = expression.getValue( Integer.class );
+        Assert.assertTrue( 10 == value );
+    }
+    
+    @Test
     public void testLiteralBoolean() {
         ExpressionParser expressionParser = new SpelExpressionParser();
         Expression expression = expressionParser.parseExpression( "true" );
