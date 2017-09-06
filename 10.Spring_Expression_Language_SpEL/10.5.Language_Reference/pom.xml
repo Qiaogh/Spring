@@ -20,6 +20,7 @@
         <module>10.5.5.Array_construction</module>
         <module>10.5.6.Methods</module>
         <module>10.5.7.Operators</module>
-    <module>10.5.9.Types</module>
+        <module>10.5.9.Types</module>
+    <module>10.5.11.Variables</module>
   </modules>
 </project>
