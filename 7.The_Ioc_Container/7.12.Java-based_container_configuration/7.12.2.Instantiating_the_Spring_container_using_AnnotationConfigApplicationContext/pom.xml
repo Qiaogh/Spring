@@ -15,8 +15,8 @@
     </properties>
     <modules>
         <module>Simple_construction</module>
-    <module>Building_the_container_programmatically_using_register</module>
-    <module>Enabling_component_scanning_with_scan</module>
-    <module>Support_for_web_applications_with_AnnotationConfigWebApplicationContext</module>
-  </modules>
+        <module>Building_the_container_programmatically_using_register</module>
+        <module>Enabling_component_scanning_with_scan</module>
+        <module>Support_for_web_applications_with_AnnotationConfigWebApplicationContext</module>
+    </modules>
 </project>
