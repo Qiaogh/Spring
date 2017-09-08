@@ -11,6 +11,7 @@
     <module>8.Resources</module>
     <module>9.Validation_Data_Binding_and_Type_Conversion</module>
     <module>10.Spring_Expression_Language_SpEL</module>
+    <module>11.Aspect_Oriented_Programming_with_Spring</module>
   </modules>
 
     <name>spring</name>
