@@ -16,5 +16,6 @@
     <modules>
         <module>Declaring_simple_advice_by_xml</module>
     <module>Declaring_an_aspect_by_xml</module>
+    <module>Declaring_a_pointcut_by_xml</module>
   </modules>
 </project>

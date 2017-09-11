@@ -46,7 +46,6 @@ public class AppTest {
             Assert.assertNull( some );
         } catch ( Exception e ) {
             Assert.assertTrue( e instanceof IllegalArgumentException );
-            Assert.assertSame( e, PersonServiceAspect.THORWED_EXCEPTIONS.get( 0 ) );
         }
     }
     
@@ -60,7 +59,7 @@ public class AppTest {
             Assert.assertNull( some );
         } catch ( Exception e ) {
             Assert.assertTrue( e instanceof CannotFindPersonException );
-            Assert.assertSame( e, PersonServiceAspect.THORWED_EXCEPTIONS.get( 1 ) );
+            Assert.assertSame( e, PersonServiceAspect.THORWED_EXCEPTIONS.get( 0 ) );
         }
     }
     
