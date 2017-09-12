@@ -14,9 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>11.2.2.Declaring_an_aspect</module>
-        <module>11.2.3.Declaring_a_pointcut</module>
-        <module>11.2.4.Declaring_advice</module>
+        <module>11.2.at_AspectJ_support</module>
         <module>11.3.Schema_based_AOP_support</module>
     </modules>
 

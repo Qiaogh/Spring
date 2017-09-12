@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
-        <artifactId>11.Aspect_Oriented_Programming_with_Spring</artifactId>
+        <artifactId>11.2.at_AspectJ_support</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>11.2.2.Declaring_an_aspect</artifactId>
