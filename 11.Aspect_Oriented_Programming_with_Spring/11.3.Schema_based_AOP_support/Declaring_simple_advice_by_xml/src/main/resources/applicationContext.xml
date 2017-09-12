@@ -8,8 +8,27 @@
 
     <aop:aspectj-autoproxy />
     <aop:config>
-        <aop:aspect id="personServiceAspect" ref="personServiceAspectBean" />
+        <aop:aspect id="systemArchitecture" ref="systemArchitectureBean">
+            <aop:pointcut id="inWebLayer" expression="within(com.qiaogh.action..*)" />
+            <aop:pointcut id="inServiceLayer" expression="within(com.qiaogh.service..*)" />
+            <aop:pointcut id="inDataAccessLayer" expression="within(com.qiaogh.dao..*)" />
+            <aop:pointcut id="businessService" expression="execution(* com.qiaogh..service.*.*(..))" />
+            <aop:pointcut id="dataAccessOperation" expression="execution(* com.qiaogh.dao.*.*(..))" />
+        </aop:aspect>
+        <aop:aspect id="personServiceAspect" ref="personServiceAspectBean">
+            <aop:pointcut id="doGetPointcut" expression="com.qiaogh.aspect.SystemArchitecture.inServiceLayer() and execution(public com.qiaogh.domain.Person com.qiaogh.service.PersonService.get(String))" />
+            <aop:pointcut id="doUpdatePointcut" expression="com.qiaogh.aspect.SystemArchitecture.inServiceLayer() and execution(public void com.qiaogh.service.PersonService.update(com.qiaogh.domain.Person)) and args( person )" />
+            <aop:before method="beforeGet" pointcut-ref="doGetPointcut" />
+            <aop:after method="afterGet" pointcut-ref="doGetPointcut" />
+            <aop:after-returning method="afterGetReturning" pointcut-ref="doGetPointcut" returning="person" />
+            <aop:after-throwing method="afterGetThrowing" pointcut-ref="doGetPointcut" throwing="ex" />
+            <aop:around method="aroundUpdate" pointcut-ref="doUpdatePointcut" />
+        </aop:aspect>
     </aop:config>
     
+    <bean id="systemArchitectureBean" class="com.qiaogh.aspect.SystemArchitecture" />
+    
     <bean id="personServiceAspectBean" class="com.qiaogh.aspect.impl.PersonServiceAspectImpl" />
+    
+    <bean id="personService" class="com.qiaogh.service.impl.PersonServiceImpl" />
 </beans>
