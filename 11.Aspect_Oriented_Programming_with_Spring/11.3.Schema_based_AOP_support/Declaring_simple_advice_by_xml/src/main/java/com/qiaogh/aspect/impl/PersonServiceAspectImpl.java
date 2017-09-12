@@ -23,6 +23,10 @@ public class PersonServiceAspectImpl implements PersonServiceAspect {
 
     @Override
     public void afterGetReturning( Person person ) {
+        /**
+         * 使用注释切入时，如果此处抛出异常 afterGetThrowing 可以捕获到该异常，
+         * 但是使用 AspectJ Schema 切入却无法捕获
+         */
         Assert.notNull( person, "Person cannot be null!" );
         LOADED_PERSONS.add( person );
         INVOKED_ADVICES.put( AFTER_GET_RETURNING, null );
