@@ -8,7 +8,7 @@
 
     <aop:aspectj-autoproxy />
     <aop:config>
-        <aop:aspect id="personServiceAspect" ref="personServiceAspectBean">
+        <aop:aspect ref="personServiceAspect">
             <aop:pointcut id="doGetPointcut" expression="within(com.qiaogh.service..*) and execution(public com.qiaogh.domain.Person com.qiaogh.service.PersonService.get(String))" />
             <aop:pointcut id="doUpdatePointcut" expression="within(com.qiaogh.service..*) and execution(public void com.qiaogh.service.PersonService.update(com.qiaogh.domain.Person)) and args( person )" />
             <aop:before method="beforeGet" pointcut-ref="doGetPointcut" />
@@ -19,7 +19,7 @@
         </aop:aspect>
     </aop:config>
     
-    <bean id="personServiceAspectBean" class="com.qiaogh.aspect.impl.PersonServiceAspectImpl" />
+    <bean id="personServiceAspect" class="com.qiaogh.aspect.impl.PersonServiceAspectImpl" />
     
     <bean id="personService" class="com.qiaogh.service.impl.PersonServiceImpl" />
 </beans>

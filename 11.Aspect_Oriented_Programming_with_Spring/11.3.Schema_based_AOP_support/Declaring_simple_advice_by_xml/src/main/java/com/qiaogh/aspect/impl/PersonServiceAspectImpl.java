@@ -41,6 +41,6 @@ public class PersonServiceAspectImpl implements PersonServiceAspect {
     public Object aroundUpdate( ProceedingJoinPoint point, Person person ) throws Throwable {
         INVOKED_ADVICES.put( AROUND_UPDATE, null );
         UPDATED_PERSONS.add( person );
-        return point.proceed();
+        return point.proceed( point.getArgs() );
     }
 }
