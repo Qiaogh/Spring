@@ -16,7 +16,8 @@
     <modules>
         <module>11.2.at_AspectJ_support</module>
         <module>11.3.Schema_based_AOP_support</module>
-    </modules>
+    <module>11.6.Proxying_mechanisms</module>
+  </modules>
 
     <dependencies>
         <dependency>
