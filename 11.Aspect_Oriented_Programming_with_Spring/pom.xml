@@ -16,8 +16,10 @@
     <modules>
         <module>11.2.at_AspectJ_support</module>
         <module>11.3.Schema_based_AOP_support</module>
-    <module>11.6.Proxying_mechanisms</module>
-  </modules>
+        <module>11.6.Proxying_mechanisms</module>
+        <module>11.7.Programmatic_creation_of_at_AspectJ_Proxies</module>
+        <module>11.8.Using_AspectJ_with_Spring_applications</module>
+    </modules>
 
     <dependencies>
         <dependency>
