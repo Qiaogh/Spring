@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="basicPersonService" class="com.qiaogh.service.impl.PersonServiceImpl" scope="prototype" />
+
+    <bean id="personService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="targetSource">
+            <bean class="org.springframework.aop.target.CommonsPool2TargetSource">
+                <property name="targetBeanName" value="basicPersonService" />
+            </bean>
+        </property>
+    </bean>
+</beans>

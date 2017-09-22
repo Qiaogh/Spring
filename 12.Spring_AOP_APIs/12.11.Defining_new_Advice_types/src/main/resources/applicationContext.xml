@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.springframework.aop.framework.adapter.AdvisorAdapterRegistrationManager" />
+    <bean class="com.qiaogh.aop.MethodAfterAdviceAdapter" />
+
+    <bean id="personServiceAfterGetAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+        <property name="advice">
+            <bean class="com.qiaogh.aop.impl.PersonServiceAfterGetAdvice" />
+        </property>
+    </bean>
+
+    <bean id="personService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target">
+            <bean class="com.qiaogh.service.impl.PersonServiceImpl" />
+        </property>
+        <property name="interceptorNames" value="personServiceAfterGetAdvisor" />
+    </bean>
+</beans>

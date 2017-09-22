@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>12.Spring_AOP_APIs</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>12.10.Using_TargetSources</artifactId>
+    <name>12.10.Using_TargetSources</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>12.10.1.Hot_swappable_target_sources</module>
+        <module>12.10.2.Pooling_target_sources</module>
+    </modules>
+</project>

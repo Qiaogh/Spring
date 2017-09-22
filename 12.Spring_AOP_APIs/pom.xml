@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>spring</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>12.Spring_AOP_APIs</artifactId>
+    <name>12.Spring_AOP_APIs</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>12.2.Pointcut_API_in_Spring</module>
+        <module>12.3.Advice_API_in_Spring</module>
+        <module>12.5.Using_the_ProxyFactoryBean_to_create_AOP_proxies</module>
+        <module>12.8.Manipulating_advised_objects</module>
+        <module>12.9.Using_the_auto-proxy_facility</module>
+    <module>12.10.Using_TargetSources</module>
+    <module>12.11.Defining_new_Advice_types</module>
+  </modules>
+</project>

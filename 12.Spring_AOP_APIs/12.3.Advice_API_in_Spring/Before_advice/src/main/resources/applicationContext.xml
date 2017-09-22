@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="personServiceBeforeGetAdvisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+        <property name="advice">
+            <bean class="com.qiaogh.aop.PersonServiceBeforeGetAdvice" />
+        </property>
+    </bean>
+    
+    <bean id="basicPersonService" class="com.qiaogh.service.impl.PersonServiceImpl" />
+    
+    <bean id="personService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="basicPersonService" />
+        <property name="interceptorNames">
+            <list>
+                <value>personServiceBeforeGetAdvisor</value>
+            </list>
+        </property>
+    </bean>
+</beans>

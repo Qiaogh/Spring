@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>12.Spring_AOP_APIs</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>12.2.Pointcut_API_in_Spring</artifactId>
+    <name>12.2.Pointcut_API_in_Spring</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>12.2.1.Concepts</module>
+        <module>12.2.3.AspectJ_expression_pointcuts</module>
+    <module>12.2.4.Convenience_pointcut_implementations</module>
+    <module>12.2.5.Pointcut_superclasses</module>
+  </modules>
+</project>
