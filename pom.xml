@@ -8,12 +8,13 @@
     <packaging>pom</packaging>
     <modules>
         <module>7.The_Ioc_Container</module>
-    <module>8.Resources</module>
-    <module>9.Validation_Data_Binding_and_Type_Conversion</module>
-    <module>10.Spring_Expression_Language_SpEL</module>
-    <module>11.Aspect_Oriented_Programming_with_Spring</module>
-    <module>12.Spring_AOP_APIs</module>
-  </modules>
+        <module>8.Resources</module>
+        <module>9.Validation_Data_Binding_and_Type_Conversion</module>
+        <module>10.Spring_Expression_Language_SpEL</module>
+        <module>11.Aspect_Oriented_Programming_with_Spring</module>
+        <module>12.Spring_AOP_APIs</module>
+        <module>15.Integration_Testing</module>
+    </modules>
 
     <name>spring</name>
     <url>http://maven.apache.org</url>
@@ -57,7 +58,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

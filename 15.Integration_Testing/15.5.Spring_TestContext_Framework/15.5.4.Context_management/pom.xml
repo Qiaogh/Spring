@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>15.5.Spring_TestContext_Framework</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>15.5.4.Context_management</artifactId>
+    <name>15.5.4.Context_management</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>Context_configuration_with_annotated_classes</module>
+        <module>Context_configuration_with_context_initializers</module>
+        <module>Context_configuration_with_environment_profiles</module>
+        <module>Context_configuration_with_test_property_sources</module>
+        <module>Loading_a_WebApplicationContext</module>
+    <module>Context_hierarchies</module>
+  </modules>
+</project>

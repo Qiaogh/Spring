@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>15.Integration_Testing</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>15.5.Spring_TestContext_Framework</artifactId>
+    <name>15.5.Spring_TestContext_Framework</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>15.5.3.TestExecutionListener_configuration</module>
+        <module>15.5.4.Context_management</module>
+    </modules>
+</project>
