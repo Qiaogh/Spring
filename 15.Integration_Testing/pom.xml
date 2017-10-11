@@ -21,7 +21,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-  <modules>
-    <module>15.5.Spring_TestContext_Framework</module>
-  </modules>
+    <modules>
+        <module>15.5.Spring_TestContext_Framework</module>
+    </modules>
 </project>

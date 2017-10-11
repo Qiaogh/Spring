@@ -16,5 +16,6 @@
     <modules>
         <module>15.5.3.TestExecutionListener_configuration</module>
         <module>15.5.4.Context_management</module>
+        <module>15.5.6.Testing_request_and_session_scoped_beans</module>
     </modules>
 </project>
