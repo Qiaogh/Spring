@@ -13,15 +13,16 @@
         
     <import resource="classpath:spring-basic.xml"/>
     
-    <!-- 如果 TransactionManager bean 的名字为 transactionManager 则可以省略 transaction-manager 属性 -->
-    <tx:advice id="specialRollbackExceptionAdvice">
+    <bean id="exceptionPersonService" class="com.qiaogh.service.impl.ExceptionPersonServiceImpl" parent="personService" />
+    
+    <tx:advice id="txAdvice">
         <tx:attributes>
-            <tx:method name="*" />
+            <tx:method name="*" no-rollback-for="com.qiaogh.exception.NoRollbackForException" rollback-for="com.qiaogh.exception.RollbackForException" />
         </tx:attributes>
     </tx:advice>
     
     <aop:config>
-        <aop:pointcut id="personServiceOperation" expression="execution(* com.qiaogh.service.PersonService.*(..))" />
+        <aop:pointcut id="personServiceOperation" expression="execution(* com.qiaogh.service.*.*(..))" />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="personServiceOperation" />
     </aop:config>
 </beans>

@@ -13,14 +13,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.qiaogh.domain.Person;
-import com.qiaogh.service.PersonService;
+import com.qiaogh.service.SimpleExceptionPersonService;
 
 @RunWith( SpringRunner.class )
 @ContextConfiguration( "classpath:applicationContext.xml" )
 public class AppTest extends TestCase {
     
     @Autowired
-    private PersonService personService;
+    private SimpleExceptionPersonService personService;
     
     @Test
     @Transactional

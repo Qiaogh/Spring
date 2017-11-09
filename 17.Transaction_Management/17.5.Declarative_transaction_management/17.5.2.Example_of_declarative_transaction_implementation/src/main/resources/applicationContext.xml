@@ -13,6 +13,8 @@
         
     <import resource="classpath:spring-basic.xml" />
     
+    <bean id="simpleExceptionPersonService" class="com.qiaogh.service.impl.SimpleExceptionPersonServiceImpl" parent="personService" />
+    
     <!-- 如果 TransactionManager bean 的名字为 transactionManager 则可以省略 transaction-manager 属性 -->
     <tx:advice id="txAdvice">
         <tx:attributes>
@@ -22,7 +24,7 @@
     </tx:advice>
     
     <aop:config>
-        <aop:pointcut id="personServiceOperation" expression="execution(* com.qiaogh.service.PersonService.*(..))" />
+        <aop:pointcut id="personServiceOperation" expression="execution(* com.qiaogh.service.*.*(..))" />
         <aop:advisor advice-ref="txAdvice" pointcut-ref="personServiceOperation" />
     </aop:config>
 </beans>
