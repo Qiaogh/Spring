@@ -11,6 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.text.DateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * Unit test for simple App.
@@ -31,7 +32,7 @@ public class AppTest {
         Assert.assertTrue( "Qiaogh".equals( person.getName() ) );
         Assert.assertTrue( Integer.valueOf( 26 ).equals( person.getAge() ) );
         Assert.assertTrue( Integer.valueOf( 178 ).equals( person.getHeight() ) );
-        Assert.assertTrue( DateFormat.getDateInstance().parse( "1991-10-07" ).equals( person.getBirthday() ) );
+        Assert.assertTrue( DateFormat.getDateInstance( DateFormat.MEDIUM, Locale.CHINESE ).parse( "1991-10-07" ).equals( person.getBirthday() ) );
     }
 
     @Test

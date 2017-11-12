@@ -15,6 +15,6 @@
     </properties>
     <modules>
         <module>Registering_additional_custom_PropertyEditors</module>
-    <module>Using_PropertyEditorRegistrars</module>
-  </modules>
+        <module>Using_PropertyEditorRegistrars</module>
+    </modules>
 </project>

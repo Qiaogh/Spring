@@ -15,6 +15,6 @@
     </properties>
     <modules>
         <module>9.4.1.Setting_and_getting_basic_and_nested_properties</module>
-    <module>9.4.2.Built-in_PropertyEditor_implementations</module>
-  </modules>
+        <module>9.4.2.Built-in_PropertyEditor_implementations</module>
+    </modules>
 </project>

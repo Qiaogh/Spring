@@ -3,6 +3,7 @@ package com.qiaogh;
 import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.ParseException;
+import java.util.Locale;
 
 import org.junit.After;
 import org.junit.Assert;
@@ -30,7 +31,7 @@ public class AppTest {
         Person qiaogh = cxt.getBean( Person.class );
         Assert.assertNotNull( qiaogh );
         Assert.assertEquals( "Qiaogh", qiaogh.getName() );
-        Assert.assertEquals( DateFormat.getDateInstance().parse( "1988-10-07" ), qiaogh.getBirthday() );
+        Assert.assertEquals( DateFormat.getDateInstance( DateFormat.MEDIUM, Locale.CHINESE ).parse( "1988-10-07" ), qiaogh.getBirthday() );
         Assert.assertEquals( Float.valueOf( 0.01f ), qiaogh.getAchievement() );
         Assert.assertEquals( BigDecimal.valueOf( 8888 ), qiaogh.getMoney() );
     }
