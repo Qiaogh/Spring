@@ -17,7 +17,8 @@
         <module>17.5.2.Example_of_declarative_transaction_implementation</module>
         <module>17.5.3.Rolling_back_a_declarative_transaction</module>
         <module>BasicForTransactionManagement</module>
-    </modules>
+    <module>17.5.4.Configuring_different_transactional_semantics_for_different_beans</module>
+  </modules>
     <dependencies>
         <dependency>
             <groupId>org.aspectj</groupId>

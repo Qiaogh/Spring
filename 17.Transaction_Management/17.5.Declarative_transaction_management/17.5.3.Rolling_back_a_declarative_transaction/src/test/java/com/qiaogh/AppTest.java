@@ -12,17 +12,16 @@ import com.qiaogh.exception.NoRollbackForException;
 import com.qiaogh.exception.RollbackForException;
 import com.qiaogh.service.ExceptionPersonService;
 
-
 /**
  * Unit test for simple App.
  */
 @RunWith( SpringRunner.class )
 @ContextConfiguration( "classpath:applicationContext.xml" )
 public class AppTest {
-    
+
     @Autowired
     private ExceptionPersonService personService;
-    
+
     @Test
     public void testRollback() {
         Person person = createPersistencePerson();
@@ -38,7 +37,7 @@ public class AppTest {
         Assert.assertEquals( Integer.valueOf( 26 ), person.getAge() );
         personService.delete( person.getId() );
     }
-    
+
     @Test
     public void testNoRollback() {
         Person person = createPersistencePerson();
@@ -54,7 +53,7 @@ public class AppTest {
         Assert.assertEquals( Integer.valueOf( 15 ), person.getAge() );
         personService.delete( person.getId() );
     }
-    
+
     private Person createPersistencePerson() {
         Person person = new Person();
         person.setName( "Qiaogh" );
