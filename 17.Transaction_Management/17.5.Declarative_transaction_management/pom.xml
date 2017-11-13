@@ -18,6 +18,8 @@
         <module>17.5.3.Rolling_back_a_declarative_transaction</module>
         <module>BasicForTransactionManagement</module>
     <module>17.5.4.Configuring_different_transactional_semantics_for_different_beans</module>
+    <module>17.5.5.tx_advice_settings</module>
+    <module>17.5.6.Using_at_Transactional</module>
   </modules>
     <dependencies>
         <dependency>
