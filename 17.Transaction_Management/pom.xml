@@ -43,5 +43,7 @@
     </dependencies>
     <modules>
         <module>17.5.Declarative_transaction_management</module>
-    </modules>
+    <module>17.6.Programmatic_transaction_management</module>
+    <module>17.8.Transaction_bound_event</module>
+  </modules>
 </project>

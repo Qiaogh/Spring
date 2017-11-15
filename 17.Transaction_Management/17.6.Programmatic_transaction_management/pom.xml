@@ -6,22 +6,16 @@
         <artifactId>17.Transaction_Management</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>17.5.Declarative_transaction_management</artifactId>
-    <name>17.5.Declarative_transaction_management</name>
+    <artifactId>17.6.Programmatic_transaction_management</artifactId>
+    <name>17.6.Programmatic_transaction_management</name>
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>17.5.2.Example_of_declarative_transaction_implementation</module>
-        <module>17.5.3.Rolling_back_a_declarative_transaction</module>
-        <module>BasicForTransactionManagement</module>
-        <module>17.5.4.Configuring_different_transactional_semantics_for_different_beans</module>
-        <module>17.5.5.tx_advice_settings</module>
-        <module>17.5.6.Using_at_Transactional</module>
-        <module>17.5.8.Advising_transactional_operations</module>
-        <module>17.5.7.Transaction_propagation</module>
+        <module>17.6.1.Using_the_TransactionTemplate</module>
+        <module>17.6.2.Using_the_PlatformTransactionManager</module>
     </modules>
     <dependencies>
         <dependency>

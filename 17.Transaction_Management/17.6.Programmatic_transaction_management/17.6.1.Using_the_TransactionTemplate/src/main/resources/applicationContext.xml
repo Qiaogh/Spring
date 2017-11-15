@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+    
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:jdbc.properties" />
+    </bean>
+    
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driverClass}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+    </bean>
+        
+    <bean id="personService" class="com.qiaogh.service.impl.PersonServiceImpl">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+    
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+    
+    <bean id="exPersonService" class="com.qiaogh.service.impl.ExceptionPersonServiceImpl" parent="personService" />
+    
+    <bean id="transactionManageAdvice" class="com.qiaogh.advice.TransactionManageAdvice">
+        <constructor-arg ref="transactionManager" />
+    </bean>
+    
+    <aop:config>
+        <aop:aspect ref="transactionManageAdvice">
+            <aop:pointcut id="transactionManagePointcut" expression="bean(exPersonService)" />
+            <aop:around method="around" pointcut-ref="transactionManagePointcut" />
+        </aop:aspect>
+    </aop:config>
+</beans>

@@ -22,11 +22,11 @@
     </tx:advice>
     
     <aop:config>
-        <aop:pointcut id="personServiceOperation" expression="execution(* com.qiaogh.service.*.*(..))" />
-        <aop:advisor advice-ref="txAdvice" order="2" pointcut-ref="personServiceOperation" />
         <aop:aspect ref="aroundPersonServiceMonitorAdvice" order="1">
             <aop:pointcut id="aroundPersonServiceMonitor" expression="execution(* com.qiaogh.service.*.*(..))" />
             <aop:around method="monitor" pointcut-ref="aroundPersonServiceMonitor" />
         </aop:aspect>
+        <aop:pointcut id="personServiceOperation" expression="execution(* com.qiaogh.service.*.*(..))" />
+        <aop:advisor advice-ref="txAdvice" order="2" pointcut-ref="personServiceOperation" />
     </aop:config>
 </beans>
