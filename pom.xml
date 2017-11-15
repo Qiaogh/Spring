@@ -15,6 +15,7 @@
         <module>12.Spring_AOP_APIs</module>
         <module>15.Integration_Testing</module>
     <module>17.Transaction_Management</module>
+    <module>19.Data_access_with_JDBC</module>
   </modules>
 
     <name>spring</name>
