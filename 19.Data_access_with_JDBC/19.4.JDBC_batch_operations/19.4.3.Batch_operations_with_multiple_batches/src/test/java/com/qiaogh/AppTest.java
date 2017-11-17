@@ -22,14 +22,13 @@ import com.qiaogh.service.PersonService;
  * Unit test for simple App.
  */
 @RunWith( SpringRunner.class )
-@ContextConfiguration( classes = { AppConfig.class, AppTestConfig.class } )
+@ContextConfiguration( classes = { AppConfig.class, AppTestConfig.class })
 public class AppTest {
     
     private static final int BATCH_SIZE = 32;
     
     @Resource( type = PersonService.class )
     private PersonPersistenceSupport persistenceSupport;
-    
     @Resource( type = PersonService.class )
     private PersonQuerySupport querySupport;
     
@@ -43,7 +42,7 @@ public class AppTest {
         Assert.assertEquals( persons.size(), persistencePersons.size() );
     }
     
-    public List<Person> createBatchPerson( int batchSize ) {
+    private List<Person> createBatchPerson( int batchSize ) {
         List<Person> persons = new ArrayList<Person>( batchSize );
         for ( int i = 0; i < batchSize; i++ ) {
             Person person = new Person();

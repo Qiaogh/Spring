@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.qiaogh</groupId>
@@ -15,5 +15,7 @@
     </properties>
     <modules>
         <module>19.4.1.Basic_batch_operations_with_the_JdbcTemplate</module>
+        <module>19.4.2.Batch_operations_with_a_List_of_objects</module>
+        <module>19.4.3.Batch_operations_with_multiple_batches</module>
     </modules>
 </project>
