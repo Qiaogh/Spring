@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>19.Data_access_with_JDBC</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes</artifactId>
+    <name>19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  <modules>
+    <module>19.5.1.Inserting_data_using_SimpleJdbcInsert</module>
+    <module>19.5.2.Retrieving_auto_generated_keys_using_SimpleJdbcInsert</module>
+    <module>19.5.4.Using_SqlParameterSource_to_provide_parameter_values</module>
+    <module>19.5.5.Calling_a_stored_procedure_with_SimpleJdbcCall</module>
+    <module>19.5.6.Explicitly_declaring_parameters_to_use_for_a_SimpleJdbcCall</module>
+    <module>19.5.8.Calling_a_stored_function_using_SimpleJdbcCall</module>
+    <module>19.5.9.Returning_ResultSet_or_REF_Cursor_from_a_SimpleJdbcCall</module>
+  </modules>
+</project>
