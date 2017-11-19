@@ -17,6 +17,7 @@
         <module>19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling</module>
     <module>19.4.JDBC_batch_operations</module>
     <module>19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes</module>
+    <module>19.6.Modeling_JDBC_operations_as_Java_objects</module>
   </modules>
     <dependencies>
         <dependency>
