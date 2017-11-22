@@ -16,6 +16,7 @@
         <module>15.Integration_Testing</module>
     <module>17.Transaction_Management</module>
     <module>19.Data_access_with_JDBC</module>
+    <module>20.Object_Relational_Mapping_Data_Access</module>
   </modules>
 
     <name>spring</name>
