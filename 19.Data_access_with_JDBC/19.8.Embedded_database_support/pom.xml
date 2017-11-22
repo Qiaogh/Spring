@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>19.Data_access_with_JDBC</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>19.8.Embedded_database_support</artifactId>
+    <name>19.8.Embedded_database_support</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>19.8.2.Creating_an_embedded_database_using_Spring_XML</module>
+        <module>19.8.3.Creating_an_embedded_database_programmatically</module>
+    </modules>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.3.5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

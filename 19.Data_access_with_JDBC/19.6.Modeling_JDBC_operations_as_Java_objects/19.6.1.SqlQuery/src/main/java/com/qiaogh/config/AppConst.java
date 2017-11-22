@@ -7,6 +7,8 @@ import com.qiaogh.domain.Person;
 
 public interface AppConst {
 
+    String TABLE_NAME = "persons";
+
     RowMapper<Person> PERSON_ROW_MAPPER = BeanPropertyRowMapper.newInstance( Person.class );
     
     String SQL_GET_PERSON = "select id, name, age from persons where id = ?";

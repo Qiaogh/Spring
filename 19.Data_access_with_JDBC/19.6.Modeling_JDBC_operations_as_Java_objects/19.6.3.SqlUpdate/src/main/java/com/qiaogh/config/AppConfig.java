@@ -26,8 +26,6 @@ import com.qiaogh.domain.Person;
 @ComponentScan( "com.qiaogh" )
 @PropertySource( "jdbc.properties" )
 public class AppConfig implements AppConst {
-
-    private static final String TABLE_NAME = "persons";
     
     @Bean
     public DataSource dataSource( @Value( "${jdbc.driverClass}" ) String driverClassName,

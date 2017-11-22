@@ -15,10 +15,12 @@
     </properties>
     <modules>
         <module>19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling</module>
-    <module>19.4.JDBC_batch_operations</module>
-    <module>19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes</module>
-    <module>19.6.Modeling_JDBC_operations_as_Java_objects</module>
-  </modules>
+        <module>19.4.JDBC_batch_operations</module>
+        <module>19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes</module>
+        <module>19.6.Modeling_JDBC_operations_as_Java_objects</module>
+        <module>19.7.Common_problems_with_parameter_and_data_value_handling</module>
+        <module>19.8.Embedded_database_support</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
