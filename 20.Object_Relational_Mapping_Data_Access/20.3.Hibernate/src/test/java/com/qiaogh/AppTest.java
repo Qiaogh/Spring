@@ -1,38 +1,112 @@
 package com.qiaogh;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.Resource;
+import javax.sql.rowset.serial.SerialException;
+
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.qiaogh.config.AppConfig;
+import com.qiaogh.config.AppTestConfig;
+import com.qiaogh.domain.Person;
+import com.qiaogh.service.PersonService;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+@RunWith( SpringRunner.class )
+@ContextConfiguration( classes = { AppConfig.class, AppTestConfig.class } )
+public class AppTest {
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
+    @Resource( type = PersonService.class )
+    private PersonPersistenceSupport persistenceSupport;
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @Resource( type = PersonService.class )
+    private PersonQuerySupport querySupport;
+
+    @Test
+    @Transactional
+    public void testCount() throws SerialException, SQLException {
+        Person person = newPerson();
+        persistenceSupport.save( person );
+        int count = querySupport.count();
+        Assert.assertEquals( 1, count );
+    }
+    
+    @Test
+    @Transactional
+    public void testSave() throws SerialException, SQLException {
+        Person person = newPerson();
+        Integer id = persistenceSupport.save( person );
+        Person persistencePerson = querySupport.get( id );
+        Assert.assertTrue( persistencePerson != null );
+        Assert.assertEquals( person.getName(), persistencePerson.getName() );
+        Assert.assertEquals( person.getAge(), persistencePerson.getAge() );
+        Assert.assertEquals( person.getData(), persistencePerson.getData() );
+    }
+    
+    @Test
+    @Transactional
+    public void testDelete() throws SerialException, SQLException {
+        Person person = newPerson();
+        Integer id = persistenceSupport.save( person );
+        Person persistencePerson = querySupport.get( id );
+        Assert.assertTrue( persistencePerson != null );
+        Assert.assertEquals( person.getName(), persistencePerson.getName() );
+        Assert.assertEquals( person.getAge(), persistencePerson.getAge() );
+        Assert.assertEquals( person.getData(), persistencePerson.getData() );
+        persistenceSupport.delete( id );
+        Assert.assertNull(  querySupport.get( id ) );
+    }
+    
+    @Test
+    @Transactional
+    public void testUpdate() throws SerialException, SQLException {
+        String newName = "QiaoGuoHuan";
+        Integer newAge = 16;
+        String newData = "BBBB";
+        Person person = newPerson();
+        Integer id = persistenceSupport.save( person );
+        Person persistencePerson = querySupport.get( id );
+        Assert.assertTrue( persistencePerson != null );
+        Assert.assertEquals( person.getName(), persistencePerson.getName() );
+        Assert.assertEquals( person.getAge(), persistencePerson.getAge() );
+        Assert.assertEquals( person.getData(), persistencePerson.getData() );
+        persistencePerson.setName( newName );
+        persistencePerson.setAge( newAge );
+        persistencePerson.setData( newData );
+        persistenceSupport.update( persistencePerson );
+        persistencePerson = querySupport.get( id );
+        Assert.assertTrue( persistencePerson != null );
+        Assert.assertEquals( newName, persistencePerson.getName() );
+        Assert.assertEquals( newAge, persistencePerson.getAge() );
+        Assert.assertEquals( newData, persistencePerson.getData() );
+    }
+    
+    @Test
+    @Transactional
+    public void testQuery() throws SerialException, SQLException {
+        List<Integer> ids = new ArrayList<Integer>( 3 );
+        ids.add( persistenceSupport.save( newPerson() ) );
+        ids.add( persistenceSupport.save( newPerson() ) );
+        ids.add( persistenceSupport.save( newPerson() ) );
+        List<Person> persons = querySupport.query( ids.toArray( new Integer[ ids.size() ] ) );
+        Assert.assertEquals( ids.size(), persons.size() );
+    }
+    
+    private Person newPerson() throws SerialException, SQLException {
+        Person person = new Person();
+        person.setName( "Qiaogh" );
+        person.setAge( 26 );
+        person.setData( "AAA" );
+        return person;
     }
 }

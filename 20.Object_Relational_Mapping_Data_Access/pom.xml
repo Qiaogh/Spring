@@ -13,15 +13,13 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <modules>
+        <module>20.3.Hibernate</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
-            <version>4.3.7.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
             <version>4.3.7.RELEASE</version>
         </dependency>
         <dependency>
@@ -35,13 +33,15 @@
             <version>5.1.44</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.6</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
             <version>4.3.7.RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-  <modules>
-    <module>20.3.Hibernate</module>
-  </modules>
 </project>
