@@ -17,6 +17,7 @@
     <module>17.Transaction_Management</module>
     <module>19.Data_access_with_JDBC</module>
     <module>20.Object_Relational_Mapping_Data_Access</module>
+    <module>21.Marshalling_XML_using_O_X_Mappers</module>
   </modules>
 
     <name>spring</name>
