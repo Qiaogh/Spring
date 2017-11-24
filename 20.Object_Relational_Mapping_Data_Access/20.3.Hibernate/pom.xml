@@ -26,4 +26,8 @@
             <version>4.3.7.RELEASE</version>
         </dependency>
     </dependencies>
+    <modules>
+        <module>20.3.3.Declarative_transaction_demarcation</module>
+        <module>20.3.8.Mixture_transaction</module>
+    </modules>
 </project>
