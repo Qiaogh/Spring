@@ -15,14 +15,13 @@ import org.springframework.oxm.Unmarshaller;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.qiaogh.config.AppConfig;
 import com.qiaogh.config.Settings;
 
 /**
  * Unit test for simple App.
  */
 @RunWith( SpringRunner.class )
-@ContextConfiguration( classes = AppConfig.class )
+@ContextConfiguration( "classpath:applicationContext.xml" )
 public class AppTest {
 
     private static final String FILE_NAME = "settings.xml";

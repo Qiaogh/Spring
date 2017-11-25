@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+    <class name="com.qiaogh.config.Settings">
+        <map-to xml="settings" />
+        <field name="fooEnabled" type="boolean">
+            <bind-xml name="foo-enabled" node="element" />
+        </field>
+    </class>
+</mapping>

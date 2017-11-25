@@ -6,8 +6,8 @@
         <artifactId>21.Marshalling_XML_using_O_X_Mappers</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>21.3.Using_Marshaller_and_Unmarshaller</artifactId>
-    <name>21.3.Using_Marshaller_and_Unmarshaller</name>
+    <artifactId>21.5.JAXB</artifactId>
+    <name>21.5.JAXB</name>
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
