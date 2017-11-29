@@ -12,7 +12,7 @@ public class ConfigManageController {
     @RequestMapping( "/testRequest" )
     public ModelAndView testRequest( HttpEntity<String> request ) {
         ModelAndView mv = new ModelAndView( "config/testRequest" );
-        mv.addAllObjects( request.getHeaders() );
+        mv.addAllObjects( request.getHeaders().toSingleValueMap() );
         mv.addObject( "body", request.getBody() );
         return mv;
     }

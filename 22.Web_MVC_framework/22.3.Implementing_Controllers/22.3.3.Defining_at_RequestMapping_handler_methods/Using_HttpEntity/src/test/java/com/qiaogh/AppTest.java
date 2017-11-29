@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.ContextHierarchy;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -47,6 +48,7 @@ public class AppTest {
     public void testRequest() throws Exception {
         MvcResult result = mvc.perform(
                     MockMvcRequestBuilders.get( "/config/testRequest" )
+                    .contentType( MediaType.TEXT_HTML )
                     .header( "name", "Qiaogh" )
                     .header( "age", "26" )
                     .content( "This is body!" ) )
