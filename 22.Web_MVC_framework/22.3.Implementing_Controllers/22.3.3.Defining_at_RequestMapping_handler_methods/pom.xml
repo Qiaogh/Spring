@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>22.3.Implementing_Controllers</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>22.3.3.Defining_at_RequestMapping_handler_methods</artifactId>
+    <name>22.3.3.Defining_at_RequestMapping_handler_methods</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  <modules>
+    <module>Supported_method_argument_types</module>
+    <module>Binding_request_parameters_to_method_parameters_with_at_RequestParam</module>
+    <module>Mapping_the_request_body_with_the_at_RequestBody_annotation</module>
+    <module>Mapping_the_response_body_with_the_at_ResponseBody_annotation</module>
+    <module>Using_HttpEntity</module>
+  </modules>
+</project>

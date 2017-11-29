@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+    <class name="com.qiaogh.domain.Person">
+        <map-to xml="person" />
+        <field name="name" type="string">
+            <bind-xml name="name" node="element" />
+        </field>
+        <field name="age" tyle="integer">
+            <bind-xml name="age" node="element" />
+        </field>
+    </class>
+</mapping>

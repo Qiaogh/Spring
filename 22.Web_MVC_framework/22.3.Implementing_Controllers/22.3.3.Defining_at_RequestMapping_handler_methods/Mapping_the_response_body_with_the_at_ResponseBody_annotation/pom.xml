@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>22.3.3.Defining_at_RequestMapping_handler_methods</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>Mapping_the_response_body_with_the_at_ResponseBody_annotation</artifactId>
+    <name>Mapping_the_response_body_with_the_at_ResponseBody_annotation</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>

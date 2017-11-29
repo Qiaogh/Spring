@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>22.3.Implementing_Controllers</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>22.3.2.Mapping_Requests_With_at_RequestMapping</artifactId>
+    <name>22.3.2.Mapping_Requests_With_at_RequestMapping</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>URI_Template_Patterns</module>
+        <module>URI_Template_Patterns_with_Regular_Expressions</module>
+        <module>Matrix_Variables</module>
+    </modules>
+</project>
