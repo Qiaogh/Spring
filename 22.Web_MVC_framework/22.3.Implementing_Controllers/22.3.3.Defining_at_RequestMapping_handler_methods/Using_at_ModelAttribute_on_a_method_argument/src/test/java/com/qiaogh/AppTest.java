@@ -45,12 +45,11 @@ public class AppTest {
     }
     
     @Test
-    public void testSimple() throws Exception {
+    public void testAutoBinding() throws Exception {
         MvcResult result = mvc.perform(
-                    MockMvcRequestBuilders.get( "/config/simple" )
-                    .param( "name", "Qiaogh" )
+                    MockMvcRequestBuilders.get( "/config/autoBinding" )
                     .param( "age", "26" ) )
-                .andExpect( MockMvcResultMatchers.view().name( "config/simple" ) )
+                .andExpect( MockMvcResultMatchers.view().name( "config/autoBinding" ) )
                 .andExpect( MockMvcResultMatchers.model().attributeExists( "person" ) )
                 .andDo( MockMvcResultHandlers.print() )
                 .andReturn();
@@ -60,5 +59,30 @@ public class AppTest {
         Person person = (Person) model.get( "person" );
         Assert.assertEquals( "Qiaogh", person.getName() );
         Assert.assertEquals( Integer.valueOf( 26 ), person.getAge() );
+    }
+    
+    @Test
+    public void testUnBinding() throws Exception {
+        MvcResult result = mvc.perform( MockMvcRequestBuilders.get( "/config/unBinding" ) )
+                .andExpect( MockMvcResultMatchers.view().name( "config/unBinding" ) )
+                .andExpect( MockMvcResultMatchers.model().attributeExists( "person" ) )
+                .andDo( MockMvcResultHandlers.print() )
+                .andReturn();
+        
+        Map<String, Object> model = result.getModelAndView().getModel();
+        Assert.assertNotNull( model );
+        Person person = (Person) model.get( "person" );
+        Assert.assertNull( person.getName() );
+        Assert.assertNull( person.getAge() );
+    }
+    
+    @Test
+    public void testValidateBinding() throws Exception {
+        MvcResult result = mvc.perform(
+                    MockMvcRequestBuilders.get( "/config/validateBinding" )
+                    .param( "age", "26" ) )
+                .andExpect( MockMvcResultMatchers.view().name( "config/validateErrors" ) )
+                .andDo( MockMvcResultHandlers.print() )
+                .andReturn();
     }
 }
