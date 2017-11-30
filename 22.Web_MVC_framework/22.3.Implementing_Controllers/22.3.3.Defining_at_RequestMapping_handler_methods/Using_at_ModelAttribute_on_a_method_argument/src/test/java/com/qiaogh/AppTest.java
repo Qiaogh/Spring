@@ -7,7 +7,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.ContextHierarchy;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -22,6 +21,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import com.qiaogh.config.AppConfig;
 import com.qiaogh.config.MvcConfig;
+import com.qiaogh.domain.Person;
 
 
 /**
@@ -45,30 +45,20 @@ public class AppTest {
     }
     
     @Test
-    public void testHttpEntity() throws Exception {
+    public void testSimple() throws Exception {
         MvcResult result = mvc.perform(
-                    MockMvcRequestBuilders.get( "/config/httpEntity" )
-                    .contentType( MediaType.TEXT_HTML )
-                    .header( "name", "Qiaogh" )
-                    .header( "age", "26" )
-                    .content( "This is body!" ) )
-                .andExpect( MockMvcResultMatchers.view().name( "config/httpEntity" ) )
-                .andExpect( MockMvcResultMatchers.model().attributeExists( "body" ) )
+                    MockMvcRequestBuilders.get( "/config/simple" )
+                    .param( "name", "Qiaogh" )
+                    .param( "age", "26" ) )
+                .andExpect( MockMvcResultMatchers.view().name( "config/simple" ) )
+                .andExpect( MockMvcResultMatchers.model().attributeExists( "person" ) )
                 .andDo( MockMvcResultHandlers.print() )
                 .andReturn();
         
         Map<String, Object> model = result.getModelAndView().getModel();
         Assert.assertNotNull( model );
-        Assert.assertEquals( "Qiaogh", model.get( "name" ) );
-        Assert.assertEquals( "26", model.get( "age" ) );
-        Assert.assertEquals( "This is body!", model.get( "body" ) );
-    }
-    
-    @Test
-    public void testResponseEntity() throws Exception {
-        mvc.perform( MockMvcRequestBuilders.get( "/config/responseEntity/1" )
-                    .contentType( MediaType.TEXT_HTML ) )
-                .andExpect( MockMvcResultMatchers.header().string( "value", "1" ) )
-                .andReturn();
+        Person person = (Person) model.get( "person" );
+        Assert.assertEquals( "Qiaogh", person.getName() );
+        Assert.assertEquals( Integer.valueOf( 26 ), person.getAge() );
     }
 }

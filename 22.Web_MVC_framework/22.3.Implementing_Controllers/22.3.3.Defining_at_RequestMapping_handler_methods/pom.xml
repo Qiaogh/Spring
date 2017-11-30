@@ -19,5 +19,7 @@
     <module>Mapping_the_request_body_with_the_at_RequestBody_annotation</module>
     <module>Mapping_the_response_body_with_the_at_ResponseBody_annotation</module>
     <module>Using_HttpEntity</module>
+    <module>Using_at_ModelAttribute_on_a_method</module>
+    <module>Using_at_ModelAttribute_on_a_method_argument</module>
   </modules>
 </project>
