@@ -8,7 +8,7 @@ import com.qiaogh.domain.Person;
 
 public class PersonValidator implements Validator {
 
-    private static int MIN_AGE = 0;
+    private static int MIN_AGE = 1;
     private static int MAX_AGE = 100;
     
     @Override

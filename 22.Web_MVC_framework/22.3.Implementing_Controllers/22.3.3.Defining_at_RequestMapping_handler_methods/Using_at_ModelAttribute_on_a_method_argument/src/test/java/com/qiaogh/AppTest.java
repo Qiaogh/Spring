@@ -78,9 +78,8 @@ public class AppTest {
     
     @Test
     public void testValidateBinding() throws Exception {
-        MvcResult result = mvc.perform(
-                    MockMvcRequestBuilders.get( "/config/validateBinding" )
-                    .param( "age", "26" ) )
+        mvc.perform( MockMvcRequestBuilders.get( "/config/validateBinding" )
+                    .param( "age", "0" ) )
                 .andExpect( MockMvcResultMatchers.view().name( "config/validateErrors" ) )
                 .andDo( MockMvcResultHandlers.print() )
                 .andReturn();
