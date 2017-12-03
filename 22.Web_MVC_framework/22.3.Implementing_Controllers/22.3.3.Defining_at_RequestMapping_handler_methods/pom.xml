@@ -21,5 +21,7 @@
     <module>Using_HttpEntity</module>
     <module>Using_at_ModelAttribute_on_a_method</module>
     <module>Using_at_ModelAttribute_on_a_method_argument</module>
+    <module>Using_at_SessionAttributes_to_store_model_attributes_in_the_HTTP_session_between_requests</module>
+    <module>Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes</module>
   </modules>
 </project>
