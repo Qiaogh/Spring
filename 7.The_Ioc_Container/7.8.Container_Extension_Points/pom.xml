@@ -15,7 +15,7 @@
     </properties>
     <modules>
         <module>7.8.1.Customizing_beans_using_a_BeanPostProcessor</module>
-    <module>7.8.2.Customizing_configuration_metadata_with_a_BeanFactoryPostProcessor</module>
-    <module>7.8.3.Customizing_instantiation_logic_with_a_FactoryBean</module>
-  </modules>
+        <module>7.8.2.Customizing_configuration_metadata_with_a_BeanFactoryPostProcessor</module>
+        <module>7.8.3.Customizing_instantiation_logic_with_a_FactoryBean</module>
+    </modules>
 </project>

@@ -19,6 +19,6 @@
         <module>Context_configuration_with_environment_profiles</module>
         <module>Context_configuration_with_test_property_sources</module>
         <module>Loading_a_WebApplicationContext</module>
-    <module>Context_hierarchies</module>
-  </modules>
+        <module>Context_hierarchies</module>
+    </modules>
 </project>

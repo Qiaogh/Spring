@@ -15,6 +15,6 @@
     </properties>
     <modules>
         <module>7.15.1.Internationalization_using_MessageSource</module>
-    <module>7.15.2.Standard_and_Custom_Events</module>
-  </modules>
+        <module>7.15.2.Standard_and_Custom_Events</module>
+    </modules>
 </project>

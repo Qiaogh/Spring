@@ -15,13 +15,13 @@
     </properties>
     <modules>
         <module>22.2.The_DispatcherServlet</module>
-    <module>22.3.Implementing_Controllers</module>
-  </modules>
+        <module>22.3.Implementing_Controllers</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
         <dependency>
@@ -33,7 +33,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

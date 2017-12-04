@@ -14,25 +14,26 @@
         <module>11.Aspect_Oriented_Programming_with_Spring</module>
         <module>12.Spring_AOP_APIs</module>
         <module>15.Integration_Testing</module>
-    <module>17.Transaction_Management</module>
-    <module>19.Data_access_with_JDBC</module>
-    <module>20.Object_Relational_Mapping_Data_Access</module>
-    <module>21.Marshalling_XML_using_O_X_Mappers</module>
-    <module>22.Web_MVC_framework</module>
-  </modules>
+        <module>17.Transaction_Management</module>
+        <module>19.Data_access_with_JDBC</module>
+        <module>20.Object_Relational_Mapping_Data_Access</module>
+        <module>21.Marshalling_XML_using_O_X_Mappers</module>
+        <module>22.Web_MVC_framework</module>
+    </modules>
 
     <name>spring</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <springframework.version>4.3.13.RELEASE</springframework.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>commons-logging</groupId>

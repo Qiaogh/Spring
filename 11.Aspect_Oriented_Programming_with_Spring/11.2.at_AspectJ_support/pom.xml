@@ -13,11 +13,11 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
     <modules>
         <module>11.2.2.Declaring_an_aspect</module>
         <module>11.2.3.Declaring_a_pointcut</module>
         <module>11.2.4.Declaring_advice</module>
-    <module>11.2.5.Introductions</module>
-  </modules>
+        <module>11.2.5.Introductions</module>
+    </modules>
 </project>

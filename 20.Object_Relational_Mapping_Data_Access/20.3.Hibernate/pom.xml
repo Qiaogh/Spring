@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-orm</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
     </dependencies>
     <modules>

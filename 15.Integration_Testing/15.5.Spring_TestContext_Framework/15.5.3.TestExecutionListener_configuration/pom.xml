@@ -15,7 +15,7 @@
     </properties>
     <modules>
         <module>Registering_custom_TestExecutionListeners</module>
-    <module>Automatic_discovery_of_default_TestExecutionListeners</module>
-    <module>Merging_TestExecutionListeners</module>
-  </modules>
+        <module>Automatic_discovery_of_default_TestExecutionListeners</module>
+        <module>Merging_TestExecutionListeners</module>
+    </modules>
 </project>

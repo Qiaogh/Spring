@@ -16,6 +16,6 @@
     <modules>
         <module>Declaring_simple_advice</module>
         <module>Declaring_annotation_advice</module>
-    <module>Declaring_generic_parameter_advice</module>
-  </modules>
+        <module>Declaring_generic_parameter_advice</module>
+    </modules>
 </project>

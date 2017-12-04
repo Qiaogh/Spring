@@ -15,6 +15,6 @@
     </properties>
     <modules>
         <module>19.7.2.Handling_BLOB_and_CLOB_objects</module>
-    <module>19.7.3.Passing_in_lists_of_values_for_IN_clause</module>
-  </modules>
+        <module>19.7.3.Passing_in_lists_of_values_for_IN_clause</module>
+    </modules>
 </project>

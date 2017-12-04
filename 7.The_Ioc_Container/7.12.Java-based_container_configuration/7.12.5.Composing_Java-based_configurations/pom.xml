@@ -16,6 +16,6 @@
     <modules>
         <module>Using_the_at_Import_annotation</module>
         <module>Conditionally_include_at_Configuration_classes_or_at_Bean_methods</module>
-    <module>Combining_Java_and_XML_configuration</module>
-  </modules>
+        <module>Combining_Java_and_XML_configuration</module>
+    </modules>
 </project>

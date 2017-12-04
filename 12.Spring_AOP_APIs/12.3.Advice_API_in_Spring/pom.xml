@@ -15,9 +15,9 @@
     </properties>
     <modules>
         <module>Interception_around_advice</module>
-    <module>Before_advice</module>
-    <module>Throws_advice</module>
-    <module>After_Returning_advice</module>
-    <module>Introduction_advice</module>
-  </modules>
+        <module>Before_advice</module>
+        <module>Throws_advice</module>
+        <module>After_Returning_advice</module>
+        <module>Introduction_advice</module>
+    </modules>
 </project>

@@ -12,12 +12,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
     </dependencies>
 </project>

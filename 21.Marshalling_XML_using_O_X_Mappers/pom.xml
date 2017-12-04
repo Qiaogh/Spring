@@ -17,8 +17,8 @@
         <module>21.3.Using_Marshaller_and_Unmarshaller</module>
         <module>21.5.JAXB</module>
         <module>21.6.Castor</module>
-    <module>21.9.XStream</module>
-  </modules>
+        <module>21.9.XStream</module>
+    </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.codehaus.castor/castor-xml -->
         <dependency>
@@ -29,12 +29,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-oxm</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

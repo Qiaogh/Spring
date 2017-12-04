@@ -15,7 +15,7 @@
     </properties>
     <modules>
         <module>CommandManager</module>
-    <module>Lookup_method_injection</module>
-    <module>Annotation-based_Lookup_method_injection</module>
-  </modules>
+        <module>Lookup_method_injection</module>
+        <module>Annotation-based_Lookup_method_injection</module>
+    </modules>
 </project>

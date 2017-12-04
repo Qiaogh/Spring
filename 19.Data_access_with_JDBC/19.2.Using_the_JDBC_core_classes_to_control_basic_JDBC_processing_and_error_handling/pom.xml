@@ -15,7 +15,7 @@
     </properties>
     <modules>
         <module>19.2.1.JdbcTemplate</module>
-    <module>19.2.2.NamedParameterJdbcTemplate</module>
-    <module>19.2.7.Retrieving_auto_generated_keys</module>
-  </modules>
+        <module>19.2.2.NamedParameterJdbcTemplate</module>
+        <module>19.2.7.Retrieving_auto_generated_keys</module>
+    </modules>
 </project>

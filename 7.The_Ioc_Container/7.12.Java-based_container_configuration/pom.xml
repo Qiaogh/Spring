@@ -15,7 +15,7 @@
     </properties>
     <modules>
         <module>7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext</module>
-    <module>7.12.4.Using_the_at_Configuration_annotation</module>
-    <module>7.12.5.Composing_Java-based_configurations</module>
-  </modules>
+        <module>7.12.4.Using_the_at_Configuration_annotation</module>
+        <module>7.12.5.Composing_Java-based_configurations</module>
+    </modules>
 </project>

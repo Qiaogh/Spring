@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.qiaogh</groupId>
-    <artifactId>7.The_Ioc_Container</artifactId>
-    <version>1.0-SNAPSHOT</version>
-  </parent>
-  <artifactId>7.10.Classpath_scanning_and_managed_components</artifactId>
-  <name>7.10.Classpath_scanning_and_managed_components</name>
-  <url>http://maven.apache.org</url>
-  <packaging>pom</packaging>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-  <modules>
-      <module>7.10.1.at_Component_and_further_stereotype_annotations</module>
-    <module>7.10.4.Using_filters_to_customize_scanning</module>
-    <module>7.10.5.Defining_bean_metadata_within_components</module>
-    <module>7.10.6.Naming_autodetected_components</module>
-    <module>7.10.7.Providing_a_scope_for_autodetected_components</module>
-    <module>7.10.8.Providing_qualifier_metadata_with_annotations</module>
-  </modules>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.qiaogh</groupId>
+        <artifactId>7.The_Ioc_Container</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>7.10.Classpath_scanning_and_managed_components</artifactId>
+    <name>7.10.Classpath_scanning_and_managed_components</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <modules>
+        <module>7.10.1.at_Component_and_further_stereotype_annotations</module>
+        <module>7.10.4.Using_filters_to_customize_scanning</module>
+        <module>7.10.5.Defining_bean_metadata_within_components</module>
+        <module>7.10.6.Naming_autodetected_components</module>
+        <module>7.10.7.Providing_a_scope_for_autodetected_components</module>
+        <module>7.10.8.Providing_qualifier_metadata_with_annotations</module>
+    </modules>
 </project>

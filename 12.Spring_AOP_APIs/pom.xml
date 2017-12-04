@@ -19,7 +19,7 @@
         <module>12.5.Using_the_ProxyFactoryBean_to_create_AOP_proxies</module>
         <module>12.8.Manipulating_advised_objects</module>
         <module>12.9.Using_the_auto-proxy_facility</module>
-    <module>12.10.Using_TargetSources</module>
-    <module>12.11.Defining_new_Advice_types</module>
-  </modules>
+        <module>12.10.Using_TargetSources</module>
+        <module>12.11.Defining_new_Advice_types</module>
+    </modules>
 </project>

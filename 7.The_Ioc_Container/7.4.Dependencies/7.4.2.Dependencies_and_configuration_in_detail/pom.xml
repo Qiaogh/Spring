@@ -15,7 +15,7 @@
     </properties>
     <modules>
         <module>Circular_dependencies</module>
-    <module>Collection_merging</module>
-    <module>Compound_property_names</module>
-  </modules>
+        <module>Collection_merging</module>
+        <module>Compound_property_names</module>
+    </modules>
 </project>

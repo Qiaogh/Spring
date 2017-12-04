@@ -16,7 +16,7 @@
     <modules>
         <module>12.2.1.Concepts</module>
         <module>12.2.3.AspectJ_expression_pointcuts</module>
-    <module>12.2.4.Convenience_pointcut_implementations</module>
-    <module>12.2.5.Pointcut_superclasses</module>
-  </modules>
+        <module>12.2.4.Convenience_pointcut_implementations</module>
+        <module>12.2.5.Pointcut_superclasses</module>
+    </modules>
 </project>

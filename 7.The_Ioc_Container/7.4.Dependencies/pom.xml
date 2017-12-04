@@ -14,7 +14,7 @@
         <module>7.4.2.Dependencies_and_configuration_in_detail</module>
         <module>7.4.5.Autowiring_collaborators</module>
         <module>7.4.6.Method_injection</module>
-  </modules>
+    </modules>
 
 
 </project>

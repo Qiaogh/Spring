@@ -16,7 +16,7 @@
     <modules>
         <module>7.5.1.The_singleton_scope</module>
         <module>7.5.2.The_prototype_scope</module>
-    <module>7.5.4.Request_session_global_session_application_and_WebSocket_scopes</module>
-    <module>7.5.5.Custom_scopes</module>
-  </modules>
+        <module>7.5.4.Request_session_global_session_application_and_WebSocket_scopes</module>
+        <module>7.5.5.Custom_scopes</module>
+    </modules>
 </project>

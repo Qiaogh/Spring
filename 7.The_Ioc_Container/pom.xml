@@ -13,15 +13,15 @@
         <module>7.3.Bean_overview</module>
         <module>7.4.Dependencies</module>
         <module>7.5.Bean_scopes</module>
-    <module>7.6.Customizing_the_nature_of_a_bean</module>
-    <module>7.7.Bean_definition_inheritance</module>
-    <module>7.8.Container_Extension_Points</module>
-    <module>7.9.Annotation-based_container_configuration</module>
-    <module>7.10.Classpath_scanning_and_managed_components</module>
-    <module>7.11.Using_JSR_330_Standard_Annotations</module>
-    <module>7.12.Java-based_container_configuration</module>
-    <module>7.13.Environment_abstraction</module>
-    <module>7.15.Additional_Capabilities_of_the_ApplicationContext</module>
-  </modules>
+        <module>7.6.Customizing_the_nature_of_a_bean</module>
+        <module>7.7.Bean_definition_inheritance</module>
+        <module>7.8.Container_Extension_Points</module>
+        <module>7.9.Annotation-based_container_configuration</module>
+        <module>7.10.Classpath_scanning_and_managed_components</module>
+        <module>7.11.Using_JSR_330_Standard_Annotations</module>
+        <module>7.12.Java-based_container_configuration</module>
+        <module>7.13.Environment_abstraction</module>
+        <module>7.15.Additional_Capabilities_of_the_ApplicationContext</module>
+    </modules>
 
 </project>

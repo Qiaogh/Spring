@@ -6,6 +6,7 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.oxm.Marshaller;
 import org.springframework.oxm.castor.CastorMarshaller;
 
+@SuppressWarnings( "deprecation" )
 @Configuration
 public class AppConfig {
 

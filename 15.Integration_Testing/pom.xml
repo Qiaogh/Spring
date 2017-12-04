@@ -17,7 +17,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>4.3.7.RELEASE</version>
+            <version>${springframework.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
