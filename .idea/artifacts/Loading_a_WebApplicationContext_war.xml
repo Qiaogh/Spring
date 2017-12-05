@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Loading_a_WebApplicationContext:war">
+    <output-path>$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Loading_a_WebApplicationContext/target</output-path>
+    <root id="archive" name="Loading_a_WebApplicationContext-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Loading_a_WebApplicationContext:war exploded" />
+    </root>
+  </artifact>
+</component>

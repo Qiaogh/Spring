@@ -2,6 +2,9 @@ package com.qiaogh;
 
 import java.util.Map;
 
+import com.qiaogh.domain.Person;
+import com.qiaogh.domain.User;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,6 +17,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.result.MockMvcResultHandlers;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
@@ -55,12 +59,13 @@ public class AppTest {
                     .session( session ) )
                 .andExpect( MockMvcResultMatchers.view().name( "userManage/info" ) )
                 .andExpect( MockMvcResultMatchers.model().attributeExists( "user" ) )
-//                .andDo( MockMvcResultHandlers.print() )
+                .andDo( MockMvcResultHandlers.print() )
                 .andReturn();
-        System.out.println( result.getRequest().getSession().getAttribute( "user" ) );
         
         Map<String, Object> model = result.getModelAndView().getModel();
-        
-        System.out.println( model );
+        User user = (User) model.get( "user" );
+        Assert.assertNotNull( user );
+        Assert.assertEquals( "Qiaogh", user.getName() );
+        Assert.assertEquals( Integer.valueOf( 26 ), user.getAge() );
     }
 }

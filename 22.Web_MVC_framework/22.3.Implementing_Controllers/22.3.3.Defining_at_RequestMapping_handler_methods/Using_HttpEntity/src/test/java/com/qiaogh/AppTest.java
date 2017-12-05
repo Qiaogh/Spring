@@ -69,6 +69,7 @@ public class AppTest {
         mvc.perform( MockMvcRequestBuilders.get( "/config/responseEntity/1" )
                     .contentType( MediaType.TEXT_HTML ) )
                 .andExpect( MockMvcResultMatchers.header().string( "value", "1" ) )
+                .andDo( MockMvcResultHandlers.print() )
                 .andReturn();
     }
 }

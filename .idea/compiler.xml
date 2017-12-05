@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="10.3.1.The_EvaluationContext_interface" />
+        <module name="10.3.2.Parser_configuration" />
+        <module name="10.3.3.SpEL_compilation" />
+        <module name="10.4.Expression_support_for_defining_bean_definitions" />
+        <module name="10.5.1.Literal_expressions" />
+        <module name="10.5.11.Variables" />
+        <module name="10.5.12.Functions" />
+        <module name="10.5.13.Bean_references" />
+        <module name="10.5.16.Safe_Navigation_operator" />
+        <module name="10.5.17.Collection_Selection" />
+        <module name="10.5.18.Collection_Projection" />
+        <module name="10.5.19_Expression_templating" />
+        <module name="10.5.3.Inline_lists" />
+        <module name="10.5.4.Inline_Maps" />
+        <module name="10.5.5.Array_construction" />
+        <module name="10.5.6.Methods" />
+        <module name="10.5.7.Operators" />
+        <module name="10.5.9.Types" />
+        <module name="11.2.2.Declaring_an_aspect" />
+        <module name="11.2.5.Introductions" />
+        <module name="11.6.Proxying_mechanisms" />
+        <module name="11.7.Programmatic_creation_of_at_AspectJ_Proxies" />
+        <module name="12.10.1.Hot_swappable_target_sources" />
+        <module name="12.10.2.Pooling_target_sources" />
+        <module name="12.11.Defining_new_Advice_types" />
+        <module name="12.2.1.Concepts" />
+        <module name="12.2.3.AspectJ_expression_pointcuts" />
+        <module name="12.2.4.Convenience_pointcut_implementations" />
+        <module name="12.2.5.Pointcut_superclasses" />
+        <module name="12.5.Using_the_ProxyFactoryBean_to_create_AOP_proxies" />
+        <module name="12.8.Manipulating_advised_objects" />
+        <module name="15.5.6.Testing_request_and_session_scoped_beans" />
+        <module name="17.5.2.Example_of_declarative_transaction_implementation" />
+        <module name="17.5.3.Rolling_back_a_declarative_transaction" />
+        <module name="17.5.4.Configuring_different_transactional_semantics_for_different_beans" />
+        <module name="17.5.5.tx_advice_settings" />
+        <module name="17.5.7.Transaction_propagation" />
+        <module name="17.5.8.Advising_transactional_operations" />
+        <module name="17.6.1.Using_the_TransactionTemplate" />
+        <module name="17.6.2.Using_the_PlatformTransactionManager" />
+        <module name="17.8.Transaction_bound_event" />
+        <module name="19.2.1.JdbcTemplate" />
+        <module name="19.2.2.NamedParameterJdbcTemplate" />
+        <module name="19.2.7.Retrieving_auto_generated_keys" />
+        <module name="19.4.1.Basic_batch_operations_with_the_JdbcTemplate" />
+        <module name="19.4.2.Batch_operations_with_a_List_of_objects" />
+        <module name="19.4.3.Batch_operations_with_multiple_batches" />
+        <module name="19.5.1.Inserting_data_using_SimpleJdbcInsert" />
+        <module name="19.5.2.Retrieving_auto_generated_keys_using_SimpleJdbcInsert" />
+        <module name="19.5.4.Using_SqlParameterSource_to_provide_parameter_values" />
+        <module name="19.5.5.Calling_a_stored_procedure_with_SimpleJdbcCall" />
+        <module name="19.5.6.Explicitly_declaring_parameters_to_use_for_a_SimpleJdbcCall" />
+        <module name="19.5.8.Calling_a_stored_function_using_SimpleJdbcCall" />
+        <module name="19.5.9.Returning_ResultSet_or_REF_Cursor_from_a_SimpleJdbcCall" />
+        <module name="19.6.1.SqlQuery" />
+        <module name="19.6.3.SqlUpdate" />
+        <module name="19.7.2.Handling_BLOB_and_CLOB_objects" />
+        <module name="19.7.3.Passing_in_lists_of_values_for_IN_clause" />
+        <module name="19.8.2.Creating_an_embedded_database_using_Spring_XML" />
+        <module name="19.8.3.Creating_an_embedded_database_programmatically" />
+        <module name="20.3.3.Declarative_transaction_demarcation" />
+        <module name="20.3.8.Mixture_transaction" />
+        <module name="21.3.Using_Marshaller_and_Unmarshaller" />
+        <module name="21.5.JAXB" />
+        <module name="21.6.Castor" />
+        <module name="21.9.XStream" />
+        <module name="22.2.The_DispatcherServlet" />
+        <module name="7.10.1.at_Component_and_further_stereotype_annotations" />
+        <module name="7.10.4.Using_filters_to_customize_scanning" />
+        <module name="7.10.5.Defining_bean_metadata_within_components" />
+        <module name="7.10.6.Naming_autodetected_components" />
+        <module name="7.10.7.Providing_a_scope_for_autodetected_components" />
+        <module name="7.10.8.Providing_qualifier_metadata_with_annotations" />
+        <module name="7.11.1.Dependency_Injection_with_at_Inject_and_at_Named" />
+        <module name="7.11.2.at_Named_and_at_ManagedBean__standard_equivalents_to_the_at_Component_annotation" />
+        <module name="7.11.3.Limitations_of_JSR-330_standard_annotations" />
+        <module name="7.12.4.Using_the_at_Configuration_annotation" />
+        <module name="7.13.1.Bean_definition_profiles" />
+        <module name="7.13.2.XML_bean_definition_profiles" />
+        <module name="7.13.3.PropertySource_abstraction" />
+        <module name="7.13.4.at_PropertySource" />
+        <module name="7.15.1.Internationalization_using_MessageSource" />
+        <module name="7.3.2.Instantiating_beans" />
+        <module name="7.4.1.Dependency_Injection" />
+        <module name="7.4.5.Autowiring_collaborators" />
+        <module name="7.5.1.The_singleton_scope" />
+        <module name="7.5.2.The_prototype_scope" />
+        <module name="7.5.5.Custom_scopes" />
+        <module name="7.6.2.ApplicationContextAware_and_BeanNameAware" />
+        <module name="7.7.Bean_definition_inheritance" />
+        <module name="7.8.1.Customizing_beans_using_a_BeanPostProcessor" />
+        <module name="7.8.2.Customizing_configuration_metadata_with_a_BeanFactoryPostProcessor" />
+        <module name="7.8.3.Customizing_instantiation_logic_with_a_FactoryBean" />
+        <module name="7.9.1.at.Required" />
+        <module name="7.9.2.at_Autowired" />
+        <module name="7.9.3.Fine-tuning_annotation-based_autowiring_with_at_Primary" />
+        <module name="7.9.5.Using_generics_as_autowiring_qualifiers" />
+        <module name="7.9.6.CustomAutowireConfigurer" />
+        <module name="7.9.7.at_Resource" />
+        <module name="8.4.The_ResourceLoader" />
+        <module name="8.7.Application_contexts_and_Resource_paths" />
+        <module name="9.2.Validation_using_Spring_s_Validator_interface" />
+        <module name="9.3.Resolving_codes_to_error_messages" />
+        <module name="9.4.1.Setting_and_getting_basic_and_nested_properties" />
+        <module name="9.5.1_Converter_SPI" />
+        <module name="9.5.2.ConverterFactory" />
+        <module name="9.5.5.Configuring_a_ConversionService" />
+        <module name="9.5.6.Using_a_ConversionService_programmatically" />
+        <module name="9.6.1.Formatter_SPI" />
+        <module name="9.7.Configuring_a_global_date_and_time_format" />
+        <module name="AbstractAdvisorAutoProxyCreator" />
+        <module name="After_Returning_advice" />
+        <module name="Annotation-based_Event_Listeners" />
+        <module name="Annotation-based_Lookup_method_injection" />
+        <module name="Aop_scoped_proxy" />
+        <module name="Asynchronous_Listeners" />
+        <module name="at_Qualifier" />
+        <module name="at_Transactional_settings" />
+        <module name="Automatic_discovery_of_default_TestExecutionListeners" />
+        <module name="BasicForTransactionManagement" />
+        <module name="BeanNameAutoProxyCreator" />
+        <module name="Before_advice" />
+        <module name="Binding_request_parameters_to_method_parameters_with_at_RequestParam" />
+        <module name="Building_the_container_programmatically_using_register" />
+        <module name="Circular_dependencies" />
+        <module name="Collection_merging" />
+        <module name="Combining_Java_and_XML_configuration" />
+        <module name="Combining_lifecycle_mechanisms" />
+        <module name="CommandManager" />
+        <module name="Compound_property_names" />
+        <module name="Conditionally_include_at_Configuration_classes_or_at_Bean_methods" />
+        <module name="Context_configuration_with_annotated_classes" />
+        <module name="Context_configuration_with_context_initializers" />
+        <module name="Context_configuration_with_environment_profiles" />
+        <module name="Context_configuration_with_test_property_sources" />
+        <module name="Context_hierarchies" />
+        <module name="Custom_Qualifier" />
+        <module name="CustomEvents" />
+        <module name="Declaring_a_pointcut_by_xml" />
+        <module name="Declaring_an_aspect_by_xml" />
+        <module name="Declaring_annotation_advice" />
+        <module name="Declaring_generic_parameter_advice" />
+        <module name="Declaring_simple_advice" />
+        <module name="Declaring_simple_advice_by_xml" />
+        <module name="DefaultAdvisorAutoProxyCreator" />
+        <module name="Enabling_component_scanning_with_scan" />
+        <module name="Generic_Ordering_Events" />
+        <module name="Interception_around_advice" />
+        <module name="Introduction_advice" />
+        <module name="Introductions_by_xml" />
+        <module name="Jvm-based_Aop_scoped_proxy" />
+        <module name="Loading_a_WebApplicationContext" />
+        <module name="Lookup_method_injection" />
+        <module name="Mapping_the_request_body_with_the_at_RequestBody_annotation" />
+        <module name="Mapping_the_response_body_with_the_at_ResponseBody_annotation" />
+        <module name="Matrix_Variables" />
+        <module name="Merging_TestExecutionListeners" />
+        <module name="Registering_additional_custom_PropertyEditors" />
+        <module name="Registering_custom_TestExecutionListeners" />
+        <module name="Simple_construction" />
+        <module name="SimpleAtTransactional" />
+        <module name="StandardEvents" />
+        <module name="Startup_and_shutdown_callbacks" />
+        <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" />
+        <module name="Supported_method_argument_types" />
+        <module name="Throws_advice" />
+        <module name="URI_Template_Patterns" />
+        <module name="URI_Template_Patterns_with_Regular_Expressions" />
+        <module name="Using_at_ModelAttribute_on_a_method" />
+        <module name="Using_at_ModelAttribute_on_a_method_argument" />
+        <module name="Using_at_RequestAttribute_to_access_request_attributes" />
+        <module name="Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes" />
+        <module name="Using_at_SessionAttributes_to_store_model_attributes_in_the_HTTP_session_between_requests" />
+        <module name="Using_HttpEntity" />
+        <module name="Using_PropertyEditorRegistrars" />
+        <module name="Using_the_at_Import_annotation" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="10.3.1.The_EvaluationContext_interface" target="1.7" />
+      <module name="10.3.2.Parser_configuration" target="1.7" />
+      <module name="10.3.3.SpEL_compilation" target="1.7" />
+      <module name="10.3.Expression_Evaluation_using_Spring_s_Expression_Interface" target="1.7" />
+      <module name="10.4.Expression_support_for_defining_bean_definitions" target="1.7" />
+      <module name="10.5.1.Literal_expressions" target="1.7" />
+      <module name="10.5.11.Variables" target="1.7" />
+      <module name="10.5.12.Functions" target="1.7" />
+      <module name="10.5.13.Bean_references" target="1.7" />
+      <module name="10.5.16.Safe_Navigation_operator" target="1.7" />
+      <module name="10.5.17.Collection_Selection" target="1.7" />
+      <module name="10.5.18.Collection_Projection" target="1.7" />
+      <module name="10.5.19_Expression_templating" target="1.7" />
+      <module name="10.5.3.Inline_lists" target="1.7" />
+      <module name="10.5.4.Inline_Maps" target="1.7" />
+      <module name="10.5.5.Array_construction" target="1.7" />
+      <module name="10.5.6.Methods" target="1.7" />
+      <module name="10.5.7.Operators" target="1.7" />
+      <module name="10.5.9.Types" target="1.7" />
+      <module name="10.5.Language_Reference" target="1.7" />
+      <module name="10.Spring_Expression_Language_SpEL" target="1.7" />
+      <module name="11.2.2.Declaring_an_aspect" target="1.7" />
+      <module name="11.2.3.Declaring_a_pointcut" target="1.7" />
+      <module name="11.2.4.Declaring_advice" target="1.7" />
+      <module name="11.2.5.Introductions" target="1.7" />
+      <module name="11.2.at_AspectJ_support" target="1.7" />
+      <module name="11.3.Schema_based_AOP_support" target="1.7" />
+      <module name="11.6.Proxying_mechanisms" target="1.7" />
+      <module name="11.7.Programmatic_creation_of_at_AspectJ_Proxies" target="1.7" />
+      <module name="11.Aspect_Oriented_Programming_with_Spring" target="1.7" />
+      <module name="12.10.1.Hot_swappable_target_sources" target="1.7" />
+      <module name="12.10.2.Pooling_target_sources" target="1.7" />
+      <module name="12.10.Using_TargetSources" target="1.7" />
+      <module name="12.11.Defining_new_Advice_types" target="1.7" />
+      <module name="12.2.1.Concepts" target="1.7" />
+      <module name="12.2.3.AspectJ_expression_pointcuts" target="1.7" />
+      <module name="12.2.4.Convenience_pointcut_implementations" target="1.7" />
+      <module name="12.2.5.Pointcut_superclasses" target="1.7" />
+      <module name="12.2.Pointcut_API_in_Spring" target="1.7" />
+      <module name="12.3.Advice_API_in_Spring" target="1.7" />
+      <module name="12.5.Using_the_ProxyFactoryBean_to_create_AOP_proxies" target="1.7" />
+      <module name="12.8.Manipulating_advised_objects" target="1.7" />
+      <module name="12.9.1.Autoproxy_bean_definitions" target="1.7" />
+      <module name="12.9.Using_the_auto-proxy_facility" target="1.7" />
+      <module name="12.Spring_AOP_APIs" target="1.7" />
+      <module name="15.5.3.TestExecutionListener_configuration" target="1.7" />
+      <module name="15.5.4.Context_management" target="1.7" />
+      <module name="15.5.6.Testing_request_and_session_scoped_beans" target="1.7" />
+      <module name="15.5.Spring_TestContext_Framework" target="1.7" />
+      <module name="15.Integration_Testing" target="1.7" />
+      <module name="17.5.2.Example_of_declarative_transaction_implementation" target="1.7" />
+      <module name="17.5.3.Rolling_back_a_declarative_transaction" target="1.7" />
+      <module name="17.5.4.Configuring_different_transactional_semantics_for_different_beans" target="1.7" />
+      <module name="17.5.5.tx_advice_settings" target="1.7" />
+      <module name="17.5.6.Using_at_Transactional" target="1.7" />
+      <module name="17.5.7.Transaction_propagation" target="1.7" />
+      <module name="17.5.8.Advising_transactional_operations" target="1.7" />
+      <module name="17.5.Declarative_transaction_management" target="1.7" />
+      <module name="17.6.1.Using_the_TransactionTemplate" target="1.7" />
+      <module name="17.6.2.Using_the_PlatformTransactionManager" target="1.7" />
+      <module name="17.6.Programmatic_transaction_management" target="1.7" />
+      <module name="17.8.Transaction_bound_event" target="1.7" />
+      <module name="17.Transaction_Management" target="1.7" />
+      <module name="19.2.1.JdbcTemplate" target="1.7" />
+      <module name="19.2.2.NamedParameterJdbcTemplate" target="1.7" />
+      <module name="19.2.7.Retrieving_auto_generated_keys" target="1.7" />
+      <module name="19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling" target="1.7" />
+      <module name="19.4.1.Basic_batch_operations_with_the_JdbcTemplate" target="1.7" />
+      <module name="19.4.2.Batch_operations_with_a_List_of_objects" target="1.7" />
+      <module name="19.4.3.Batch_operations_with_multiple_batches" target="1.7" />
+      <module name="19.4.JDBC_batch_operations" target="1.7" />
+      <module name="19.5.1.Inserting_data_using_SimpleJdbcInsert" target="1.7" />
+      <module name="19.5.2.Retrieving_auto_generated_keys_using_SimpleJdbcInsert" target="1.7" />
+      <module name="19.5.4.Using_SqlParameterSource_to_provide_parameter_values" target="1.7" />
+      <module name="19.5.5.Calling_a_stored_procedure_with_SimpleJdbcCall" target="1.7" />
+      <module name="19.5.6.Explicitly_declaring_parameters_to_use_for_a_SimpleJdbcCall" target="1.7" />
+      <module name="19.5.8.Calling_a_stored_function_using_SimpleJdbcCall" target="1.7" />
+      <module name="19.5.9.Returning_ResultSet_or_REF_Cursor_from_a_SimpleJdbcCall" target="1.7" />
+      <module name="19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes" target="1.7" />
+      <module name="19.6.1.SqlQuery" target="1.7" />
+      <module name="19.6.3.SqlUpdate" target="1.7" />
+      <module name="19.6.Modeling_JDBC_operations_as_Java_objects" target="1.7" />
+      <module name="19.7.2.Handling_BLOB_and_CLOB_objects" target="1.7" />
+      <module name="19.7.3.Passing_in_lists_of_values_for_IN_clause" target="1.7" />
+      <module name="19.7.Common_problems_with_parameter_and_data_value_handling" target="1.7" />
+      <module name="19.8.2.Creating_an_embedded_database_using_Spring_XML" target="1.7" />
+      <module name="19.8.3.Creating_an_embedded_database_programmatically" target="1.7" />
+      <module name="19.8.Embedded_database_support" target="1.7" />
+      <module name="19.Data_access_with_JDBC" target="1.7" />
+      <module name="20.3.3.Declarative_transaction_demarcation" target="1.7" />
+      <module name="20.3.8.Mixture_transaction" target="1.7" />
+      <module name="20.3.Hibernate" target="1.7" />
+      <module name="20.Object_Relational_Mapping_Data_Access" target="1.7" />
+      <module name="21.3.Using_Marshaller_and_Unmarshaller" target="1.7" />
+      <module name="21.5.JAXB" target="1.7" />
+      <module name="21.6.Castor" target="1.7" />
+      <module name="21.9.XStream" target="1.7" />
+      <module name="21.Marshalling_XML_using_O_X_Mappers" target="1.7" />
+      <module name="22.2.The_DispatcherServlet" target="1.7" />
+      <module name="22.3.2.Mapping_Requests_With_at_RequestMapping" target="1.7" />
+      <module name="22.3.3.Defining_at_RequestMapping_handler_methods" target="1.7" />
+      <module name="22.3.Implementing_Controllers" target="1.7" />
+      <module name="22.Web_MVC_framework" target="1.7" />
+      <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
+      <module name="7.10.4.Using_filters_to_customize_scanning" target="1.7" />
+      <module name="7.10.5.Defining_bean_metadata_within_components" target="1.7" />
+      <module name="7.10.6.Naming_autodetected_components" target="1.7" />
+      <module name="7.10.7.Providing_a_scope_for_autodetected_components" target="1.7" />
+      <module name="7.10.8.Providing_qualifier_metadata_with_annotations" target="1.7" />
+      <module name="7.10.Classpath_scanning_and_managed_components" target="1.7" />
+      <module name="7.11.1.Dependency_Injection_with_at_Inject_and_at_Named" target="1.7" />
+      <module name="7.11.2.at_Named_and_at_ManagedBean__standard_equivalents_to_the_at_Component_annotation" target="1.7" />
+      <module name="7.11.3.Limitations_of_JSR-330_standard_annotations" target="1.7" />
+      <module name="7.11.Using_JSR_330_Standard_Annotations" target="1.7" />
+      <module name="7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext" target="1.7" />
+      <module name="7.12.4.Using_the_at_Configuration_annotation" target="1.7" />
+      <module name="7.12.5.Composing_Java-based_configurations" target="1.7" />
+      <module name="7.12.Java-based_container_configuration" target="1.7" />
+      <module name="7.13.1.Bean_definition_profiles" target="1.7" />
+      <module name="7.13.2.XML_bean_definition_profiles" target="1.7" />
+      <module name="7.13.3.PropertySource_abstraction" target="1.7" />
+      <module name="7.13.4.at_PropertySource" target="1.7" />
+      <module name="7.13.Environment_abstraction" target="1.7" />
+      <module name="7.15.1.Internationalization_using_MessageSource" target="1.7" />
+      <module name="7.15.2.Standard_and_Custom_Events" target="1.7" />
+      <module name="7.15.Additional_Capabilities_of_the_ApplicationContext" target="1.7" />
+      <module name="7.3.2.Instantiating_beans" target="1.7" />
+      <module name="7.3.Bean_overview" target="1.7" />
+      <module name="7.4.1.Dependency_Injection" target="1.7" />
+      <module name="7.4.2.Dependencies_and_configuration_in_detail" target="1.7" />
+      <module name="7.4.5.Autowiring_collaborators" target="1.7" />
+      <module name="7.4.6.Method_injection" target="1.7" />
+      <module name="7.4.Dependencies" target="1.7" />
+      <module name="7.5.1.The_singleton_scope" target="1.7" />
+      <module name="7.5.2.The_prototype_scope" target="1.7" />
+      <module name="7.5.4.Request_session_global_session_application_and_WebSocket_scopes" target="1.7" />
+      <module name="7.5.5.Custom_scopes" target="1.7" />
+      <module name="7.5.Bean_scopes" target="1.7" />
+      <module name="7.6.1.Lifecycle_callbacks" target="1.7" />
+      <module name="7.6.2.ApplicationContextAware_and_BeanNameAware" target="1.7" />
+      <module name="7.6.Customizing_the_nature_of_a_bean" target="1.7" />
+      <module name="7.7.Bean_definition_inheritance" target="1.7" />
+      <module name="7.8.1.Customizing_beans_using_a_BeanPostProcessor" target="1.7" />
+      <module name="7.8.2.Customizing_configuration_metadata_with_a_BeanFactoryPostProcessor" target="1.7" />
+      <module name="7.8.3.Customizing_instantiation_logic_with_a_FactoryBean" target="1.7" />
+      <module name="7.8.Container_Extension_Points" target="1.7" />
+      <module name="7.9.1.at.Required" target="1.7" />
+      <module name="7.9.2.at_Autowired" target="1.7" />
+      <module name="7.9.3.Fine-tuning_annotation-based_autowiring_with_at_Primary" target="1.7" />
+      <module name="7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers" target="1.7" />
+      <module name="7.9.5.Using_generics_as_autowiring_qualifiers" target="1.7" />
+      <module name="7.9.6.CustomAutowireConfigurer" target="1.7" />
+      <module name="7.9.7.at_Resource" target="1.7" />
+      <module name="7.9.Annotation-based_container_configuration" target="1.7" />
+      <module name="7.The_Ioc_Container" target="1.7" />
+      <module name="8.4.The_ResourceLoader" target="1.7" />
+      <module name="8.7.Application_contexts_and_Resource_paths" target="1.7" />
+      <module name="8.Resources" target="1.7" />
+      <module name="9.2.Validation_using_Spring_s_Validator_interface" target="1.7" />
+      <module name="9.3.Resolving_codes_to_error_messages" target="1.7" />
+      <module name="9.4.1.Setting_and_getting_basic_and_nested_properties" target="1.7" />
+      <module name="9.4.2.Built-in_PropertyEditor_implementations" target="1.7" />
+      <module name="9.4.Bean_manipulation_and_the_BeanWrapper" target="1.7" />
+      <module name="9.5.1_Converter_SPI" target="1.7" />
+      <module name="9.5.2.ConverterFactory" target="1.7" />
+      <module name="9.5.5.Configuring_a_ConversionService" target="1.7" />
+      <module name="9.5.6.Using_a_ConversionService_programmatically" target="1.7" />
+      <module name="9.5.Spring_Type_Conversion" target="1.7" />
+      <module name="9.6.1.Formatter_SPI" target="1.7" />
+      <module name="9.6.Spring_Field_Formatting" target="1.7" />
+      <module name="9.7.Configuring_a_global_date_and_time_format" target="1.7" />
+      <module name="9.Validation_Data_Binding_and_Type_Conversion" target="1.7" />
+      <module name="AbstractAdvisorAutoProxyCreator" target="1.7" />
+      <module name="After_Returning_advice" target="1.7" />
+      <module name="Annotation-based_Event_Listeners" target="1.7" />
+      <module name="Annotation-based_Lookup_method_injection" target="1.7" />
+      <module name="Aop_scoped_proxy" target="1.7" />
+      <module name="Asynchronous_Listeners" target="1.7" />
+      <module name="at_Qualifier" target="1.7" />
+      <module name="at_Transactional_settings" target="1.7" />
+      <module name="Automatic_discovery_of_default_TestExecutionListeners" target="1.7" />
+      <module name="BasicForTransactionManagement" target="1.7" />
+      <module name="BeanNameAutoProxyCreator" target="1.7" />
+      <module name="Before_advice" target="1.7" />
+      <module name="Binding_request_parameters_to_method_parameters_with_at_RequestParam" target="1.7" />
+      <module name="Building_the_container_programmatically_using_register" target="1.7" />
+      <module name="Circular_dependencies" target="1.7" />
+      <module name="Collection_merging" target="1.7" />
+      <module name="Combining_Java_and_XML_configuration" target="1.7" />
+      <module name="Combining_lifecycle_mechanisms" target="1.7" />
+      <module name="CommandManager" target="1.7" />
+      <module name="Compound_property_names" target="1.7" />
+      <module name="Conditionally_include_at_Configuration_classes_or_at_Bean_methods" target="1.7" />
+      <module name="Context_configuration_with_annotated_classes" target="1.7" />
+      <module name="Context_configuration_with_context_initializers" target="1.7" />
+      <module name="Context_configuration_with_environment_profiles" target="1.7" />
+      <module name="Context_configuration_with_test_property_sources" target="1.7" />
+      <module name="Context_hierarchies" target="1.7" />
+      <module name="Custom_Qualifier" target="1.7" />
+      <module name="CustomEvents" target="1.7" />
+      <module name="Declaring_a_pointcut_by_xml" target="1.7" />
+      <module name="Declaring_an_aspect_by_xml" target="1.7" />
+      <module name="Declaring_annotation_advice" target="1.7" />
+      <module name="Declaring_generic_parameter_advice" target="1.7" />
+      <module name="Declaring_simple_advice" target="1.7" />
+      <module name="Declaring_simple_advice_by_xml" target="1.7" />
+      <module name="DefaultAdvisorAutoProxyCreator" target="1.7" />
+      <module name="Enabling_component_scanning_with_scan" target="1.7" />
+      <module name="Generic_Ordering_Events" target="1.7" />
+      <module name="Interception_around_advice" target="1.7" />
+      <module name="Introduction_advice" target="1.7" />
+      <module name="Introductions_by_xml" target="1.7" />
+      <module name="Jvm-based_Aop_scoped_proxy" target="1.7" />
+      <module name="Loading_a_WebApplicationContext" target="1.7" />
+      <module name="Lookup_method_injection" target="1.7" />
+      <module name="Mapping_the_request_body_with_the_at_RequestBody_annotation" target="1.7" />
+      <module name="Mapping_the_response_body_with_the_at_ResponseBody_annotation" target="1.7" />
+      <module name="Matrix_Variables" target="1.7" />
+      <module name="Merging_TestExecutionListeners" target="1.7" />
+      <module name="Registering_additional_custom_PropertyEditors" target="1.7" />
+      <module name="Registering_custom_TestExecutionListeners" target="1.7" />
+      <module name="Simple_construction" target="1.7" />
+      <module name="SimpleAtTransactional" target="1.7" />
+      <module name="Spring" target="1.7" />
+      <module name="StandardEvents" target="1.7" />
+      <module name="Startup_and_shutdown_callbacks" target="1.7" />
+      <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" target="1.7" />
+      <module name="Supported_method_argument_types" target="1.7" />
+      <module name="Throws_advice" target="1.7" />
+      <module name="URI_Template_Patterns" target="1.7" />
+      <module name="URI_Template_Patterns_with_Regular_Expressions" target="1.7" />
+      <module name="Using_at_ModelAttribute_on_a_method" target="1.7" />
+      <module name="Using_at_ModelAttribute_on_a_method_argument" target="1.7" />
+      <module name="Using_at_RequestAttribute_to_access_request_attributes" target="1.7" />
+      <module name="Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes" target="1.7" />
+      <module name="Using_at_SessionAttributes_to_store_model_attributes_in_the_HTTP_session_between_requests" target="1.7" />
+      <module name="Using_HttpEntity" target="1.7" />
+      <module name="Using_PropertyEditorRegistrars" target="1.7" />
+      <module name="Using_the_at_Import_annotation" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

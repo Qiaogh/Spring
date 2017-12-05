@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext:war">
+    <output-path>$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext/Support_for_web_applications_with_AnnotationConfigWebApplicationContext/target</output-path>
+    <root id="archive" name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext:war exploded" />
+    </root>
+  </artifact>
+</component>

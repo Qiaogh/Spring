@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27a1930f-e579-4f6a-946b-3d00f8a2e4e3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/15_5_6_Testing_request_and_session_scoped_beans_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/15_5_6_Testing_request_and_session_scoped_beans_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Aop_scoped_proxy_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Aop_scoped_proxy_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Jvm_based_Aop_scoped_proxy_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Jvm_based_Aop_scoped_proxy_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Loading_a_WebApplicationContext_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Loading_a_WebApplicationContext_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Support_for_web_applications_with_AnnotationConfigWebApplicationContext_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Support_for_web_applications_with_AnnotationConfigWebApplicationContext_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_41.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_core_1_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_castor_castor_xml_1_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_11_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hsqldb_hsqldb_2_3_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_5_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_13_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_HttpEntity/src/test/java/com/qiaogh/AppTest.java" afterPath="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_HttpEntity/src/test/java/com/qiaogh/AppTest.java" />
+      <change beforePath="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes/src/test/java/com/qiaogh/AppTest.java" afterPath="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes/src/test/java/com/qiaogh/AppTest.java" />
+      <change beforePath="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/pom.xml" afterPath="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/7.The_Ioc_Container/7.3.Bean_overview/7.3.2.Instantiating_beans/7.3.2.Instantiating_beans.iml" afterPath="$PROJECT_DIR$/7.The_Ioc_Container/7.3.Bean_overview/7.3.2.Instantiating_beans/7.3.2.Instantiating_beans.iml" />
+      <change beforePath="$PROJECT_DIR$/7.The_Ioc_Container/7.3.Bean_overview/7.3.Bean_overview.iml" afterPath="$PROJECT_DIR$/7.The_Ioc_Container/7.3.Bean_overview/7.3.Bean_overview.iml" />
+      <change beforePath="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.1.Dependency_Injection/7.4.1.Dependency_Injection.iml" afterPath="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.1.Dependency_Injection/7.4.1.Dependency_Injection.iml" />
+      <change beforePath="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.Dependencies.iml" afterPath="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.Dependencies.iml" />
+      <change beforePath="$PROJECT_DIR$/7.The_Ioc_Container/7.The_Ioc_Container.iml" afterPath="$PROJECT_DIR$/7.The_Ioc_Container/7.The_Ioc_Container.iml" />
+      <change beforePath="$PROJECT_DIR$/Spring.iml" afterPath="$PROJECT_DIR$/Spring.iml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.8.Embedded_database_support/19.8.2.Creating_an_embedded_database_using_Spring_XML/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.6.Method_injection/CommandManager/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.6.Customizing_the_nature_of_a_bean/7.6.1.Lifecycle_callbacks/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.2.Dependencies_and_configuration_in_detail/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.5.Defining_bean_metadata_within_components/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.2.Standard_and_Custom_Events/Annotation-based_Event_Listeners/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.9.Using_the_auto-proxy_facility/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.2.Pointcut_API_in_Spring/12.2.3.AspectJ_expression_pointcuts/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.2.Validation_using_Spring_s_Validator_interface/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.6.Method_injection/Annotation-based_Lookup_method_injection/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.4.Declaring_advice/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.11.Using_JSR_330_Standard_Annotations/7.11.1.Dependency_Injection_with_at_Inject_and_at_Named/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.11.Using_JSR_330_Standard_Annotations/7.11.3.Limitations_of_JSR-330_standard_annotations/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.3.Advice_API_in_Spring/Throws_advice/target/" />
+    <ignored path="$PROJECT_DIR$/20.Object_Relational_Mapping_Data_Access/20.3.Hibernate/20.3.3.Declarative_transaction_demarcation/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.5.Composing_Java-based_configurations/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.10.Using_TargetSources/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/7.5.4.Request_session_global_session_application_and_WebSocket_scopes/Aop_scoped_proxy/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.3.Advice_API_in_Spring/After_Returning_advice/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.7.Common_problems_with_parameter_and_data_value_handling/19.7.2.Handling_BLOB_and_CLOB_objects/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling/19.2.7.Retrieving_auto_generated_keys/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.4.JDBC_batch_operations/19.4.3.Batch_operations_with_multiple_batches/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.8.Container_Extension_Points/7.8.3.Customizing_instantiation_logic_with_a_FactoryBean/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/BasicForTransactionManagement/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.6.Methods/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Supported_method_argument_types/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.8.Transaction_bound_event/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling/19.2.1.JdbcTemplate/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.6.Using_at_Transactional/SimpleAtTransactional/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.4.Configuring_different_transactional_semantics_for_different_beans/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.6.Explicitly_declaring_parameters_to_use_for_a_SimpleJdbcCall/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.9.Types/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.6.Programmatic_transaction_management/17.6.1.Using_the_TransactionTemplate/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.6.Customizing_the_nature_of_a_bean/7.6.1.Lifecycle_callbacks/Combining_lifecycle_mechanisms/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.9.Returning_ResultSet_or_REF_Cursor_from_a_SimpleJdbcCall/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.6.Using_at_Transactional/at_Transactional_settings/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.2.Retrieving_auto_generated_keys_using_SimpleJdbcInsert/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.2.Declaring_an_aspect/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.6.Spring_Field_Formatting/9.6.1.Formatter_SPI/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.13.Bean_references/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/7.5.1.The_singleton_scope/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.4.JDBC_batch_operations/19.4.1.Basic_batch_operations_with_the_JdbcTemplate/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.6.Customizing_the_nature_of_a_bean/7.6.1.Lifecycle_callbacks/Startup_and_shutdown_callbacks/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers/Custom_Qualifier/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/7.5.2.The_prototype_scope/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext/Support_for_web_applications_with_AnnotationConfigWebApplicationContext/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.2.Standard_and_Custom_Events/StandardEvents/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.1.Internationalization_using_MessageSource/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.2.Pointcut_API_in_Spring/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Loading_a_WebApplicationContext/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.2.Dependencies_and_configuration_in_detail/Circular_dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.3.TestExecutionListener_configuration/Automatic_discovery_of_default_TestExecutionListeners/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/target/" />
+    <ignored path="$PROJECT_DIR$/8.Resources/8.7.Application_contexts_and_Resource_paths/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.3.TestExecutionListener_configuration/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.2.at_Autowired/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.3.Fine-tuning_annotation-based_autowiring_with_at_Primary/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.2.Standard_and_Custom_Events/Asynchronous_Listeners/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.4.JDBC_batch_operations/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.6.Naming_autodetected_components/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.6.Programmatic_transaction_management/17.6.2.Using_the_PlatformTransactionManager/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.2.Mapping_Requests_With_at_RequestMapping/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.6.Proxying_mechanisms/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.2.Dependencies_and_configuration_in_detail/Compound_property_names/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.13.Environment_abstraction/7.13.4.at_PropertySource/target/" />
+    <ignored path="$PROJECT_DIR$/21.Marshalling_XML_using_O_X_Mappers/21.9.XStream/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.12.Functions/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.2.Standard_and_Custom_Events/Generic_Ordering_Events/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.2.Standard_and_Custom_Events/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.3.Expression_Evaluation_using_Spring_s_Expression_Interface/10.3.3.SpEL_compilation/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.8.Container_Extension_Points/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.5.Using_the_ProxyFactoryBean_to_create_AOP_proxies/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.7.Transaction_propagation/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.2.Mapping_Requests_With_at_RequestMapping/Matrix_Variables/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.6.Spring_Field_Formatting/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.3.Schema_based_AOP_support/Introductions_by_xml/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.1.Dependency_Injection/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.3.Schema_based_AOP_support/Declaring_a_pointcut_by_xml/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.6.Customizing_the_nature_of_a_bean/7.6.2.ApplicationContextAware_and_BeanNameAware/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.9.Using_the_auto-proxy_facility/12.9.1.Autoproxy_bean_definitions/DefaultAdvisorAutoProxyCreator/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.3.Resolving_codes_to_error_messages/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.1.at.Required/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling/19.2.2.NamedParameterJdbcTemplate/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.5.Introductions/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Binding_request_parameters_to_method_parameters_with_at_RequestParam/target/" />
+    <ignored path="$PROJECT_DIR$/21.Marshalling_XML_using_O_X_Mappers/21.6.Castor/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/7.5.4.Request_session_global_session_application_and_WebSocket_scopes/Jvm-based_Aop_scoped_proxy/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.9.Using_the_auto-proxy_facility/12.9.1.Autoproxy_bean_definitions/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.4.Using_the_at_Configuration_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.8.Container_Extension_Points/7.8.1.Customizing_beans_using_a_BeanPostProcessor/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.13.Environment_abstraction/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.6.Modeling_JDBC_operations_as_Java_objects/19.6.3.SqlUpdate/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.8.Calling_a_stored_function_using_SimpleJdbcCall/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.6.Method_injection/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.1.Inserting_data_using_SimpleJdbcInsert/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.7.Common_problems_with_parameter_and_data_value_handling/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Context_hierarchies/target/" />
+    <ignored path="$PROJECT_DIR$/21.Marshalling_XML_using_O_X_Mappers/21.5.JAXB/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.3.Advice_API_in_Spring/Before_advice/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.11.Defining_new_Advice_types/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.4.Declaring_advice/Declaring_simple_advice/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.8.Container_Extension_Points/7.8.2.Customizing_configuration_metadata_with_a_BeanFactoryPostProcessor/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.7.Common_problems_with_parameter_and_data_value_handling/19.7.3.Passing_in_lists_of_values_for_IN_clause/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.3.Rolling_back_a_declarative_transaction/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/Using_PropertyEditorRegistrars/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.5.Spring_Type_Conversion/9.5.5.Configuring_a_ConversionService/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_HttpEntity/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.2.The_DispatcherServlet/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Mapping_the_response_body_with_the_at_ResponseBody_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.9.Using_the_auto-proxy_facility/12.9.1.Autoproxy_bean_definitions/AbstractAdvisorAutoProxyCreator/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.3.Schema_based_AOP_support/Declaring_simple_advice_by_xml/target/" />
+    <ignored path="$PROJECT_DIR$/21.Marshalling_XML_using_O_X_Mappers/target/" />
+    <ignored path="$PROJECT_DIR$/20.Object_Relational_Mapping_Data_Access/20.3.Hibernate/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.7.Providing_a_scope_for_autodetected_components/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.7.at_Resource/target/" />
+    <ignored path="$PROJECT_DIR$/20.Object_Relational_Mapping_Data_Access/20.3.Hibernate/20.3.8.Mixture_transaction/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.2.Pointcut_API_in_Spring/12.2.1.Concepts/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.10.Using_TargetSources/12.10.1.Hot_swappable_target_sources/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.3.Advice_API_in_Spring/Interception_around_advice/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.4.Declaring_advice/Declaring_generic_parameter_advice/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.6.CustomAutowireConfigurer/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.5.tx_advice_settings/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext/Enabling_component_scanning_with_scan/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.3.Advice_API_in_Spring/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.4.JDBC_batch_operations/19.4.2.Batch_operations_with_a_List_of_objects/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext/Simple_construction/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.6.Modeling_JDBC_operations_as_Java_objects/19.6.1.SqlQuery/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.7.Bean_definition_inheritance/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.5.Array_construction/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.3.Expression_Evaluation_using_Spring_s_Expression_Interface/10.3.1.The_EvaluationContext_interface/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.6.Using_at_Transactional/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.2.Pointcut_API_in_Spring/12.2.4.Convenience_pointcut_implementations/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.4.Inline_Maps/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.3.Expression_Evaluation_using_Spring_s_Expression_Interface/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext/Building_the_container_programmatically_using_register/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.6.Modeling_JDBC_operations_as_Java_objects/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.6.Testing_request_and_session_scoped_beans/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Context_configuration_with_context_initializers/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Context_configuration_with_environment_profiles/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.8.Manipulating_advised_objects/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.4.Using_SqlParameterSource_to_provide_parameter_values/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.3.TestExecutionListener_configuration/Registering_custom_TestExecutionListeners/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_ModelAttribute_on_a_method/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.1.Literal_expressions/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.3.Inline_lists/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.5.Spring_Type_Conversion/9.5.2.ConverterFactory/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.3.Bean_overview/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.2.Using_the_JDBC_core_classes_to_control_basic_JDBC_processing_and_error_handling/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.2.Instantiating_the_Spring_container_using_AnnotationConfigApplicationContext/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.9.Using_the_auto-proxy_facility/12.9.1.Autoproxy_bean_definitions/BeanNameAutoProxyCreator/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.18.Collection_Projection/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.4.Declaring_advice/Declaring_annotation_advice/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.3.Bean_overview/7.3.2.Instantiating_beans/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.8.Providing_qualifier_metadata_with_annotations/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.13.Environment_abstraction/7.13.2.XML_bean_definition_profiles/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.3.Expression_Evaluation_using_Spring_s_Expression_Interface/10.3.2.Parser_configuration/target/" />
+    <ignored path="$PROJECT_DIR$/8.Resources/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.11.Variables/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.13.Environment_abstraction/7.13.1.Bean_definition_profiles/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/7.5.4.Request_session_global_session_application_and_WebSocket_scopes/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.6.Programmatic_transaction_management/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.11.Using_JSR_330_Standard_Annotations/7.11.2.at_Named_and_at_ManagedBean__standard_equivalents_to_the_at_Component_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.8.Embedded_database_support/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.5.Composing_Java-based_configurations/Using_the_at_Import_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.3.Schema_based_AOP_support/Declaring_an_aspect_by_xml/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.13.Environment_abstraction/7.13.3.PropertySource_abstraction/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Context_configuration_with_annotated_classes/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.10.Using_TargetSources/12.10.2.Pooling_target_sources/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.7.Programmatic_creation_of_at_AspectJ_Proxies/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.7.Configuring_a_global_date_and_time_format/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.4.Expression_support_for_defining_bean_definitions/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.5.Using_generics_as_autowiring_qualifiers/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.6.Method_injection/Lookup_method_injection/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.3.Schema_based_AOP_support/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.5.Spring_Type_Conversion/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.3.Advice_API_in_Spring/Introduction_advice/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.5.Spring_Type_Conversion/9.5.6.Using_a_ConversionService_programmatically/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.2.Mapping_Requests_With_at_RequestMapping/URI_Template_Patterns/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.2.Dependencies_and_configuration_in_detail/Collection_merging/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.2.Mapping_Requests_With_at_RequestMapping/URI_Template_Patterns_with_Regular_Expressions/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.5.Composing_Java-based_configurations/Combining_Java_and_XML_configuration/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.4.Context_management/Context_configuration_with_test_property_sources/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.15.Additional_Capabilities_of_the_ApplicationContext/7.15.2.Standard_and_Custom_Events/CustomEvents/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_ModelAttribute_on_a_method_argument/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.1.at_Component_and_further_stereotype_annotations/target/" />
+    <ignored path="$PROJECT_DIR$/15.Integration_Testing/15.5.Spring_TestContext_Framework/15.5.3.TestExecutionListener_configuration/Merging_TestExecutionListeners/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/Registering_additional_custom_PropertyEditors/target/" />
+    <ignored path="$PROJECT_DIR$/12.Spring_AOP_APIs/12.2.Pointcut_API_in_Spring/12.2.5.Pointcut_superclasses/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.17.Collection_Selection/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.5.Spring_Type_Conversion/9.5.1_Converter_SPI/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.8.Embedded_database_support/19.8.3.Creating_an_embedded_database_programmatically/target/" />
+    <ignored path="$PROJECT_DIR$/8.Resources/8.4.The_ResourceLoader/target/" />
+    <ignored path="$PROJECT_DIR$/21.Marshalling_XML_using_O_X_Mappers/21.3.Using_Marshaller_and_Unmarshaller/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/7.12.5.Composing_Java-based_configurations/Conditionally_include_at_Configuration_classes_or_at_Bean_methods/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.12.Java-based_container_configuration/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.5.Bean_scopes/7.5.5.Custom_scopes/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.7.Operators/target/" />
+    <ignored path="$PROJECT_DIR$/20.Object_Relational_Mapping_Data_Access/target/" />
+    <ignored path="$PROJECT_DIR$/11.Aspect_Oriented_Programming_with_Spring/11.2.at_AspectJ_support/11.2.3.Declaring_a_pointcut/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.1.Setting_and_getting_basic_and_nested_properties/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_SessionAttributes_to_store_model_attributes_in_the_HTTP_session_between_requests/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.4.Dependencies/7.4.5.Autowiring_collaborators/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.16.Safe_Navigation_operator/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Mapping_the_request_body_with_the_at_RequestBody_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.11.Using_JSR_330_Standard_Annotations/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.2.Example_of_declarative_transaction_implementation/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.6.Customizing_the_nature_of_a_bean/target/" />
+    <ignored path="$PROJECT_DIR$/17.Transaction_Management/17.5.Declarative_transaction_management/17.5.8.Advising_transactional_operations/target/" />
+    <ignored path="$PROJECT_DIR$/10.Spring_Expression_Language_SpEL/10.5.Language_Reference/10.5.19_Expression_templating/target/" />
+    <ignored path="$PROJECT_DIR$/19.Data_access_with_JDBC/19.5.Simplifying_JDBC_operations_with_the_SimpleJdbc_classes/19.5.5.Calling_a_stored_procedure_with_SimpleJdbcCall/target/" />
+    <ignored path="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.9.Annotation-based_container_configuration/7.9.4.Fine-tuning_annotation-based_autowiring_with_qualifiers/at_Qualifier/target/" />
+    <ignored path="$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.4.Using_filters_to_customize_scanning/target/" />
+    <ignored path="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/test/java/com/qiaogh/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigManageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/controller/ConfigManageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDispatcherServlet.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/TestDispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MockMvc.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractNamedValueMethodArgumentResolver.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="150" column="7" lean-forward="true" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DispatcherServlet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="966" column="0" lean-forward="false" selection-start-line="966" selection-start-column="0" selection-end-line="966" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnnotationMethodHandlerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="907" column="0" lean-forward="false" selection-start-line="907" selection-start-column="0" selection-end-line="907" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerMethodInvoker.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/domain/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_HttpEntity/src/test/java/com/qiaogh/AppTest.java" />
+        <option value="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes/src/test/java/com/qiaogh/AppTest.java" />
+        <option value="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/Registering_additional_custom_PropertyEditors/pom.xml" />
+        <option value="$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/pom.xml" />
+        <option value="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/pom.xml" />
+        <option value="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/controller/ConfigManageController.java" />
+        <option value="$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/test/java/com/qiaogh/AppTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Registering_additional_custom_PropertyEditors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Registering_additional_custom_PropertyEditors" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qiaogh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qiaogh" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qiaogh" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="22.Web_MVC_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.Implementing_Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="22.3.3.Defining_at_RequestMapping_handler_methods" type="462c0819:PsiDirectoryNode" />
+              <item name="Using_at_RequestAttribute_to_access_request_attributes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qiaogh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.7" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="TestDispa&#9;PSI&#9;JAVA://org.springframework.test.web.servlet.TestDispatcherServlet&#10;DispatcherSer&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest.testRequest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qiaogh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Using_at_RequestAttribute_to_access_request_attributes" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qiaogh" />
+      <option name="MAIN_CLASS_NAME" value="com.qiaogh.AppTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.testInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qiaogh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qiaogh" />
+      <option name="MAIN_CLASS_NAME" value="com.qiaogh.AppTest" />
+      <option name="METHOD_NAME" value="testInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.testRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qiaogh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Using_at_RequestAttribute_to_access_request_attributes" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qiaogh" />
+      <option name="MAIN_CLASS_NAME" value="com.qiaogh.AppTest" />
+      <option name="METHOD_NAME" value="testRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.testResponseEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qiaogh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Using_HttpEntity" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qiaogh" />
+      <option name="MAIN_CLASS_NAME" value="com.qiaogh.AppTest" />
+      <option name="METHOD_NAME" value="testResponseEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.testSession" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qiaogh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Using_at_RequestAttribute_to_access_request_attributes" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.qiaogh" />
+      <option name="MAIN_CLASS_NAME" value="com.qiaogh.AppTest" />
+      <option name="METHOD_NAME" value="testSession" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.testResponseEntity" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.testInfo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testSession" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.testRequest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.testRequest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest.testSession" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AppTest.testInfo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest.testResponseEntity" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27a1930f-e579-4f6a-946b-3d00f8a2e4e3" name="Default" comment="" />
+      <created>1512458809384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512458809384</updated>
+      <workItem from="1512458825853" duration="6727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 16h 57m 22s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 16h 57m 42s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 16h 58m 27s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 16h 59m 30s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 17h 00m 01s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 17h 01m 44s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 17h 04m 29s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 17h 05m 17s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 17h 11m 55s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testRequest - 2017.12.05 at 17h 13m 21s.xml">
+      <configuration name="AppTest.testRequest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6727000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286991" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4448858" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_HttpEntity/src/test/java/com/qiaogh/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qiaogh/java/text/DateFormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes/src/test/java/com/qiaogh/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/sun/beans/editors/ShortEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar!/sun/beans/editors/ColorEditor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/Registering_additional_custom_PropertyEditors/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="78" lean-forward="false" selection-start-line="30" selection-start-column="78" selection-end-line="30" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/Registering_additional_custom_PropertyEditors/src/main/java/com/qiaogh/editors/SexEnumEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/9.Validation_Data_Binding_and_Type_Conversion/9.4.Bean_manipulation_and_the_BeanWrapper/9.4.2.Built-in_PropertyEditor_implementations/Registering_additional_custom_PropertyEditors/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="360" column="59" lean-forward="false" selection-start-line="360" selection-start-column="59" selection-end-line="360" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/FlashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="48" column="19" lean-forward="false" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerExecutionChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#2684#2685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/annotation/AnnotationMethodHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="907" column="0" lean-forward="false" selection-start-line="907" selection-start-column="0" selection-end-line="907" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/domain/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="966" column="0" lean-forward="false" selection-start-line="966" selection-start-column="0" selection-end-line="966" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/annotation/AbstractNamedValueMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="150" column="7" lean-forward="true" selection-start-line="150" selection-start-column="7" selection-end-line="150" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/test/java/com/qiaogh/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="386" column="40" lean-forward="true" selection-start-line="386" selection-start-column="40" selection-end-line="386" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestAttributeMethodArgumentResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.3.Defining_at_RequestMapping_handler_methods/Using_at_RequestAttribute_to_access_request_attributes/src/main/java/com/qiaogh/controller/ConfigManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/MockMvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.13.RELEASE/spring-test-4.3.13.RELEASE-sources.jar!/org/springframework/test/web/servlet/TestDispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="67" column="17" lean-forward="false" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>15.5.6.Testing_request_and_session_scoped_beans:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Registering_custom_TestExecutionListeners</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
