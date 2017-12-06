@@ -24,5 +24,9 @@
     <module>Using_at_SessionAttributes_to_store_model_attributes_in_the_HTTP_session_between_requests</module>
     <module>Using_at_SessionAttribute_to_access_pre_existing_global_session_attributes</module>
       <module>Using_at_RequestAttribute_to_access_request_attributes</module>
+      <module>Working_with_application_x_www_form_urlencoded_data</module>
+      <module>Mapping_cookie_values_with_the_at_CookieValue_annotation</module>
+      <module>Mapping_request_header_attributes_with_the_at_RequestHeader_annotation</module>
+      <module>Method_Parameters_And_Type_Conversion</module>
   </modules>
 </project>

@@ -159,10 +159,13 @@
         <module name="Jvm-based_Aop_scoped_proxy" />
         <module name="Loading_a_WebApplicationContext" />
         <module name="Lookup_method_injection" />
+        <module name="Mapping_cookie_values_with_the_at_CookieValue_annotation" />
+        <module name="Mapping_request_header_attributes_with_the_at_RequestHeader_annotation" />
         <module name="Mapping_the_request_body_with_the_at_RequestBody_annotation" />
         <module name="Mapping_the_response_body_with_the_at_ResponseBody_annotation" />
         <module name="Matrix_Variables" />
         <module name="Merging_TestExecutionListeners" />
+        <module name="Method_Parameters_And_Type_Conversion" />
         <module name="Registering_additional_custom_PropertyEditors" />
         <module name="Registering_custom_TestExecutionListeners" />
         <module name="Simple_construction" />
@@ -182,6 +185,7 @@
         <module name="Using_HttpEntity" />
         <module name="Using_PropertyEditorRegistrars" />
         <module name="Using_the_at_Import_annotation" />
+        <module name="Working_with_application_x_www_form_urlencoded_data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -400,10 +404,13 @@
       <module name="Jvm-based_Aop_scoped_proxy" target="1.7" />
       <module name="Loading_a_WebApplicationContext" target="1.7" />
       <module name="Lookup_method_injection" target="1.7" />
+      <module name="Mapping_cookie_values_with_the_at_CookieValue_annotation" target="1.7" />
+      <module name="Mapping_request_header_attributes_with_the_at_RequestHeader_annotation" target="1.7" />
       <module name="Mapping_the_request_body_with_the_at_RequestBody_annotation" target="1.7" />
       <module name="Mapping_the_response_body_with_the_at_ResponseBody_annotation" target="1.7" />
       <module name="Matrix_Variables" target="1.7" />
       <module name="Merging_TestExecutionListeners" target="1.7" />
+      <module name="Method_Parameters_And_Type_Conversion" target="1.7" />
       <module name="Registering_additional_custom_PropertyEditors" target="1.7" />
       <module name="Registering_custom_TestExecutionListeners" target="1.7" />
       <module name="Simple_construction" target="1.7" />
@@ -424,6 +431,7 @@
       <module name="Using_HttpEntity" target="1.7" />
       <module name="Using_PropertyEditorRegistrars" target="1.7" />
       <module name="Using_the_at_Import_annotation" target="1.7" />
+      <module name="Working_with_application_x_www_form_urlencoded_data" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
