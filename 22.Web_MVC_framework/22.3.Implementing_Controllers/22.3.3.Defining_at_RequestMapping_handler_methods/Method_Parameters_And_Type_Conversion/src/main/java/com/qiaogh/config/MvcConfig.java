@@ -13,6 +13,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
+import java.util.List;
 import java.util.Set;
 
 @Configuration
@@ -23,8 +24,10 @@ import java.util.Set;
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
     @Autowired
-    public void addFormatters( FormatterRegistry registry, StringToPersonConverter converter ) {
-        registry.addConverter( converter );
+    public void addFormatters( FormatterRegistry registry, List<Converter> converters ) {
+        for ( Converter converter : converters ) {
+            registry.addConverter( converter );
+        }
         super.addFormatters( registry );
     }
 }
