@@ -47,8 +47,7 @@ public class AppTest {
     public void testTypeConvert() throws Exception {
         MvcResult result = mvc.perform(
                 MockMvcRequestBuilders.get( "/config/typeConvert" )
-                        .param( "person", "{}" )
-                        .requestAttr( "age", "26" ) )
+                        .param( "person", "{'name': 'Qiaogh', 'age': '26'}" ))
                 .andExpect( MockMvcResultMatchers.view().name( "config/typeConvert" ) )
                 .andExpect( MockMvcResultMatchers.model().attributeExists( "person" ) )
                 .andDo( MockMvcResultHandlers.print() )
