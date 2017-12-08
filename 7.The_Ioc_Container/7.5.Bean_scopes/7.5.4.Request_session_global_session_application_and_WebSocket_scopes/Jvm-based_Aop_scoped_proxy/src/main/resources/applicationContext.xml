@@ -11,11 +11,11 @@
 
     <mvc:annotation-driven />
 
-    <bean id="request" class="com.qiaogh.domain.Person" scope="request">
+    <bean id="request" class="com.qiaogh.domain.User" scope="request">
         <aop:scoped-proxy proxy-target-class="false" />
     </bean>
 
-    <bean id="session" class="com.qiaogh.domain.Person" scope="session">
+    <bean id="session" class="com.qiaogh.domain.User" scope="session">
         <aop:scoped-proxy proxy-target-class="false" />
         <property name="id" value="1" />
         <property name="name" value="Qiaogh" />

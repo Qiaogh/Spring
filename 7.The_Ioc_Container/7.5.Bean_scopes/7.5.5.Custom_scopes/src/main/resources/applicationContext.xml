@@ -13,7 +13,7 @@
         </property>
     </bean>
 
-    <bean id="person" class="com.qiaogh.domain.Person" scope="mySingleton">
+    <bean id="person" class="com.qiaogh.domain.User" scope="mySingleton">
         <property name="id" value="1" />
         <property name="name" value="Qiaogh" />
     </bean>

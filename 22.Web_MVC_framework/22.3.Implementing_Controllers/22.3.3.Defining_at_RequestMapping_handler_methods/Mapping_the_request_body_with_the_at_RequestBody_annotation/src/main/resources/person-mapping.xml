@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapping>
-    <class name="com.qiaogh.domain.Person">
+    <class name="com.qiaogh.domain.User">
         <map-to xml="person" />
         <field name="name" type="string">
             <bind-xml name="name" node="element" />

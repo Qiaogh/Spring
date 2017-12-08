@@ -4,9 +4,9 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="qiaogh" class="com.qiaogh.domain.Person">
+    <bean id="qiaogh" class="com.qiaogh.domain.User">
         <property name="profile" value="11111111" />
-        <property name="personClass" value="com.qiaogh.domain.Person" />
+        <property name="personClass" value="com.qiaogh.domain.User" />
         <property name="locked" value="false" />
         <property name="birthday" value="1988-10-07" />
         <property name="age" value="26" />

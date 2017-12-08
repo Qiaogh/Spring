@@ -7,7 +7,7 @@
     
     <bean id="personServiceBeforeGetAdvisor" class="org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor">
         <property name="advice" ref="personServiceBeforeGetAdvice" />
-        <property name="expression" value="execution( public com.qiaogh.domain.Person com.qiaogh.service.PersonService.get( java.lang.String ) )" />
+        <property name="expression" value="execution( public com.qiaogh.domain.User com.qiaogh.service.PersonService.get( java.lang.String ) )" />
     </bean>
     
     <bean id="basicPersonService" class="com.qiaogh.service.impl.PersonServiceImpl" />

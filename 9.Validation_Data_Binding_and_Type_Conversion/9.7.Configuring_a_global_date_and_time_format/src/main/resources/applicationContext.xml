@@ -13,7 +13,7 @@
         </property>
     </bean>
     
-    <bean class="com.qiaogh.domain.Person">
+    <bean class="com.qiaogh.domain.User">
         <property name="name" value="Qiaogh" />
         <property name="birthday" value="1988-10-07" />
         <property name="achievement" value="1%" />

@@ -117,6 +117,7 @@
         <module name="9.6.1.Formatter_SPI" />
         <module name="9.7.Configuring_a_global_date_and_time_format" />
         <module name="AbstractAdvisorAutoProxyCreator" />
+        <module name="Advising_controllers_with_at_ControllerAdviceand_at_RestControllerAdvice" />
         <module name="After_Returning_advice" />
         <module name="Annotation-based_Event_Listeners" />
         <module name="Annotation-based_Lookup_method_injection" />
@@ -137,6 +138,7 @@
         <module name="CommandManager" />
         <module name="Compound_property_names" />
         <module name="Conditionally_include_at_Configuration_classes_or_at_Bean_methods" />
+        <module name="Configuring_a_custom_WebBindingInitializer" />
         <module name="Context_configuration_with_annotated_classes" />
         <module name="Context_configuration_with_context_initializers" />
         <module name="Context_configuration_with_environment_profiles" />
@@ -144,6 +146,7 @@
         <module name="Context_hierarchies" />
         <module name="Custom_Qualifier" />
         <module name="CustomEvents" />
+        <module name="Customizing_data_binding_with_at_InitBinder" />
         <module name="Declaring_a_pointcut_by_xml" />
         <module name="Declaring_an_aspect_by_xml" />
         <module name="Declaring_annotation_advice" />
@@ -156,6 +159,7 @@
         <module name="Interception_around_advice" />
         <module name="Introduction_advice" />
         <module name="Introductions_by_xml" />
+        <module name="Jackson_Serialization_View_Support" />
         <module name="Jvm-based_Aop_scoped_proxy" />
         <module name="Loading_a_WebApplicationContext" />
         <module name="Lookup_method_injection" />
@@ -362,6 +366,7 @@
       <module name="9.7.Configuring_a_global_date_and_time_format" target="1.7" />
       <module name="9.Validation_Data_Binding_and_Type_Conversion" target="1.7" />
       <module name="AbstractAdvisorAutoProxyCreator" target="1.7" />
+      <module name="Advising_controllers_with_at_ControllerAdviceand_at_RestControllerAdvice" target="1.7" />
       <module name="After_Returning_advice" target="1.7" />
       <module name="Annotation-based_Event_Listeners" target="1.7" />
       <module name="Annotation-based_Lookup_method_injection" target="1.7" />
@@ -382,6 +387,7 @@
       <module name="CommandManager" target="1.7" />
       <module name="Compound_property_names" target="1.7" />
       <module name="Conditionally_include_at_Configuration_classes_or_at_Bean_methods" target="1.7" />
+      <module name="Configuring_a_custom_WebBindingInitializer" target="1.7" />
       <module name="Context_configuration_with_annotated_classes" target="1.7" />
       <module name="Context_configuration_with_context_initializers" target="1.7" />
       <module name="Context_configuration_with_environment_profiles" target="1.7" />
@@ -389,6 +395,7 @@
       <module name="Context_hierarchies" target="1.7" />
       <module name="Custom_Qualifier" target="1.7" />
       <module name="CustomEvents" target="1.7" />
+      <module name="Customizing_data_binding_with_at_InitBinder" target="1.7" />
       <module name="Declaring_a_pointcut_by_xml" target="1.7" />
       <module name="Declaring_an_aspect_by_xml" target="1.7" />
       <module name="Declaring_annotation_advice" target="1.7" />
@@ -401,6 +408,7 @@
       <module name="Interception_around_advice" target="1.7" />
       <module name="Introduction_advice" target="1.7" />
       <module name="Introductions_by_xml" target="1.7" />
+      <module name="Jackson_Serialization_View_Support" target="1.7" />
       <module name="Jvm-based_Aop_scoped_proxy" target="1.7" />
       <module name="Loading_a_WebApplicationContext" target="1.7" />
       <module name="Lookup_method_injection" target="1.7" />

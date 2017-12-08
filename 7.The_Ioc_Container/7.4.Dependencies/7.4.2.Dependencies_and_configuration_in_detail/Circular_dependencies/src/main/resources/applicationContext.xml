@@ -4,13 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="qiaogh" class="com.qiaogh.domain.Person">
+    <bean id="qiaogh" class="com.qiaogh.domain.User">
         <property name="id" value="1" />
         <property name="name" value="Qiaogh" />
         <property name="wife" ref="qiy" />
     </bean>
 
-    <bean id="qiy" class="com.qiaogh.domain.Person">
+    <bean id="qiy" class="com.qiaogh.domain.User">
         <property name="id" value="2" />
         <property name="name" value="Qiy" />
         <property name="husband" ref="qiaogh" />

@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="original" class="com.qiaogh.domain.Person">
+    <bean id="original" class="com.qiaogh.domain.User">
         <property name="childs">
             <list>
                 <value>Qiaoyy</value>
