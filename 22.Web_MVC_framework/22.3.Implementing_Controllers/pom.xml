@@ -16,7 +16,9 @@
     <modules>
         <module>22.3.2.Mapping_Requests_With_at_RequestMapping</module>
         <module>22.3.3.Defining_at_RequestMapping_handler_methods</module>
+        <module>22.3.4.Asynchronous_Request_Processing</module>
     </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>

@@ -123,6 +123,7 @@
         <module name="Annotation-based_Lookup_method_injection" />
         <module name="Aop_scoped_proxy" />
         <module name="Asynchronous_Listeners" />
+        <module name="Asynchronous_Request_Processing_With_Callable" />
         <module name="at_Qualifier" />
         <module name="at_Transactional_settings" />
         <module name="Automatic_discovery_of_default_TestExecutionListeners" />
@@ -294,6 +295,7 @@
       <module name="22.2.The_DispatcherServlet" target="1.7" />
       <module name="22.3.2.Mapping_Requests_With_at_RequestMapping" target="1.7" />
       <module name="22.3.3.Defining_at_RequestMapping_handler_methods" target="1.7" />
+      <module name="22.3.4.Asynchronous_Request_Processing" target="1.7" />
       <module name="22.3.Implementing_Controllers" target="1.7" />
       <module name="22.Web_MVC_framework" target="1.7" />
       <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
@@ -371,7 +373,9 @@
       <module name="Annotation-based_Event_Listeners" target="1.7" />
       <module name="Annotation-based_Lookup_method_injection" target="1.7" />
       <module name="Aop_scoped_proxy" target="1.7" />
+      <module name="asdfaf" target="1.7" />
       <module name="Asynchronous_Listeners" target="1.7" />
+      <module name="Asynchronous_Request_Processing_With_Callable" target="1.7" />
       <module name="at_Qualifier" target="1.7" />
       <module name="at_Transactional_settings" target="1.7" />
       <module name="Automatic_discovery_of_default_TestExecutionListeners" target="1.7" />
@@ -405,6 +409,7 @@
       <module name="DefaultAdvisorAutoProxyCreator" target="1.7" />
       <module name="Enabling_component_scanning_with_scan" target="1.7" />
       <module name="Generic_Ordering_Events" target="1.7" />
+      <module name="hkhkj" target="1.7" />
       <module name="Interception_around_advice" target="1.7" />
       <module name="Introduction_advice" target="1.7" />
       <module name="Introductions_by_xml" target="1.7" />

@@ -7,8 +7,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
-@Controller
+import java.text.SimpleDateFormat;
+
+@RestController
 @RequestMapping( "/user" )
 public class UserManageController {
 
@@ -19,13 +23,13 @@ public class UserManageController {
 
     @RequestMapping( "/jacksonWithoutPassword" )
     @JsonView( User.WithoutPassword.class )
-    public void jacksonWithoutPassword( User user ) {
-
+    public User jacksonWithoutPassword( User user ) {
+        return user;
     }
 
     @RequestMapping( "/jacksonAll" )
     @JsonView( User.All.class )
-    public void jacksonAll( User user ) {
-
+    public User jacksonAll( User user ) {
+        return user;
     }
 }

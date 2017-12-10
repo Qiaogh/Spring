@@ -1,5 +1,6 @@
 package com.qiaogh.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonView;
 
 import java.util.Date;
@@ -16,6 +17,7 @@ public class User {
     @JsonView( WithoutPassword.class )
     private Integer age;
     @JsonView( WithoutPassword.class )
+    @JsonFormat( timezone = "GMT+8", pattern = "yyyy-MM-dd" )
     private Date birthday;
 
     public String getName() {

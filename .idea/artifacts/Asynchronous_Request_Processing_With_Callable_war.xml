@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Asynchronous_Request_Processing_With_Callable:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.4.Asynchronous_Request_Processing/Asynchronous_Request_Processing_With_Callable/target</output-path>
+    <root id="archive" name="Asynchronous_Request_Processing_With_Callable.war">
+      <element id="artifact" artifact-name="Asynchronous_Request_Processing_With_Callable:war exploded" />
+    </root>
+  </artifact>
+</component>
