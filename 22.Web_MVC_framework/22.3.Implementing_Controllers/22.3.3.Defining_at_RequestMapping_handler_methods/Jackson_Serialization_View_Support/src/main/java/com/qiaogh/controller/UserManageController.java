@@ -3,14 +3,10 @@ package com.qiaogh.controller;
 import com.fasterxml.jackson.annotation.JsonView;
 import com.qiaogh.domain.User;
 import org.springframework.format.datetime.DateFormatter;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
-
-import java.text.SimpleDateFormat;
 
 @RestController
 @RequestMapping( "/user" )
