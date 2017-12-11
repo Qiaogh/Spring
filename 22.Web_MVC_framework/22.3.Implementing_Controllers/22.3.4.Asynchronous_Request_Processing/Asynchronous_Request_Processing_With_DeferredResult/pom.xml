@@ -6,11 +6,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>Asynchronous_Request_Processing_With_Callable</artifactId>
+    <artifactId>Asynchronous_Request_Processing_With_DeferredResult</artifactId>
     <packaging>war</packaging>
-    <name>Asynchronous_Request_Processing_With_Callable Maven Webapp</name>
+    <name>Asynchronous_Request_Processing_With_DeferredResult Maven Webapp</name>
     <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webix</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+    </dependencies>
     <build>
-        <finalName>Asynchronous_Request_Processing_With_Callable</finalName>
+        <finalName>Asynchronous_Request_Processing_With_DeferredResult</finalName>
     </build>
 </project>

@@ -14,9 +14,19 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>Asynchronous_Request_Processing_With_Callable</module>
+        <module>Asynchronous_Request_Processing_With_DeferredResult</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -17,7 +17,7 @@ public class User {
     private String age;
     @JsonView( Json.class )
     @JsonFormat( timezone = "GMT+8", pattern = "yyyy-MM-dd" )
-    private Date brithday;
+    private Date birthday;
 
     public String getName() {
         return name;
@@ -43,11 +43,11 @@ public class User {
         this.age = age;
     }
 
-    public Date getBrithday() {
-        return brithday;
+    public Date getBirthday() {
+        return birthday;
     }
 
-    public void setBrithday( Date brithday ) {
-        this.brithday = brithday;
+    public void setBirthday( Date birthday ) {
+        this.birthday = birthday;
     }
 }

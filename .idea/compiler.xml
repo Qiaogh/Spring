@@ -124,6 +124,7 @@
         <module name="Aop_scoped_proxy" />
         <module name="Asynchronous_Listeners" />
         <module name="Asynchronous_Request_Processing_With_Callable" />
+        <module name="Asynchronous_Request_Processing_With_DeferredResult" />
         <module name="at_Qualifier" />
         <module name="at_Transactional_settings" />
         <module name="Automatic_discovery_of_default_TestExecutionListeners" />
@@ -376,6 +377,7 @@
       <module name="asdfaf" target="1.7" />
       <module name="Asynchronous_Listeners" target="1.7" />
       <module name="Asynchronous_Request_Processing_With_Callable" target="1.7" />
+      <module name="Asynchronous_Request_Processing_With_DeferredResult" target="1.7" />
       <module name="at_Qualifier" target="1.7" />
       <module name="at_Transactional_settings" target="1.7" />
       <module name="Automatic_discovery_of_default_TestExecutionListeners" target="1.7" />

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Asynchronous_Request_Processing_With_DeferredResult:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.4.Asynchronous_Request_Processing/Asynchronous_Request_Processing_With_DeferredResult/target</output-path>
+    <root id="archive" name="Asynchronous_Request_Processing_With_DeferredResult.war">
+      <element id="artifact" artifact-name="Asynchronous_Request_Processing_With_DeferredResult:war exploded" />
+    </root>
+  </artifact>
+</component>
