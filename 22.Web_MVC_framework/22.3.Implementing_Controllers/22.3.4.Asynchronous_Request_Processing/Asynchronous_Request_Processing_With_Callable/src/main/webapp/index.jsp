@@ -15,6 +15,6 @@
     //处理点浏览器返回时候最后一个不刷新页面内容问题
     $(function(){
         // pjax
-        $(document).pjax('a', 'html')
+        $(document).pjax('a', '#main');
     })
 </script>
