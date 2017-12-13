@@ -158,6 +158,7 @@
         <module name="DefaultAdvisorAutoProxyCreator" />
         <module name="Enabling_component_scanning_with_scan" />
         <module name="Generic_Ordering_Events" />
+        <module name="Intercepting_Async_Requests" />
         <module name="Interception_around_advice" />
         <module name="Introduction_advice" />
         <module name="Introductions_by_xml" />
@@ -412,6 +413,7 @@
       <module name="Enabling_component_scanning_with_scan" target="1.7" />
       <module name="Generic_Ordering_Events" target="1.7" />
       <module name="hkhkj" target="1.7" />
+      <module name="Intercepting_Async_Requests" target="1.7" />
       <module name="Interception_around_advice" target="1.7" />
       <module name="Introduction_advice" target="1.7" />
       <module name="Introductions_by_xml" target="1.7" />

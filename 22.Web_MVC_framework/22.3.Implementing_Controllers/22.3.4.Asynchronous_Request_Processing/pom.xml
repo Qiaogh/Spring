@@ -15,6 +15,7 @@
     <modules>
         <module>Asynchronous_Request_Processing_With_Callable</module>
         <module>Asynchronous_Request_Processing_With_DeferredResult</module>
+        <module>Intercepting_Async_Requests</module>
     </modules>
 
     <properties>
