@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HTTP_Streaming_Directly_To_The_OutputStream:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.3.Implementing_Controllers/22.3.4.Asynchronous_Request_Processing/HTTP_Streaming_Directly_To_The_OutputStream/target</output-path>
+    <root id="archive" name="HTTP_Streaming_Directly_To_The_OutputStream.war">
+      <element id="artifact" artifact-name="HTTP_Streaming_Directly_To_The_OutputStream:war exploded" />
+    </root>
+  </artifact>
+</component>

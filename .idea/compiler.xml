@@ -158,6 +158,8 @@
         <module name="DefaultAdvisorAutoProxyCreator" />
         <module name="Enabling_component_scanning_with_scan" />
         <module name="Generic_Ordering_Events" />
+        <module name="HTTP_Streaming_Directly_To_The_OutputStream" />
+        <module name="HTTP_Streaming_With_Server_Sent_Events" />
         <module name="Intercepting_Async_Requests" />
         <module name="Interception_around_advice" />
         <module name="Introduction_advice" />
@@ -375,7 +377,6 @@
       <module name="Annotation-based_Event_Listeners" target="1.7" />
       <module name="Annotation-based_Lookup_method_injection" target="1.7" />
       <module name="Aop_scoped_proxy" target="1.7" />
-      <module name="asdfaf" target="1.7" />
       <module name="Asynchronous_Listeners" target="1.7" />
       <module name="Asynchronous_Request_Processing_With_Callable" target="1.7" />
       <module name="Asynchronous_Request_Processing_With_DeferredResult" target="1.7" />
@@ -412,7 +413,8 @@
       <module name="DefaultAdvisorAutoProxyCreator" target="1.7" />
       <module name="Enabling_component_scanning_with_scan" target="1.7" />
       <module name="Generic_Ordering_Events" target="1.7" />
-      <module name="hkhkj" target="1.7" />
+      <module name="HTTP_Streaming_Directly_To_The_OutputStream" target="1.7" />
+      <module name="HTTP_Streaming_With_Server_Sent_Events" target="1.7" />
       <module name="Intercepting_Async_Requests" target="1.7" />
       <module name="Interception_around_advice" target="1.7" />
       <module name="Introduction_advice" target="1.7" />

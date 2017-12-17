@@ -16,6 +16,8 @@
         <module>Asynchronous_Request_Processing_With_Callable</module>
         <module>Asynchronous_Request_Processing_With_DeferredResult</module>
         <module>Intercepting_Async_Requests</module>
+        <module>HTTP_Streaming_With_Server_Sent_Events</module>
+        <module>HTTP_Streaming_Directly_To_The_OutputStream</module>
     </modules>
 
     <properties>
