@@ -7,7 +7,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Advising_controllers_with_at_ControllerAdvice and_at_RestControllerAdvice</artifactId>
+    <artifactId>Advising_controllers_with_at_ControllerAdviceand_at_RestControllerAdvice</artifactId>
     <packaging>jar</packaging>
 
     <name>Advising_controllers_with_at_ControllerAdvice and_at_RestControllerAdvice</name>
