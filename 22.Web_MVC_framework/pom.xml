@@ -16,6 +16,7 @@
     <modules>
         <module>22.2.The_DispatcherServlet</module>
         <module>22.3.Implementing_Controllers</module>
+        <module>22.4.Handler_mappings</module>
     </modules>
     <dependencies>
         <dependency>

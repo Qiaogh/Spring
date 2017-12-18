@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="22.4.Handler_mappings:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.4.Handler_mappings/target</output-path>
+    <root id="archive" name="22.4.Handler_mappings.war">
+      <element id="artifact" artifact-name="22.4.Handler_mappings:war exploded" />
+    </root>
+  </artifact>
+</component>
