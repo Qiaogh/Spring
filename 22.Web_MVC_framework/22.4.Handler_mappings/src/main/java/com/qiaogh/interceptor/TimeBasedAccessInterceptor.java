@@ -18,23 +18,15 @@ public class TimeBasedAccessInterceptor extends HandlerInterceptorAdapter {
     public boolean preHandle( HttpServletRequest request, HttpServletResponse response, Object handler ) throws Exception {
         Calendar calendar = Calendar.getInstance();
         int hour = calendar.get( Calendar.HOUR_OF_DAY );
-        if ( openingTime < hour && hour < closingTime ) {
+        if ( openingTime <= hour && hour <= closingTime ) {
             return true;
         }
         response.sendRedirect( "/outsideOfficeHours.html" );
         return false;
     }
 
-    public int getOpeningTime() {
-        return openingTime;
-    }
-
     public void setOpeningTime( int openingTime ) {
         this.openingTime = openingTime;
-    }
-
-    public int getClosingTime() {
-        return closingTime;
     }
 
     public void setClosingTime( int closingTime ) {
