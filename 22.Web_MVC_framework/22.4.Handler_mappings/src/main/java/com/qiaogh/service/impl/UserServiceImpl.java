@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService {
         user.setPassword( "123" );
         user.setAge( 26 );
 
-        LOGGER.info( "用户登录成功！用户信息：", new Object[] { user } );
+        LOGGER.info( "用户登录成功！用户信息：{}", new Object[] { user } );
         return user;
     }
 }
