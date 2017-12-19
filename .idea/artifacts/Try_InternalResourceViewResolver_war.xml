@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Try_InternalResourceViewResolver:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface/Try_InternalResourceViewResolver/target</output-path>
+    <root id="archive" name="Try_InternalResourceViewResolver.war">
+      <element id="artifact" artifact-name="Try_InternalResourceViewResolver:war exploded" />
+    </root>
+  </artifact>
+</component>

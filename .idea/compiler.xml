@@ -185,6 +185,11 @@
         <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" />
         <module name="Supported_method_argument_types" />
         <module name="Throws_advice" />
+        <module name="Try_InternalResourceViewResolver" />
+        <module name="Try_ResourceBundleViewResolver" />
+        <module name="Try_UrlBasedViewResolver" />
+        <module name="Try_VelocityViewResolver" />
+        <module name="Try_XmlViewResolver" />
         <module name="URI_Template_Patterns" />
         <module name="URI_Template_Patterns_with_Regular_Expressions" />
         <module name="Using_at_ModelAttribute_on_a_method" />
@@ -303,6 +308,8 @@
       <module name="22.3.4.Asynchronous_Request_Processing" target="1.7" />
       <module name="22.3.Implementing_Controllers" target="1.7" />
       <module name="22.4.Handler_mappings" target="1.7" />
+      <module name="22.5.1.Resolving_views_with_the_ViewResolver_interface" target="1.7" />
+      <module name="22.5.Resolving_views" target="1.7" />
       <module name="22.Web_MVC_framework" target="1.7" />
       <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
       <module name="7.10.4.Using_filters_to_customize_scanning" target="1.7" />
@@ -442,6 +449,11 @@
       <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" target="1.7" />
       <module name="Supported_method_argument_types" target="1.7" />
       <module name="Throws_advice" target="1.7" />
+      <module name="Try_InternalResourceViewResolver" target="1.7" />
+      <module name="Try_ResourceBundleViewResolver" target="1.7" />
+      <module name="Try_UrlBasedViewResolver" target="1.7" />
+      <module name="Try_VelocityViewResolver" target="1.7" />
+      <module name="Try_XmlViewResolver" target="1.7" />
       <module name="URI_Template_Patterns" target="1.7" />
       <module name="URI_Template_Patterns_with_Regular_Expressions" target="1.7" />
       <module name="Using_at_ModelAttribute_on_a_method" target="1.7" />
