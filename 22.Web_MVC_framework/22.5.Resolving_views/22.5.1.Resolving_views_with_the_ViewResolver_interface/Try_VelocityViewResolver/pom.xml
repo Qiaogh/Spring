@@ -10,11 +10,25 @@
     <packaging>war</packaging>
     <name>Try_VelocityViewResolver Maven Webapp</name>
     <url>http://maven.apache.org</url>
+    <properties>
+        <velocity.tools.version>2.0</velocity.tools.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-support</artifactId>
             <version>${springframework.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-tools</artifactId>
+            <version>${velocity.tools.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
     <build>

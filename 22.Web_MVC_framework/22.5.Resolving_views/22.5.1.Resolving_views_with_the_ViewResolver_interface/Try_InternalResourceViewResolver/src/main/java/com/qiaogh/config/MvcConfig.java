@@ -57,7 +57,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
     public void addInterceptors( InterceptorRegistry registry ) {
         TimeBasedAccessInterceptor interceptor = new TimeBasedAccessInterceptor();
         interceptor.setOpeningTime( 8 );
-        interceptor.setClosingTime( 16 );
+        interceptor.setClosingTime( 24 );
         registry.addInterceptor( interceptor );
     }
 }
