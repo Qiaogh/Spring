@@ -185,6 +185,7 @@
         <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" />
         <module name="Supported_method_argument_types" />
         <module name="Throws_advice" />
+        <module name="Try_FreeMarkerViewResolver" />
         <module name="Try_InternalResourceViewResolver" />
         <module name="Try_ResourceBundleViewResolver" />
         <module name="Try_UrlBasedViewResolver" />
@@ -449,6 +450,7 @@
       <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" target="1.7" />
       <module name="Supported_method_argument_types" target="1.7" />
       <module name="Throws_advice" target="1.7" />
+      <module name="Try_FreeMarkerViewResolver" target="1.7" />
       <module name="Try_InternalResourceViewResolver" target="1.7" />
       <module name="Try_ResourceBundleViewResolver" target="1.7" />
       <module name="Try_UrlBasedViewResolver" target="1.7" />

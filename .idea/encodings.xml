@@ -162,6 +162,7 @@
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.4.Handler_mappings" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface/Try_FreeMarkerViewResolver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface/Try_InternalResourceViewResolver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface/Try_ResourceBundleViewResolver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface/Try_UrlBasedViewResolver" charset="UTF-8" />

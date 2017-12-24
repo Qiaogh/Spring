@@ -1,3 +1,4 @@
+<#import "/spring.ftl" as spring/>
 <html>
 
 <head>
@@ -18,9 +19,10 @@
             <div class="form-group col-md-12">
                 <label class="col-md-3 control-lable" for="name">用户名：</label>
                 <div class="col-md-7">
-                    #springFormInput("user.name", "class='form-control input-sm'")
+                    <@spring.formInput "user.name" "class='form-control input-sm'" "text" />
+                    <!--<input type="input" path="name" id="name" class="form-control input-sm"/>-->
                     <div class="has-error">
-                        #springShowErrors("<br />", "")
+                        <@spring.showErrors "" />
                     </div>
                 </div>
             </div>
@@ -30,9 +32,10 @@
             <div class="form-group col-md-12">
                 <label class="col-md-3 control-lable" for="password">密码：</label>
                 <div class="col-md-7">
-                    #springFormPasswordInput("user.password", "class='form-control input-sm'")
+                    <@spring.formInput "user.password" "class='form-control input-sm'" "password" />
+                    <!--<input type="password" path="password" id="password" class="form-control input-sm"/>-->
                     <div class="has-error">
-                        #springShowErrors("<br />", "")
+                        <@spring.showErrors "" />
                     </div>
                 </div>
             </div>

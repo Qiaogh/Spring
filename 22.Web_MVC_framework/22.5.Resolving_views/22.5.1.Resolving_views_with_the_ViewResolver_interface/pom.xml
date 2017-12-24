@@ -24,6 +24,7 @@
         <module>Try_UrlBasedViewResolver</module>
         <module>Try_InternalResourceViewResolver</module>
         <module>Try_VelocityViewResolver</module>
+        <module>Try_FreeMarkerViewResolver</module>
     </modules>
 
     <dependencies>
