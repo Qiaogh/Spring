@@ -74,6 +74,7 @@
         <module name="21.9.XStream" />
         <module name="22.2.The_DispatcherServlet" />
         <module name="22.4.Handler_mappings" />
+        <module name="22.5.2.Chaining_ViewResolvers" />
         <module name="7.10.1.at_Component_and_further_stereotype_annotations" />
         <module name="7.10.4.Using_filters_to_customize_scanning" />
         <module name="7.10.5.Defining_bean_metadata_within_components" />
@@ -310,6 +311,7 @@
       <module name="22.3.Implementing_Controllers" target="1.7" />
       <module name="22.4.Handler_mappings" target="1.7" />
       <module name="22.5.1.Resolving_views_with_the_ViewResolver_interface" target="1.7" />
+      <module name="22.5.2.Chaining_ViewResolvers" target="1.7" />
       <module name="22.5.Resolving_views" target="1.7" />
       <module name="22.Web_MVC_framework" target="1.7" />
       <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
