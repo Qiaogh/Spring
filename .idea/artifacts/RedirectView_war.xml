@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RedirectView:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.3.Redirecting_to_Views/RedirectView/target</output-path>
+    <root id="archive" name="RedirectView.war">
+      <element id="artifact" artifact-name="RedirectView:war exploded" />
+    </root>
+  </artifact>
+</component>

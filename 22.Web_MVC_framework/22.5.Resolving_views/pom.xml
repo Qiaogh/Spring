@@ -15,6 +15,7 @@
     <modules>
         <module>22.5.1.Resolving_views_with_the_ViewResolver_interface</module>
         <module>22.5.2.Chaining_ViewResolvers</module>
+        <module>22.5.3.Redirecting_to_Views</module>
     </modules>
 
     <properties>

@@ -177,6 +177,7 @@
         <module name="Matrix_Variables" />
         <module name="Merging_TestExecutionListeners" />
         <module name="Method_Parameters_And_Type_Conversion" />
+        <module name="RedirectView" />
         <module name="Registering_additional_custom_PropertyEditors" />
         <module name="Registering_custom_TestExecutionListeners" />
         <module name="Simple_construction" />
@@ -312,6 +313,7 @@
       <module name="22.4.Handler_mappings" target="1.7" />
       <module name="22.5.1.Resolving_views_with_the_ViewResolver_interface" target="1.7" />
       <module name="22.5.2.Chaining_ViewResolvers" target="1.7" />
+      <module name="22.5.3.Redirecting_to_Views" target="1.7" />
       <module name="22.5.Resolving_views" target="1.7" />
       <module name="22.Web_MVC_framework" target="1.7" />
       <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
@@ -442,6 +444,7 @@
       <module name="Matrix_Variables" target="1.7" />
       <module name="Merging_TestExecutionListeners" target="1.7" />
       <module name="Method_Parameters_And_Type_Conversion" target="1.7" />
+      <module name="RedirectView" target="1.7" />
       <module name="Registering_additional_custom_PropertyEditors" target="1.7" />
       <module name="Registering_custom_TestExecutionListeners" target="1.7" />
       <module name="Simple_construction" target="1.7" />
