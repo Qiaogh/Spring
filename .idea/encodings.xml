@@ -170,7 +170,10 @@
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.1.Resolving_views_with_the_ViewResolver_interface/Try_XmlViewResolver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.2.Chaining_ViewResolvers" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.3.Redirecting_to_Views" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.3.Redirecting_to_Views/Passing_Data_To_the_Redirect_Target" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.3.Redirecting_to_Views/RedirectView" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.3.Redirecting_to_Views/The_forward_prefix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22.Web_MVC_framework/22.5.Resolving_views/22.5.3.Redirecting_to_Views/The_redirect_prefix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/7.The_Ioc_Container" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/7.The_Ioc_Container/7.10.Classpath_scanning_and_managed_components/7.10.1.at_Component_and_further_stereotype_annotations" charset="UTF-8" />

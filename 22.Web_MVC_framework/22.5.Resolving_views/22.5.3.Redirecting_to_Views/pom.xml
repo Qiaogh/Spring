@@ -12,6 +12,9 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>RedirectView</module>
+        <module>Passing_Data_To_the_Redirect_Target</module>
+        <module>The_redirect_prefix</module>
+        <module>The_forward_prefix</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

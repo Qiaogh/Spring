@@ -177,6 +177,7 @@
         <module name="Matrix_Variables" />
         <module name="Merging_TestExecutionListeners" />
         <module name="Method_Parameters_And_Type_Conversion" />
+        <module name="Passing_Data_To_the_Redirect_Target" />
         <module name="RedirectView" />
         <module name="Registering_additional_custom_PropertyEditors" />
         <module name="Registering_custom_TestExecutionListeners" />
@@ -186,6 +187,8 @@
         <module name="Startup_and_shutdown_callbacks" />
         <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" />
         <module name="Supported_method_argument_types" />
+        <module name="The_forward_prefix" />
+        <module name="The_redirect_prefix" />
         <module name="Throws_advice" />
         <module name="Try_FreeMarkerViewResolver" />
         <module name="Try_InternalResourceViewResolver" />
@@ -444,6 +447,7 @@
       <module name="Matrix_Variables" target="1.7" />
       <module name="Merging_TestExecutionListeners" target="1.7" />
       <module name="Method_Parameters_And_Type_Conversion" target="1.7" />
+      <module name="Passing_Data_To_the_Redirect_Target" target="1.7" />
       <module name="RedirectView" target="1.7" />
       <module name="Registering_additional_custom_PropertyEditors" target="1.7" />
       <module name="Registering_custom_TestExecutionListeners" target="1.7" />
@@ -454,6 +458,8 @@
       <module name="Startup_and_shutdown_callbacks" target="1.7" />
       <module name="Support_for_web_applications_with_AnnotationConfigWebApplicationContext" target="1.7" />
       <module name="Supported_method_argument_types" target="1.7" />
+      <module name="The_forward_prefix" target="1.7" />
+      <module name="The_redirect_prefix" target="1.7" />
       <module name="Throws_advice" target="1.7" />
       <module name="Try_FreeMarkerViewResolver" target="1.7" />
       <module name="Try_InternalResourceViewResolver" target="1.7" />
