@@ -14,7 +14,7 @@
         <finalName>Passing_Data_To_the_Redirect_Target</finalName>
     </build>
     <properties>
-        <jackson.version>2.7.3</jackson.version>
+        <jackson.version>2.9.2</jackson.version>
     </properties>
     <dependencies>
         <dependency>
