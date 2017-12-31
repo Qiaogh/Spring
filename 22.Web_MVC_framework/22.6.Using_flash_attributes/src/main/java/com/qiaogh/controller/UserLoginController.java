@@ -6,6 +6,7 @@ import com.qiaogh.domain.User;
 import com.qiaogh.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -29,15 +30,15 @@ public class UserLoginController {
         User persistUser = userService.getByName( user.getName() );
 
         if ( persistUser != null && persistUser.getPassword().equals( user.getPassword() ) ) {
-            modelMap.addAttribute( "user", OBJECT_MAPPER.writeValueAsString( persistUser ) );
-            return new RedirectView( "/success" );
+            modelMap.addFlashAttribute( "user", OBJECT_MAPPER.writeValueAsString( persistUser ) );
+            return "redirect:success";
         }
-        return new RedirectView( "/error" );
+        return "redirect:error";
     }
 
     @RequestMapping( "/success" )
-    public String success( User user ) {
-        user.setPassword( "" );
+    public String success( User userObj, Model model ) {
+        model.addAttribute( "userObj", userObj );
         return "success";
     }
 

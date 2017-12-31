@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="22.6.Using_flash_attributes:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.6.Using_flash_attributes/target</output-path>
+    <root id="archive" name="22.6.Using_flash_attributes.war">
+      <element id="artifact" artifact-name="22.6.Using_flash_attributes:war exploded" />
+    </root>
+  </artifact>
+</component>

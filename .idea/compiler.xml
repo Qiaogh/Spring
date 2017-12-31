@@ -76,6 +76,7 @@
         <module name="22.4.Handler_mappings" />
         <module name="22.5.2.Chaining_ViewResolvers" />
         <module name="22.5.4.ContentNegotiatingViewResolver" />
+        <module name="22.6.Using_flash_attributes" />
         <module name="7.10.1.at_Component_and_further_stereotype_annotations" />
         <module name="7.10.4.Using_filters_to_customize_scanning" />
         <module name="7.10.5.Defining_bean_metadata_within_components" />
@@ -320,6 +321,7 @@
       <module name="22.5.3.Redirecting_to_Views" target="1.7" />
       <module name="22.5.4.ContentNegotiatingViewResolver" target="1.7" />
       <module name="22.5.Resolving_views" target="1.7" />
+      <module name="22.6.Using_flash_attributes" target="1.7" />
       <module name="22.Web_MVC_framework" target="1.7" />
       <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
       <module name="7.10.4.Using_filters_to_customize_scanning" target="1.7" />
