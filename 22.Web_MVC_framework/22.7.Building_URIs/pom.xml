@@ -7,12 +7,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>22.7.Building_URIs</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>22.7.Building_URIs Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <build>
         <finalName>22.7.Building_URIs</finalName>
     </build>
+    <modules>
+        <module>22.7.1.Building_URIs_to_Controllers_and_methods</module>
+    </modules>
 
     <dependencies>
         <!-- Servlet dependencies -->
