@@ -19,6 +19,7 @@
         <module>22.4.Handler_mappings</module>
         <module>22.5.Resolving_views</module>
         <module>22.6.Using_flash_attributes</module>
+        <module>22.7.Building_URIs</module>
     </modules>
     <dependencies>
         <dependency>

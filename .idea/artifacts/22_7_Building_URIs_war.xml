@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="22.7.Building_URIs:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.7.Building_URIs/target</output-path>
+    <root id="archive" name="22.7.Building_URIs.war">
+      <element id="artifact" artifact-name="22.7.Building_URIs:war exploded" />
+    </root>
+  </artifact>
+</component>
