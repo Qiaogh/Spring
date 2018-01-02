@@ -6,19 +6,33 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>22.7.Building_URIs</artifactId>
-    <packaging>pom</packaging>
-    <name>22.7.Building_URIs Maven Webapp</name>
+    <artifactId>22.8.Using_locales</artifactId>
+    <packaging>war</packaging>
+    <name>22.8.Using_locales Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <build>
-        <finalName>22.7.Building_URIs</finalName>
+        <finalName>22.8.Using_locales</finalName>
     </build>
-    <modules>
-        <module>22.7.1.Building_URIs_to_Controllers_and_methods</module>
-        <module>22.7.3.Building_URIs_to_Controllers_and_methods_from_views</module>
-    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <hibernate.validator.version>5.1.2.Final</hibernate.validator.version>
+        <javax.validation.version>1.1.0.Final</javax.validation.version>
+    </properties>
 
     <dependencies>
+        <!-- jsr303 validation dependencies-->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>${javax.validation.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate.validator.version}</version>
+        </dependency>
+
         <!-- Servlet dependencies -->
         <dependency>
             <groupId>javax.servlet</groupId>
