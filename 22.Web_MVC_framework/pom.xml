@@ -21,6 +21,7 @@
         <module>22.6.Using_flash_attributes</module>
         <module>22.7.Building_URIs</module>
         <module>22.8.Using_locales</module>
+        <module>22.9.Using_themes</module>
     </modules>
     <dependencies>
         <dependency>
