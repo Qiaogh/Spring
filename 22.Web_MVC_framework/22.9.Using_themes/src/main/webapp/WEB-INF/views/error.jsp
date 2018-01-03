@@ -5,12 +5,13 @@
   Time: 下午2:21
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <html>
 <head>
-    <title>登录失败页面！</title>
+    <title><spring:message code="title.error"/></title>
 </head>
 <body>
-    <h2>登录失败！</h2>
+    <h2><spring:message code="desc.error" /></h2>
 </body>
 </html>

@@ -10,13 +10,13 @@
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:annotation-config/>
+    <context:annotation-config />
 
     <context:component-scan base-package="com.qiaogh.controller"/>
 
-    <mvc:annotation-driven/>
+    <mvc:annotation-driven />
 
-    <mvc:default-servlet-handler/>
+    <mvc:default-servlet-handler />
 
     <mvc:view-resolvers>
         <mvc:jsp view-class="org.springframework.web.servlet.view.JstlView" prefix="/WEB-INF/views/" suffix=".jsp"/>
@@ -34,12 +34,18 @@
     <bean id="localeResolver"
           class="org.springframework.web.servlet.i18n.CookieLocaleResolver"/>
 
-    <bean id="themeResolver"
-          class="org.springframework.web.servlet.theme.CookieThemeResolver">
-        
+    <bean id="themeResolver" class="org.springframework.web.servlet.theme.CookieThemeResolver"/>
+
+    <bean id="themeSource" class="org.springframework.ui.context.support.ResourceBundleThemeSource">
+        <property name="basenamePrefix" value="theme_"></property>
     </bean>
 
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-        <property name="basename" value="messages"/>
+        <property name="basenames">
+            <array>
+                <value>messages</value>
+                <value>labels</value>
+            </array>
+        </property>
     </bean>
 </beans>

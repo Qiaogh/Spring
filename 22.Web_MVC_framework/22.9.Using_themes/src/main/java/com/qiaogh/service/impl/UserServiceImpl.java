@@ -6,6 +6,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.util.Calendar;
+import java.util.Date;
+
 @Service( "userService" )
 public class UserServiceImpl implements UserService {
 
@@ -17,8 +20,17 @@ public class UserServiceImpl implements UserService {
         user.setName( name );
         user.setPassword( "123" );
         user.setAge( 26 );
+        user.setBirthday( buildBirthday() );
 
         LOGGER.info( "用户登录成功！用户信息：{}", new Object[] { user } );
         return user;
+    }
+
+    private static Date buildBirthday() {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set( Calendar.YEAR, 1988 );
+        calendar.set( Calendar.MONTH, 9 );
+        calendar.set( Calendar.DAY_OF_MONTH, 7 );
+        return calendar.getTime();
     }
 }

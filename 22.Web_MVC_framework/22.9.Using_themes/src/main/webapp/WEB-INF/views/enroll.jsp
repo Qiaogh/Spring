@@ -8,23 +8,30 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>学生注册表单 - yiibai.com</title>
+	<title><spring:message code="title.enroll"/> - qiaogh.com</title>
 	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet" />
 	<link href="<c:url value='/static/css/custom.css' />" rel="stylesheet" />
 	<link href="<spring:theme code='styleSheet'/>" rel="stylesheet" />
+	<style type="text/css">
+        body {
+            background-image: url("<spring:theme code="background"/>");
+            background-repeat: no-repeat;
+            background-position: 10px 0px;
+        }
+    </style>
 </head>
 
 <body>
 
  	<div class="form-container">
  	
- 	<h1>登录</h1>
+ 	<h1><spring:message code="form.title" /></h1>
  	
 	<form:form method="POST" action="/login" modelAttribute="user" class="form-horizontal">
 
 		<div class="row">
 			<div class="form-group col-md-12">
-				<label class="col-md-3 control-lable" for="name">用户名：</label>
+				<label class="col-md-3 control-lable" for="name"><spring:message code="input.user.name" /></label>
 				<div class="col-md-7">
 					<form:input type="input" path="name" id="name" class="form-control input-sm"/>
 					<div class="has-error">
@@ -36,7 +43,7 @@
 
 		<div class="row">
 			<div class="form-group col-md-12">
-				<label class="col-md-3 control-lable" for="password">密码：</label>
+				<label class="col-md-3 control-lable" for="password"><spring:message code="input.user.password" /></label>
 				<div class="col-md-7">
 					<form:input type="password" path="password" id="password" class="form-control input-sm"/>
 					<div class="has-error">
