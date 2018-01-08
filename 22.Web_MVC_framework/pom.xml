@@ -22,6 +22,7 @@
         <module>22.7.Building_URIs</module>
         <module>22.8.Using_locales</module>
         <module>22.9.Using_themes</module>
+        <module>22.10.Spring_s_multipart_file upload_support</module>
     </modules>
     <dependencies>
         <dependency>

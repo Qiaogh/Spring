@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.10.Spring_s_multipart_file upload_support/22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload/target</output-path>
+    <root id="archive" name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload.war">
+      <element id="artifact" artifact-name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload:war exploded" />
+    </root>
+  </artifact>
+</component>
