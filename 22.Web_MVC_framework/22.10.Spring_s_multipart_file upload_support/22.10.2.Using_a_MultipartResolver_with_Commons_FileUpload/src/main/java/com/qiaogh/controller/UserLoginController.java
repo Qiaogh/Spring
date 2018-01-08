@@ -14,6 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.validation.Valid;
 import java.io.*;
+import java.net.URISyntaxException;
 import java.net.URLDecoder;
 
 @Controller
@@ -32,7 +33,7 @@ public class UserLoginController {
     }
 
     @RequestMapping( value = "/login", method = RequestMethod.POST )
-    public String login( @RequestParam( "portrait" ) MultipartFile portrait, @Valid User user, BindingResult errors, ModelMap modelMap ) throws IOException {
+    public String login( @RequestParam( "portrait" ) MultipartFile portrait, @Valid User user, BindingResult errors, ModelMap modelMap ) throws Exception {
         File file = new File( buildFileName( portrait ) );
         portrait.transferTo( file );
         if ( errors.hasErrors() ) {
@@ -47,10 +48,11 @@ public class UserLoginController {
         return "error";
     }
 
-    private String buildFileName( MultipartFile portrait ) throws UnsupportedEncodingException {
+    private String buildFileName( MultipartFile portrait ) throws Exception {
+
         String portraitsDir = URLDecoder.decode( UserLoginController.class.getResource( "/portraits" ).toString(), "UTF-8" );
         String originalFilename = portrait.getOriginalFilename();
-        return portraitsDir + "/" + originalFilename;
+        return portraitsDir.substring( 5 ) + "/" + originalFilename;
     }
 
     @Autowired
