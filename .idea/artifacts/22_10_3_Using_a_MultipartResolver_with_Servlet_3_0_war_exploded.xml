@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload:war exploded">
-    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.10.Spring_s_multipart_file upload_support/22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload/target/22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload</output-path>
+  <artifact type="exploded-war" name="22.10.3.Using_a_MultipartResolver_with_Servlet_3.0:war exploded">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.10.Spring_s_multipart_file upload_support/22.10.3.Using_a_MultipartResolver_with_Servlet_3.0/target/22.10.3.Using_a_MultipartResolver_with_Servlet_3.0</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload" />
+          <element id="module-output" name="22.10.3.Using_a_MultipartResolver_with_Servlet_3.0" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.3" />
@@ -31,9 +31,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/22.Web_MVC_framework/22.10.Spring_s_multipart_file upload_support/22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload/target/22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/22.Web_MVC_framework/22.10.Spring_s_multipart_file upload_support/22.10.3.Using_a_MultipartResolver_with_Servlet_3.0/target/22.10.3.Using_a_MultipartResolver_with_Servlet_3.0/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload/web/Web" />
+      <element id="javaee-facet-resources" facet="22.10.3.Using_a_MultipartResolver_with_Servlet_3.0/web/Web" />
     </root>
   </artifact>
 </component>

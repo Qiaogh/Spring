@@ -73,6 +73,7 @@
         <module name="21.6.Castor" />
         <module name="21.9.XStream" />
         <module name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload" />
+        <module name="22.10.3.Using_a_MultipartResolver_with_Servlet_3.0" />
         <module name="22.2.The_DispatcherServlet" />
         <module name="22.4.Handler_mappings" />
         <module name="22.5.2.Chaining_ViewResolvers" />
@@ -316,6 +317,7 @@
       <module name="21.9.XStream" target="1.7" />
       <module name="21.Marshalling_XML_using_O_X_Mappers" target="1.7" />
       <module name="22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload" target="1.7" />
+      <module name="22.10.3.Using_a_MultipartResolver_with_Servlet_3.0" target="1.7" />
       <module name="22.10.Spring_s_multipart_file upload_support" target="1.7" />
       <module name="22.2.The_DispatcherServlet" target="1.7" />
       <module name="22.3.2.Mapping_Requests_With_at_RequestMapping" target="1.7" />
