@@ -23,6 +23,7 @@
         <module>22.8.Using_locales</module>
         <module>22.9.Using_themes</module>
         <module>22.10.Spring_s_multipart_file upload_support</module>
+        <module>22.11.Handling_exceptions</module>
     </modules>
     <dependencies>
         <dependency>
