@@ -10,6 +10,8 @@
 <html>
 <head>
     <title><spring:message code="title.error"/></title>
+    <link href="<spring:theme code='styleSheet'/>" rel="stylesheet" />
+    <jsp:include page="theme.jsp" />
 </head>
 <body>
     <h2><spring:message code="desc.error" /></h2>

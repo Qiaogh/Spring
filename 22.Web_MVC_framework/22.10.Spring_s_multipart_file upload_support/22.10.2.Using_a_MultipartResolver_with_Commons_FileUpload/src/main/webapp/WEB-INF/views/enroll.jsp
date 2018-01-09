@@ -12,13 +12,7 @@
 	<link href="<c:url value='/static/css/bootstrap.css' />" rel="stylesheet" />
 	<link href="<c:url value='/static/css/custom.css' />" rel="stylesheet" />
 	<link href="<spring:theme code='styleSheet'/>" rel="stylesheet" />
-	<style type="text/css">
-        body {
-            background-image: url("<spring:theme code="background"/>");
-            background-repeat: no-repeat;
-            background-position: 10px 0px;
-        }
-    </style>
+    <jsp:include page="theme.jsp" />
 </head>
 
 <body>
