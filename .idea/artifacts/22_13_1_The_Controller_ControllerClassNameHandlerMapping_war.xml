@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="22.13.1.The_Controller_ControllerClassNameHandlerMapping:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.13.Convention_over_configuration_support/22.13.1.The_Controller_ControllerClassNameHandlerMapping/target</output-path>
+    <root id="archive" name="22.13.1.The_Controller_ControllerClassNameHandlerMapping.war">
+      <element id="artifact" artifact-name="22.13.1.The_Controller_ControllerClassNameHandlerMapping:war exploded" />
+    </root>
+  </artifact>
+</component>
