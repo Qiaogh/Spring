@@ -7,23 +7,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>22.10.Spring_s_multipart_file_upload_support</artifactId>
+    <artifactId>22.15.Code_based_Servlet_container_initialization</artifactId>
     <packaging>pom</packaging>
 
-    <name>22.10.Spring_s_multipart_file upload_support</name>
+    <name>22.15.Code_based_Servlet_container_initialization</name>
     <url>http://maven.apache.org</url>
     <modules>
-        <module>22.10.2.Using_a_MultipartResolver_with_Commons_FileUpload</module>
-        <module>22.10.3.Using_a_MultipartResolver_with_Servlet_3.0</module>
+        <module>WebApplicationInitializer</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <hibernate.validator.version>5.1.2.Final</hibernate.validator.version>
         <javax.validation.version>1.1.0.Final</javax.validation.version>
     </properties>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
         <dependency>

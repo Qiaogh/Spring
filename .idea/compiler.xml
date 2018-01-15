@@ -217,6 +217,7 @@
         <module name="Using_HttpEntity" />
         <module name="Using_PropertyEditorRegistrars" />
         <module name="Using_the_at_Import_annotation" />
+        <module name="WebApplicationInitializer" />
         <module name="Working_with_application_x_www_form_urlencoded_data" />
       </profile>
     </annotationProcessing>
@@ -326,6 +327,7 @@
       <module name="22.13.1.The_Controller_ControllerClassNameHandlerMapping" target="1.7" />
       <module name="22.13.3.Default_view_name" target="1.7" />
       <module name="22.13.Convention_over_configuration_support" target="1.7" />
+      <module name="22.15.Code_based_Servlet_container_initialization" target="1.7" />
       <module name="22.2.The_DispatcherServlet" target="1.7" />
       <module name="22.3.2.Mapping_Requests_With_at_RequestMapping" target="1.7" />
       <module name="22.3.3.Defining_at_RequestMapping_handler_methods" target="1.7" />
@@ -502,6 +504,7 @@
       <module name="Using_HttpEntity" target="1.7" />
       <module name="Using_PropertyEditorRegistrars" target="1.7" />
       <module name="Using_the_at_Import_annotation" target="1.7" />
+      <module name="WebApplicationInitializer" target="1.7" />
       <module name="Working_with_application_x_www_form_urlencoded_data" target="1.7" />
     </bytecodeTargetLevel>
   </component>

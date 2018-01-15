@@ -25,6 +25,7 @@
         <module>22.10.Spring_s_multipart_file upload_support</module>
         <module>22.11.Handling_exceptions</module>
         <module>22.13.Convention_over_configuration_support</module>
+        <module>22.15.Code_based_Servlet_container_initialization</module>
     </modules>
     <dependencies>
         <dependency>

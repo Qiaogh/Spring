@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebApplicationInitializer:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.15.Code_based_Servlet_container_initialization/WebApplicationInitializer/target</output-path>
+    <root id="archive" name="WebApplicationInitializer.war">
+      <element id="artifact" artifact-name="WebApplicationInitializer:war exploded" />
+    </root>
+  </artifact>
+</component>
