@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="22.13.3.Default_view_name:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.13.Convention_over_configuration_support/22.13.3.Default_view_name/target</output-path>
+    <root id="archive" name="22.13.3.Default_view_name.war">
+      <element id="artifact" artifact-name="22.13.3.Default_view_name:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -76,6 +76,7 @@
         <module name="22.10.3.Using_a_MultipartResolver_with_Servlet_3.0" />
         <module name="22.11.Handling_exceptions" />
         <module name="22.13.1.The_Controller_ControllerClassNameHandlerMapping" />
+        <module name="22.13.3.Default_view_name" />
         <module name="22.2.The_DispatcherServlet" />
         <module name="22.4.Handler_mappings" />
         <module name="22.5.2.Chaining_ViewResolvers" />
@@ -323,6 +324,7 @@
       <module name="22.10.Spring_s_multipart_file upload_support" target="1.7" />
       <module name="22.11.Handling_exceptions" target="1.7" />
       <module name="22.13.1.The_Controller_ControllerClassNameHandlerMapping" target="1.7" />
+      <module name="22.13.3.Default_view_name" target="1.7" />
       <module name="22.13.Convention_over_configuration_support" target="1.7" />
       <module name="22.2.The_DispatcherServlet" target="1.7" />
       <module name="22.3.2.Mapping_Requests_With_at_RequestMapping" target="1.7" />

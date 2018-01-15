@@ -14,6 +14,7 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>22.13.1.The_Controller_ControllerClassNameHandlerMapping</module>
+        <module>22.13.3.Default_view_name</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
