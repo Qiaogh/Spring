@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AbstractDispatcherServletInitializer:war">
+    <output-path>$PROJECT_DIR$/22.Web_MVC_framework/22.15.Code_based_Servlet_container_initialization/AbstractDispatcherServletInitializer/target</output-path>
+    <root id="archive" name="AbstractDispatcherServletInitializer.war">
+      <element id="artifact" artifact-name="AbstractDispatcherServletInitializer:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -130,6 +130,8 @@
         <module name="9.6.1.Formatter_SPI" />
         <module name="9.7.Configuring_a_global_date_and_time_format" />
         <module name="AbstractAdvisorAutoProxyCreator" />
+        <module name="AbstractAnnotationConfigDispatcherServletInitializer" />
+        <module name="AbstractDispatcherServletInitializer" />
         <module name="Advising_controllers_with_at_ControllerAdviceand_at_RestControllerAdvice" />
         <module name="After_Returning_advice" />
         <module name="Annotation-based_Event_Listeners" />
@@ -416,6 +418,8 @@
       <module name="9.7.Configuring_a_global_date_and_time_format" target="1.7" />
       <module name="9.Validation_Data_Binding_and_Type_Conversion" target="1.7" />
       <module name="AbstractAdvisorAutoProxyCreator" target="1.7" />
+      <module name="AbstractAnnotationConfigDispatcherServletInitializer" target="1.7" />
+      <module name="AbstractDispatcherServletInitializer" target="1.7" />
       <module name="Advising_controllers_with_at_ControllerAdviceand_at_RestControllerAdvice" target="1.7" />
       <module name="After_Returning_advice" target="1.7" />
       <module name="Annotation-based_Event_Listeners" target="1.7" />

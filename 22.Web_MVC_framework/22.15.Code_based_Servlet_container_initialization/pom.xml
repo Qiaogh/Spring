@@ -14,6 +14,8 @@
     <url>http://maven.apache.org</url>
     <modules>
         <module>WebApplicationInitializer</module>
+        <module>AbstractAnnotationConfigDispatcherServletInitializer</module>
+        <module>AbstractDispatcherServletInitializer</module>
     </modules>
 
     <properties>
