@@ -19,6 +19,7 @@
         <module>20.Object_Relational_Mapping_Data_Access</module>
         <module>21.Marshalling_XML_using_O_X_Mappers</module>
         <module>22.Web_MVC_framework</module>
+        <module>23.View_Technologies</module>
     </modules>
 
     <name>spring</name>

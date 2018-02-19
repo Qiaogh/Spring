@@ -86,6 +86,7 @@
         <module name="22.7.3.Building_URIs_to_Controllers_and_methods_from_views" />
         <module name="22.8.Using_locales" />
         <module name="22.9.Using_themes" />
+        <module name="23.2.Thymeleaf" />
         <module name="7.10.1.at_Component_and_further_stereotype_annotations" />
         <module name="7.10.4.Using_filters_to_customize_scanning" />
         <module name="7.10.5.Defining_bean_metadata_within_components" />
@@ -348,6 +349,8 @@
       <module name="22.8.Using_locales" target="1.7" />
       <module name="22.9.Using_themes" target="1.7" />
       <module name="22.Web_MVC_framework" target="1.7" />
+      <module name="23.2.Thymeleaf" target="1.7" />
+      <module name="23.View_Technologies" target="1.7" />
       <module name="7.10.1.at_Component_and_further_stereotype_annotations" target="1.7" />
       <module name="7.10.4.Using_filters_to_customize_scanning" target="1.7" />
       <module name="7.10.5.Defining_bean_metadata_within_components" target="1.7" />
